@@ -1,5 +1,5 @@
 #!/bin/sh
-echo -e "Get \e[32mTor\e[0m for \e[31mBack|Track 5r1\e[0m script"
+echo -e "Get \e[32mTor\e[0m for \e[31mBack|Track 5r2\e[0m script"
 echo -e "\e[37m(c) Thom Hastings 2011 BSD-license\e[0m"
 echo
 echo "Adding Tor repository..."
