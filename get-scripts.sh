@@ -28,6 +28,8 @@ echo "Downloading..."
 wget http://bl4ck5w4n.tk/wp-content/uploads/2011/07/bt5up.tar
 echo "Decompressing..."
 tar -xvf bt5up.tar
+echo "Cleaning up..."
+rm bt5up.tar
 echo
 echo -e "\e[32mDONE\e[0m"
 echo -e "Run scripts from \e[33m/pentest/scripts\e[0m as:"
