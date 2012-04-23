@@ -1,5 +1,5 @@
-Included is a set of scripts written for BackTrack 5r1,
-though I'm sure they still work on BackTrack 5r2.
+Included is a set of scripts written for BackTrack 5r2,
+though they will likely work on other versions.
 
 Below is each script's name and a short description:
 
@@ -41,7 +41,7 @@ start-armitage.sh
 
 1.) http://bl4ck5w4n.tk/?p=44
 2.) http://phillips321.googlecode.com
-3.) http://code.google.com/u/109456382173154131184
+3.) http://configitnow.com/snippets
 
 More information about me:
 http://turing.slu.edu/~hastint/
