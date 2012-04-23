@@ -13,6 +13,13 @@ get-figlet.sh
     This script downloads the figlet ASCII Art text
     generator as well as the fonts from textfiles.com
 
+get-scripts.sh
+
+    Creates the dir /pentest/scripts and downloads
+    Bl4ck5w4n's BT5r2-compatible update script¹ as
+    well as phillips321's set of pentest scripts²
+    and configitnow's wireless and ISO master ones³
+
 get-tor.sh
 
     This script downloads and configures both Tor
@@ -31,6 +38,10 @@ start-armitage.sh
     but there used to be an issue with starting
     Armitage with MSF's postgresql backend and
     this script was designed to alleviate that
+
+1.) http://bl4ck5w4n.tk/?p=44
+2.) http://phillips321.googlecode.com
+3.) http://code.google.com/u/109456382173154131184
 
 More information about me:
 http://turing.slu.edu/~hastint/
