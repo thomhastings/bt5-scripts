@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Get my Favourite Scripts"
-echo -e "\e[37m(c) Thom Hastings 2011 BSD-license\e[0m"
+echo -e "\e[37m(c) Thom Hastings 2012 BSD-license\e[0m"
 echo
 echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
