@@ -23,7 +23,7 @@ echo "4.) wifi-101"
 svn checkout http://wifi-101.googlecode.com/svn/trunk wifi-101
 cd ..
 echo
-echo "Getting \e[33mBl4ck5w4n\e[0m's update script:"
+echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
 echo "Downloading..."
 wget http://bl4ck5w4n.tk/wp-content/uploads/2011/07/bt5up.tar
 echo "Decompressing..."
