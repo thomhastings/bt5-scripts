@@ -18,7 +18,7 @@ get-scripts.sh
     Creates the dir /pentest/scripts and downloads
     Bl4ck5w4n's BT5r2-compatible update script¹ as
     well as phillips321's set of pentest scripts²
-    and configitnow's wireless and ISO master ones³
+    and Snafu's pentest, wireless ISO master ones³
 
 get-tor.sh
 

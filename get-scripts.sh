@@ -9,14 +9,14 @@ echo
 echo -e "Getting \e[33mphillips321\e[0m's scripts:"
 svn checkout http://phillips321.googlecode.com/svn/trunk/ phillips321
 echo
-echo -e "Creating directory for \e[33mconfigitnow\e[0m's scripts..."
+echo -e "Creating directory for \e[33mSnafu\e[0m's scripts..."
 mkdir configitnow
 cd configitnow
-echo -e "Checking out \e[33mconfigitnow\e[0m's repositories:"
+echo -e "Checking out \e[33mSnafu\e[0m's repositories (/configitnow):"
 echo "1.) backtrack-update"
 svn checkout http://backtrack-update.googlecode.com/svn/trunk/ backtrack-update
 echo "2.) hydrafy"
-svn checkout http://quickset.googlecode.com/svn/trunk hydrafy
+svn checkout http://hydrafy.googlecode.com/svn/trunk/ hydrafy
 echo "3.) quickset"
 svn checkout http://quickset.googlecode.com/svn/trunk quickset
 echo "4.) wifi-101"
