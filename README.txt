@@ -40,7 +40,7 @@ get-wordlists.sh
 
     This script grabs a couple good wordlists and
     then creates an SVN repo for InfoSec Daily's
-    wordlists--this is huge, and will not fit on
+    wordlists⁶--this is huge, and will not fit on
     HDD without a dedicated BackTrack install
 
 start-armitage.sh
@@ -55,6 +55,7 @@ start-armitage.sh
 3.) http://configitnow.com/snippets
 4.) http://www.pentbox.net
 5.) https://www.secmaniac.com
+6.) http://www.isdpodcast.com/resources/62k-common-passwords
 
 More information about me:
 http://turing.slu.edu/~hastint/
