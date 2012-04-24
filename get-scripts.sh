@@ -6,13 +6,25 @@ echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
 echo
-echo -e "Getting \e[33mphillips321\e[0m's scripts:"
+echo -e "Getting \e[33mRel1k\e[0m's \"Artillery\" honeypot..."
+svn checkout http://svn.secmaniac.com/artillery artillery
+echo "Installing..."
+cd artillery
+python setup.py
+cd ..
+echo "Cleaning up..."
+rm -rf artillery
+echo
+echo -e "Checking out \e[33mPenTBox\e[0m..."
+svn checkout https://pentbox.svn.sourceforge.net/svnroot/pentbox/trunk pentbox
+echo
+echo -e "Getting \e[33mphillips321\e[0m's scripts..."
 svn checkout http://phillips321.googlecode.com/svn/trunk/ phillips321
 echo
 echo -e "Creating directory for \e[33mSnafu\e[0m's scripts..."
 mkdir configitnow
 cd configitnow
-echo -e "Checking out \e[33mSnafu\e[0m's repositories (/configitnow):"
+echo -e "Checking out \e[33mSnafu\e[0m's repositories (\e[33m/configitnow\e[0m):"
 echo "1.) backtrack-update"
 svn checkout http://backtrack-update.googlecode.com/svn/trunk/ backtrack-update
 echo "2.) hydrafy"
