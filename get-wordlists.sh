@@ -1,6 +1,6 @@
 #/bin/sh
 echo "Get Wordlists script"
-echo -e "\e[37m(c) Thom Hastings 2011 New BSD license\e[0m"
+echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo -e "designed for \e[31mBack|Track 5r2\e[0m"
 cd /pentest/passwords/wordlists
 echo
