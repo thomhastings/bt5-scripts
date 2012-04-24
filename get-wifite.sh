@@ -1,7 +1,7 @@
 #/bin/sh
 echo "Get Wifite & dependencies script"
-echo -e "\e[37m(c) Thom Hastings 2011 BSD-license\e[0m"
-echo -e "designed for \e[31mBack|Track 5r1\e[0m"
+echo -e "\e[37m(c) Thom Hastings 2011 New BSD license\e[0m"
+echo -e "designed for \e[31mBack|Track 5r2\e[0m"
 echo
 echo "Downloading Wifite..."
 cd /pentest/wireless

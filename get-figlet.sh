@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Get Figlet script"
-echo -e "\e[37m(c) Thom Hastings 2011 BSD-license\e[0m"
+echo -e "\e[37m(c) Thom Hastings 2011 New BSD license\e[0m"
 echo
 echo "Updating repositories..."
 sudo apt-get update

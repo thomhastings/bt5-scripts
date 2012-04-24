@@ -1,12 +1,14 @@
 Included is a set of scripts written for BackTrack 5r2,
 though they will likely work on other versions.
 
+All scripts are (c) Thom Hastings 2012 New BSD license
+
 Below is each script's name and a short description:
 
 fix-rtl8187.sh
 
     This script follows commands easily found on-line
-    to get the RTL8187 Driver working (Alfa AWUS036H)
+    to get the RTL8187 driver working (Alfa AWUS036H)
 
 get-figlet.sh
 

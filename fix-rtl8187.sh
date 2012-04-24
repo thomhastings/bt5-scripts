@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Fix RTL8187 driver script"
-echo -e "\e[37m(c) Thom Hastings 2011 BSD-license\e[0m"
+echo -e "\e[37m(c) Thom Hastings 2011 New BSD license\e[0m"
 echo
 sudo rmmod rtl8187
 sudo rfkill block all
