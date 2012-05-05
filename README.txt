@@ -10,6 +10,15 @@ fix-rtl8187.sh
     This script follows commands easily found on-line
     to get the RTL8187 driver working (Alfa AWUS036H)
 
+get-bt5-repos.sh
+
+    This script grabs the BackTrack 5 GPG key and
+    then adds the BackTrack 5 Repositories to your
+    /etc/apt/sources.list for non-BT distributions.
+
+    *** According to Offensive-Security, this can
+    BREAK your non-BackTrack install. BE FOREWARNED.
+
 get-figlet.sh
 
     This script downloads the figlet ASCII Art text
