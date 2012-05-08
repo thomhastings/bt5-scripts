@@ -38,6 +38,7 @@ echo
 echo -e "Getting \e[33mAlexander Hanel\e[m's extflow.py:"
 wget http://codepad.org/TfQst1Lu/raw.py
 mv raw.py extflow.py
+chmod +x extflow.py
 echo
 echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
 echo "Downloading..."

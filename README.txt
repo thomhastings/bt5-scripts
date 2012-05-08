@@ -30,6 +30,7 @@ get-scripts.sh
     Bl4ck5w4n's BT5r2-compatible update script¹ as
     well as phillips321's set of pentest scripts²,
     Snafu's pentest, wireless, & ISO master ones³,
+    Alexander Hanel's extflow.py for analyzing TCP,
     the PenTBox tool⁴, and also gives an option to
     install Rel1k's Artillery⁵
 
