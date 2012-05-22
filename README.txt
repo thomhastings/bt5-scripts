@@ -30,9 +30,9 @@ get-scripts.sh
     Bl4ck5w4n's BT5r2-compatible update script¹ as
     well as phillips321's set of pentest scripts²,
     Snafu's pentest, wireless, & ISO master ones³,
-    Alexander Hanel's extflow.py for analyzing TCP,
-    the PenTBox tool⁴, and also gives an option to
-    install Rel1k's Artillery⁵
+    Alexander Hanel's extflow.py for analyzing TCP⁴,
+    the PenTBox tool⁵, and also gives an option to
+    install Rel1k's Artillery⁶
 
 get-tor.sh
 
@@ -50,7 +50,7 @@ get-wordlists.sh
 
     This script grabs a couple good wordlists and
     then creates an SVN repo for InfoSec Daily's
-    wordlists⁶--this is huge, and will not fit on
+    wordlists⁷--this is huge, and will not fit on
     HDD without a dedicated BackTrack install
 
 start-armitage.sh
@@ -63,9 +63,10 @@ start-armitage.sh
 1.) http://bl4ck5w4n.tk/?p=44
 2.) http://phillips321.googlecode.com
 3.) http://configitnow.com/snippets
-4.) http://www.pentbox.net
-5.) https://www.secmaniac.com
-6.) http://www.isdpodcast.com/resources/62k-common-passwords
+4.) http://hooked-on-mnemonics.blogspot.jp/2012/04/extflowpy-hack-for-carving-files-from.html
+5.) http://www.pentbox.net
+6.) https://www.secmaniac.com
+7.) http://www.isdpodcast.com/resources/62k-common-passwords
 
 More information about me:
 http://turing.slu.edu/~hastint/
