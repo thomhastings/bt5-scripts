@@ -7,14 +7,19 @@ echo
 echo -e "Downloading \e[33mUNIQPASS\e[0m passwords.txt"
 wget http://dazzlepod.com/site_media/txt/passwords.txt
 echo
+echo -e "Downloading \e[33mskullsecurity.org\e[0m wordlists"
+wget -r -l1 -H -t1 -nd -N -np -A.bz2 -erobots=off http://www.skullsecurity.org/wiki/index.php/Passwords
+echo "Decompressing..."
+bzip2 -dv *.bz2
+echo
 echo -e "Downloading \e[33m62kcmnpass\e[0m..."
 wget http://isdpodcast.com/files/62kcmnpass.tar.gz
 echo "Decompressing..."
 tar -xvf 62kcmnpass.tar.gz
 echo "Cleaning up..."
 rm 62kcmnpass.tar.gz
-cd ..
-echo -e "Checking out \e[33misdpodcast\e[0m wordlist repository (BIG)..."
-svn checkout http://svn.isdpodcast.com/wordlists wordlists
+# *** COMMENTED OUT BECAUSE THIS WORDLIST COLLECTION IS SIMPLY TOO BIG ***
+#echo -e "Checking out \e[33misdpodcast\e[0m wordlist repository (BIG)..."
+#svn checkout http://svn.isdpodcast.com/wordlists wordlists
 echo
 echo -e "\e[32mDONE\e[0m"
