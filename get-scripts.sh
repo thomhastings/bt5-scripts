@@ -6,6 +6,17 @@ echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
 echo
+echo -e "Getting \e[33mmimikatz\e[0m..."
+mkdir mimikatz
+cd mimikatz
+echo "Installing prerequisites..."
+apt-get install p7zip -y
+echo "Downloading..."
+wget http://blog.gentilkiwi.com/downloads/mimikatz_trunk.7z
+echo "Decompressing..."
+p7zip -d mimikatz_trunk.7z
+cd ..
+echo
 echo -e "Getting \e[33mRel1k\e[0m's \"Artillery\" honeypot..."
 svn checkout http://svn.secmaniac.com/artillery artillery
 echo "Installing..."
