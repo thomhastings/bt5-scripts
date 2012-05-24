@@ -22,8 +22,13 @@ apt-get install yakuake -y
 echo
 echo -e "Downloading & installing \e[36mDropbox\e[0m..."
 cd ~
+echo "Checking prerequisites..."
+apt-get install python-gpgme
+echo "Downloading..."
 wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_1.4.0_i386.deb
+echo "Installing..."
 dpkg -i download\?dl\=packages%2Fubuntu%2Fdropbox_1.4.0_i386.deb
+echo "Cleaning up..."
 rm download\?dl\=packages%2Fubuntu%2Fdropbox_1.4.0_i386.deb
 echo
 echo "Updating \e[31mBack|Track\e[0m..."
