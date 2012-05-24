@@ -13,8 +13,8 @@ after-install.sh
     ./get-figlet.sh
     ./get-wordlists.sh
     ./get-scripts.sh
-    It then installs Dropbox and starts a BackTrack
-    update script.
+    It then installs Yakuake and Dropbox, then starts
+    a Back|Track update script.
 
 fix-rtl8187.sh
 
@@ -42,8 +42,8 @@ get-scripts.sh
     well as phillips321's set of pentest scripts²,
     Snafu's pentest, wireless, & ISO master ones³,
     Alexander Hanel's extflow.py for analyzing TCP⁴,
-    the PenTBox tool⁵, and also gives an option to
-    install Rel1k's Artillery⁶
+    the PenTBox tool⁵, the mysterious mimikatz⁶, and
+    gives an option to install Rel1k's Artillery⁷
 
 get-tor.sh
 
@@ -59,9 +59,9 @@ get-wifite.sh
 
 get-wordlists.sh
 
-    This script grabs a couple good wordlists and
+    This script grabs a number of good wordlists and
     then creates an SVN repo for InfoSec Daily's
-    wordlists⁷--this is huge, and will not fit on
+    wordlists⁸--this is huge, and will not fit on
     HDD without a dedicated BackTrack install
 
 start-armitage.sh
@@ -76,8 +76,9 @@ start-armitage.sh
 3.) http://configitnow.com/snippets
 4.) http://hooked-on-mnemonics.blogspot.jp/2012/04/extflowpy-hack-for-carving-files-from.html
 5.) http://www.pentbox.net
-6.) https://www.secmaniac.com
-7.) http://www.isdpodcast.com/resources/62k-common-passwords
+6.) http://blog.gentilkiwi.com/mimikatz
+7.) https://www.secmaniac.com
+8.) http://www.isdpodcast.com/resources/62k-common-passwords
 
 More information about me:
 http://turing.slu.edu/~hastint/
