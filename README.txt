@@ -5,6 +5,17 @@ All scripts are (c) Thom Hastings 2012 New BSD license
 
 Below is each script's name and a short description:
 
+after-install.sh
+    This script calls several other scripts in the
+    following order:
+    ./get-wifite.sh
+    ./get-tor.sh
+    ./get-figlet.sh
+    ./get-wordlists.sh
+    ./get-scripts.sh
+    It then installs Dropbox and starts a BackTrack
+    update script.
+
 fix-rtl8187.sh
 
     This script follows commands easily found on-line
