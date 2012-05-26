@@ -89,7 +89,7 @@ echo "th=560" >> matrix-bootsplash-1024x768.cfg
 echo >> matrix-bootsplash-1024x768.cfg
 echo "# name of the picture file (full path recommended)" >> matrix-bootsplash-1024x768.cfg
 echo "jpeg=/opt/bootsplash/themes/matrix-splash/images/bootsplash-1024x768.jpg" >> matrix-bootsplash-1024x768.cfg
-echo "silentjpeg=/opt/wbootsplash/themes/matrix-splash/images/silent-1024x76:wq8.jpg" >> matrix-bootsplash-1024x768.cfg
+echo "silentjpeg=/opt/bootsplash/themes/matrix-splash/images/silent-1024x768.jpg" >> matrix-bootsplash-1024x768.cfg
 echo "progress_enable=1" >> matrix-bootsplash-1024x768.cfg
 echo "overpaintok=1" >> matrix-bootsplash-1024x768.cfg
 echo "Applying new splash..."
