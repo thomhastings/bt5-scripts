@@ -105,6 +105,9 @@ rm -rf bootsplash-3.1
 rm bootsplash-3.1.tar.bz2
 cd ~
 echo
+echo "Getting Audacious..."
+./get-audacious.sh
+echo
 echo "Updating \e[31mBack|Track\e[0m..."
 cd /pentest/scripts
 python bt5up.py
