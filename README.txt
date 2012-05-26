@@ -13,13 +13,22 @@ after-install.sh
     ./get-figlet.sh
     ./get-wordlists.sh
     ./get-scripts.sh
-    It then installs Yakuake and Dropbox, then starts
-    a Back|Track update script.
+    it then installs Yakuake and Dropbox, downloads
+    a handful of wallpapers, does some ballin'
+    customizations of GRUB and BootSplash, runs
+    ./get-audacious.sh
+    and then starts a Back|Track update script.
 
 fix-rtl8187.sh
 
     This script follows commands easily found on-line
     to get the RTL8187 driver working (Alfa AWUS036H)
+
+get-audacious.sh
+
+    This script installs my favourite media player,
+    installs my favourite skins for said player, and
+    creates a shortcut to my favourite stream.
 
 get-bt5-repos.sh
 
