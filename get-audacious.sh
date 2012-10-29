@@ -12,7 +12,7 @@ wget http://www.winampskins.info/getfile/1411/TWS_Sunburn.wsz
 echo
 echo "Getting a playlist..."
 cd ~/.config/audacious/playlists/
-wget http://haxradio.com/files/haxradio.pls
+wget http://haxradio.com/scripts/playlist.pls
 cd ..
 echo
 echo "Configuring skin..."
