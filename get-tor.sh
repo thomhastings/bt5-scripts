@@ -13,7 +13,7 @@ echo "Updating packages..."
 sudo apt-get update
 echo
 echo "Installing tor, torsocks, and privoxy..."
-sudo apt-get install tor torsocks tor-geoipdb privoxy -y
+sudo apt-get install tor torsocks tor-geoipdb deb.torproject.org-keyring privoxy -y
 echo
 echo "Configuring Privoxy for Tor..."
 echo "#  Setting up Privoxy for Tor:" >> /etc/privoxy/config
