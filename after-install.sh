@@ -14,8 +14,8 @@ echo
 echo -e "Getting \e[33mscripts\e[0m..."
 ./get-scripts.sh
 echo
-echo -e "Installing \e[33mYakuake\e[0m..."
-apt-get install yakuake -y
+echo -e "Installing \e[33mTilda\e[0m..."
+apt-get install tilda -y
 echo
 echo -e "Downloading & installing \e[36mDropbox\e[0m..."
 cd ~

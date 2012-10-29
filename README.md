@@ -15,11 +15,11 @@ Below is each script's name and a short description:
 >    ./get-figlet.sh
 >    ./get-wordlists.sh
 >    ./get-scripts.sh
->    it then installs Yakuake and Dropbox, downloads
+>    it then installs Tilda and Dropbox, downloads
 >    a handful of wallpapers, does some ballin'
 >    customizations of GRUB and BootSplash, runs
 >    ./get-audacious.sh
->    and then starts a Back|Track update script.
+>    and then starts a BackTrack update script.
 
 ###### fix-rtl8187.sh
 >    This script follows commands easily found on-line
