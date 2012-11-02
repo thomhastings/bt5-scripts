@@ -1,7 +1,7 @@
 bt5-scripts.git
 ===============
 
-Included is a set of scripts written for [BackTrack](http://backtrack-linux.org) 5R3,
+Included is a set of scripts written for [BackTrack](http://backtrack-linux.org) 5r3,
 though they will likely work on other versions.
 
 All scripts are &copy; Thom Hastings 2012 New BSD license
@@ -43,7 +43,7 @@ Below is each script's name and a short description:
 
 ###### get-scripts.sh
 >    Creates the dir /pentest/scripts and downloads
->    Bl4ck5w4n's BT5R3-compatible update script[¹][1] as
+>    Bl4ck5w4n's BT5r3-compatible update script[¹][1] as
 >    well as phillips321's set of pentest scripts[²][2],
 >    Snafu's pentest, wireless, & ISO master ones[³][3],
 >    Alexander Hanel's extflow.py for analyzing TCP[⁴][4],
