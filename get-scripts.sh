@@ -46,10 +46,13 @@ echo "4.) wifi-101"
 svn checkout http://wifi-101.googlecode.com/svn/trunk wifi-101
 cd ..
 echo
-echo -e "Getting \e[33mAlexander Hanel\e[m's extflow.py:"
+echo -e "Getting \e[33mAlexander Hanel\e[0m's extflow.py:"
 wget http://codepad.org/TfQst1Lu/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
+echo
+echo -e "Getting \e[33mScylla\e[0m:"
+git clone https://code.google.com/p/scylla-v1/
 echo
 echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
 echo "Downloading..."
