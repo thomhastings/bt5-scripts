@@ -62,9 +62,6 @@ Below is each script's name and a short description:
 >    wordlists[⁹][9]--this is huge, and will *not* fit on
 >    HDD without a dedicated BackTrack install
 
-# Have fun!
-
-##References:
 [1]: http://bl4ck5w4n.tk/?p=44 "Bl4ck5w4n's BT5 update script"
 [2]: http://phillips321.googlecode.com "phillips321's pentest scripts"
 [3]: http://configitnow.com/snippets "Snafu's scripts"
