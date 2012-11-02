@@ -15,7 +15,7 @@ echo -e "Getting \e[33mscripts\e[0m..."
 ./get-scripts.sh
 echo
 echo -e "Installing \e[33mTilda\e[0m..."
-apt-get install tilda -y
+apt-get install guake tilda -y
 echo
 echo -e "Downloading & installing \e[36mDropbox\e[0m..."
 cd ~
@@ -45,6 +45,10 @@ tar xvf grub2-matrix-theme.tar.gz
 cd matrix
 echo "Installing..."
 ./install.sh
+echo "Disabling GRUB timeout..."
+sed -i 's/GRUB_HIDDEN_TIMEOUT=.*/GRUB_HIDDEN_TIMEOUT=5/' /etc/default/grub
+echo "Updating GRUB..."
+update-grub
 echo "Cleaning up..."
 cd ..
 rm -rf matrix/
