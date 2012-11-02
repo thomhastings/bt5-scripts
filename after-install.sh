@@ -1,5 +1,5 @@
 #!/bin/sh
-echo -e "\e[31mBack|Track 5r2\e[0m Post-Install Script"
+echo -e "\e[31mBack|Track 5r3\e[0m Post-Install Script"
 echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo
 echo -e "Getting \e[33mTor\e[0m..."
