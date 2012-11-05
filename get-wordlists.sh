@@ -4,6 +4,9 @@ echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo -e "designed for \e[31mBack|Track 5r2\e[0m"
 cd /pentest/passwords/wordlists
 echo
+echo -e "Downloading \e[33mg0tmi1k\e[0m's 500-worst-passwords.txt"
+wget https://g0tmi1k.googlecode.com/svn/trunk/wordlists/500-worst-passwords.txt
+echo
 echo -e "Downloading \e[33mUNIQPASS\e[0m passwords.txt"
 wget http://dazzlepod.com/site_media/txt/passwords.txt
 echo
