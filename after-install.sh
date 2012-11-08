@@ -18,16 +18,21 @@ echo -e "Installing \e[33mTilda\e[0m..."
 apt-get install guake tilda -y
 echo
 echo -e "Downloading & installing \e[36mDropbox\e[0m..."
+echo "Getting prerequisites..."
+apt-get install python-gpgme -y
 cd ~
-echo "Checking prerequisites..."
-apt-get install python-gpgme
-echo "Downloading..."
-wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+MACHINE_TYPE=`uname -m`
+echo "Machine type is $MACHINE_TYPE"
+if [ ${MACHINE_TYPE} == 'x86_64' ]; then
+  echo "Downloading 64-bit..."
+  wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+else
+  echo "Downloading 32-bit..."
+  wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+fi
 echo "Installing..."
-cd .dropbox-dist
 echo "Starting Dropbox daemon in new window-- \e[33mfollow instructions!\e[0m"
-xterm dropboxd
-cd ..
+xterm ~/.dropbox-dist/dropboxd
 echo
 echo "Grabbing a few wallpapers..."
 cd /usr/share/wallpapers/backtrack/
