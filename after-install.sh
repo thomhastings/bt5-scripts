@@ -31,8 +31,8 @@ else
   wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
 fi
 echo "Installing..."
-echo "Starting Dropbox daemon in new window-- \e[33mfollow instructions!\e[0m"
-xterm ~/.dropbox-dist/dropboxd
+echo -e "Starting Dropbox installer-- \e[33mfollow instructions\e[0m!"
+start ~/.dropbox-dist/dropboxd
 echo
 echo "Grabbing a few wallpapers..."
 cd /usr/share/wallpapers/backtrack/
