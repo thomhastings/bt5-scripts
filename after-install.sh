@@ -7,9 +7,9 @@ echo -e "Getting \e[33mTor\e[0m..."
 echo
 echo -e "Getting \e[33mFiglet\e[0m..."
 ./get-figlet.sh
-echo
-echo -e "Getting \e[33mwordlists\e[0m..."
-./get-wordlists.sh
+#echo # The wordlist grabbing is optional, uncomment if you'd like.
+#echo -e "Getting \e[33mwordlists\e[0m..."
+#./get-wordlists.sh
 echo
 echo -e "Getting \e[33mscripts\e[0m..."
 ./get-scripts.sh
