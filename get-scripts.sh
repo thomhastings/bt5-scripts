@@ -25,6 +25,10 @@ svn checkout http://phillips321.googlecode.com/svn/trunk phillips321
 echo
 echo -e "Getting \e[33mg0tmi1k\e[0m's scripts..."
 svn checkout http://g0tmi1k.googlecode.com/svn/trunk g0tmi1k
+cd g0tmi1k
+echo -e "\e[33mfakeap-pwn\e[0m..."
+svn checkout http://fakeap-pwn.googlecode.com/svn/trunk fakeap-pwn
+cd ..
 echo
 echo -e "Creating directory for \e[33mSnafu\e[0m's scripts..."
 mkdir configitnow
