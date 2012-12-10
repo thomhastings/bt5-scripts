@@ -14,7 +14,7 @@ Below is each script's name and a short description:
 >    * ./get-tor.sh
 >    * ./get-figlet.sh
 >    * ./get-wordlists.sh
->    * ./get-scripts.sh
+>    * ./get-scripts.sh  
 >    it then installs Tilda and Dropbox, downloads
 >    a handful of wallpapers, does customizations of GRUB and BootSplash, runs
 >    * ./get-audacious.sh
