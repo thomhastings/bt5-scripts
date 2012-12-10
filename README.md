@@ -57,7 +57,7 @@ Below is each script's name and a short description:
 ###### get-wordlists.sh
 >    This script gets TAPE's wordlist-manipulator[⁹][9],
 >    grabs a number of good wordlists and then checks out
->    the SVN repo for InfoSec Daily's wordlists[¹⁰][10]--
+>    the SVN repo for InfoSec Daily's wordlists[¹⁰][10] --
 >    this is massive, and will *not* fit on HDD without
 >    a dedicated BackTrack install
 
