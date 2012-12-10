@@ -17,29 +17,23 @@ echo "Decompressing..."
 p7zip -d mimikatz_trunk.7z
 cd ..
 echo
-echo -e "Getting \e[33mRel1k\e[0m's \"Artillery\" honeypot..."
-svn checkout http://svn.secmaniac.com/artillery artillery
-echo "Installing..."
-cd artillery
-python setup.py
-cd ..
-echo "Cleaning up..."
-rm -rf artillery
-echo
-echo -e "Checking out \e[33mPenTBox\e[0m..."
+echo -e "Getting \e[33mPenTBox\e[0m..."
 svn checkout https://pentbox.svn.sourceforge.net/svnroot/pentbox/trunk pentbox
 echo
 echo -e "Getting \e[33mphillips321\e[0m's scripts..."
-svn checkout http://phillips321.googlecode.com/svn/trunk/ phillips321
+svn checkout http://phillips321.googlecode.com/svn/trunk phillips321
+echo
+echo -e "Getting \e[33mg0tmi1k\e[0m's scripts..."
+svn checkout http://g0tmi1k.googlecode.com/svn/trunk g0tmi1k
 echo
 echo -e "Creating directory for \e[33mSnafu\e[0m's scripts..."
 mkdir configitnow
 cd configitnow
 echo -e "Checking out \e[33mSnafu\e[0m's repositories (\e[33m/configitnow\e[0m):"
 echo "1.) backtrack-update"
-svn checkout http://backtrack-update.googlecode.com/svn/trunk/ backtrack-update
+svn checkout http://backtrack-update.googlecode.com/svn/trunk backtrack-update
 echo "2.) hydrafy"
-svn checkout http://hydrafy.googlecode.com/svn/trunk/ hydrafy
+svn checkout http://hydrafy.googlecode.com/svn/trunk hydrafy
 echo "3.) quickset"
 svn checkout http://quickset.googlecode.com/svn/trunk quickset
 echo "4.) wifi-101"
@@ -51,8 +45,14 @@ wget http://codepad.org/TfQst1Lu/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
 echo
-echo -e "Getting \e[33mScylla\e[0m:"
-git clone https://code.google.com/p/scylla-v1/
+echo -e "Getting \e[33mRel1k\e[0m's \"Artillery\" honeypot..."
+svn checkout http://svn.secmaniac.com/artillery artillery
+echo "Installing..."
+cd artillery
+python setup.py
+cd ..
+echo "Cleaning up..."
+rm -rf artillery
 echo
 echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
 echo "Downloading..."
@@ -65,4 +65,3 @@ echo
 echo -e "\e[32mDONE\e[0m"
 echo -e "Run scripts from \e[33m/pentest/scripts\e[0m as:"
 echo -e "\e[33mphillips321/pentest.sh\e[0m (pentest)"
-echo -e "and \e[33mpython bt5up.py\e[0m (update)"
