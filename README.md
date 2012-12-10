@@ -1,5 +1,5 @@
-bt5-scripts.git
-===============
+bt5-scripts
+===========
 
 Included is a set of scripts written for [BackTrack](http://backtrack-linux.org) 5r3,
 though they will likely work on other versions.
