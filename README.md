@@ -11,14 +11,13 @@ Below is each script's name and a short description:
 ###### after-install.sh
 >    This script calls several other scripts in the
 >    following order:
->    ./get-tor.sh
->    ./get-figlet.sh
->    ./get-wordlists.sh
->    ./get-scripts.sh
+>    * ./get-tor.sh
+>    * ./get-figlet.sh
+>    * ./get-wordlists.sh
+>    * ./get-scripts.sh
 >    it then installs Tilda and Dropbox, downloads
->    a handful of wallpapers, does some ballin'
->    customizations of GRUB and BootSplash, runs
->    ./get-audacious.sh
+>    a handful of wallpapers, does customizations of GRUB and BootSplash, runs
+>    * ./get-audacious.sh
 >    and then starts a BackTrack update script.
 
 ###### fix-rtl8187.sh
@@ -39,7 +38,7 @@ Below is each script's name and a short description:
 
 ###### get-figlet.sh
 >    This script downloads the figlet ASCII Art text
->    generator as well as the fonts from textfiles.com
+>    generator as well as figlet fonts from textfiles.com
 
 ###### get-scripts.sh
 >    Creates the dir /pentest/scripts and downloads
@@ -52,15 +51,15 @@ Below is each script's name and a short description:
 >    and gives an option to install Rel1k's Artillery[⁸][8]
 
 ###### get-tor.sh
->    This script downloads and configures both Tor
->    (The Onion Router) and Privoxy as well as
->    torsocks for the "usewithtor" command
+>    This script downloads and configures both [Tor](http://torproject.org)
+>    and Privoxy as well as torsocks for the "usewithtor" command
 
 ###### get-wordlists.sh
->    This script grabs a number of good wordlists and
->    then creates an SVN repo for InfoSec Daily's
->    wordlists[⁹][9]--this is huge, and will *not* fit on
->    HDD without a dedicated BackTrack install
+>    This script gets TAPE's wordlist-manipulator[⁹][9],
+>    grabs a number of good wordlists and then checks out
+>    the SVN repo for InfoSec Daily's wordlists[¹⁰][10]--
+>    this is massive, and will *not* fit on HDD without
+>    a dedicated BackTrack install
 
 [1]: http://bl4ck5w4n.tk/?p=44 "Bl4ck5w4n's BT5 update script"
 [2]: http://phillips321.googlecode.com "phillips321's pentest scripts"
@@ -70,7 +69,8 @@ Below is each script's name and a short description:
 [6]: http://blog.gentilkiwi.com/mimikatz "Mimikatz"
 [7]: http://code.google.com/p/scylla-v1 "Scylla"
 [8]: https://www.secmaniac.com "David Kennedy (Rel1k)"
-[9]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's 62k common passes"
+[9]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
+[10]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's 62k common passes"
 
 More information about me:
-http://turing.slu.edu/~hastint/
+http://turing.slu.edu/~hastint
