@@ -49,7 +49,7 @@ wget http://codepad.org/TfQst1Lu/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
 echo
-echo -e "Getting all the tools from from \e[33mTrustedSec\e[0m..."
+echo -e "Getting tools from from \e[33mTrustedSec\e[0m..."
 mkdir TrustedSec
 cd TrustedSec
 wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off http://www.trustedsec.com/downloads/tools-download/
