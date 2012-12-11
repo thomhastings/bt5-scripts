@@ -8,13 +8,12 @@ echo -e "Getting \e[33mTAPE\e[0m's wordlist-maniuplator 'wlm'"
 svn checkout http://wordlist-manipulator.googlecode.com/svn/wlm wlm.sh
 chmod +x wlm.sh
 echo
-echo -e "Downloading \e[33mg0tmi1k\e[0m's 500-worst-passwords.txt"
-wget https://g0tmi1k.googlecode.com/svn/trunk/wordlists/500-worst-passwords.txt
-echo
 echo -e "Downloading \e[33mUNIQPASS\e[0m passwords.txt"
 wget http://dazzlepod.com/site_media/txt/passwords.txt
 echo
 echo -e "Downloading \e[33mskullsecurity.org\e[0m wordlists"
+mkdir skullsecurity.org
+cd skullsecurity.org
 wget -r -l1 -H -t1 -nd -N -np -A.bz2 -erobots=off http://www.skullsecurity.org/wiki/index.php/Passwords
 echo "Decompressing..."
 bzip2 -dv *.bz2
