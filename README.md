@@ -34,7 +34,7 @@ Here is each script and a short description:
 
 ##### get-bt5-repos.sh
 >    This script grabs the BackTrack 5 GPG key and
->    then adds the BackTrack 5 Repositories to your
+>    then adds the BackTrack 5 repositories to your
 >    **/etc/apt/sources.list** for non-BT distributions.
 >    *** **According to Offensive-Security, this can
 >    BREAK your non-BackTrack install. BE FOREWARNED.**
@@ -61,8 +61,8 @@ Here is each script and a short description:
 ##### get-wordlists.sh
 >    This script gets TAPE's wordlist-manipulator[¹⁰][10],
 >    grabs a number of good wordlists and then checks out
->    the SVN repo for InfoSec Daily's wordlists[¹¹][11] --
->    this is massive, and will *not* fit on your HDD
+>    the SVN reposotiroy for InfoSec Daily's wordlists[¹¹][11]
+>    -- this is massive, and will *not* fit on your HDD
 >    without a dedicated BackTrack install
 
 [1]: http://bl4ck5w4n.tk/?p=44 "Bl4ck5w4n's BT5 update script"
