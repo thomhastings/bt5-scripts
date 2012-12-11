@@ -43,6 +43,13 @@ svn checkout http://quickset.googlecode.com/svn/trunk quickset
 echo "4.) wifi-101"
 svn checkout http://wifi-101.googlecode.com/svn/trunk wifi-101
 cd ..
+mkdir pentestgeek
+cd pentestgeek
+echo -e "Getting \e[33mpentestgeek\e[0m scripts..."
+git clone git://github.com/pentestgeek/scripts.git
+echo -e "\e[33mjigsaw\e[0m..."
+git clone git://github.com/pentestgeek/jigsaw.git
+cd ..
 echo
 echo -e "Getting \e[33mAlexander Hanel\e[0m's extflow.py:"
 wget http://codepad.org/TfQst1Lu/raw.py
