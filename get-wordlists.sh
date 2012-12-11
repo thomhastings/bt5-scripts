@@ -26,7 +26,7 @@ tar -xvf 62kcmnpass.tar.gz
 echo "Cleaning up..."
 rm 62kcmnpass.tar.gz
 # *** COMMENTED OUT BECAUSE THIS WORDLIST COLLECTION IS SIMPLY TOO BIG ***
-#echo -e "Checking out \e[33misdpodcast\e[0m wordlist repository (BIG)..."
-#svn checkout http://svn.isdpodcast.com/wordlists wordlists
+#echo -e "Checking out \e[33mISDpodcast\e[0m wordlist repository (BIG)..."
+#svn checkout http://svn.isdpodcast.com/wordlists ISDwordlists
 echo
 echo -e "\e[32mDONE\e[0m"
