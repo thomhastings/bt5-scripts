@@ -16,7 +16,8 @@ Below is each script's name and a short description:
 >    ./get-wordlists.sh  
 >    ./get-scripts.sh  
 >    it then installs Tilda and Dropbox, downloads
->    a handful of wallpapers, does customizations of GRUB and BootSplash, runs  
+>    a handful of wallpapers, does customizations
+>    of GRUB and BootSplash (maybe broken?), runs  
 >    ./get-audacious.sh  
 >    and then starts a BackTrack update script.
 
@@ -38,7 +39,8 @@ Below is each script's name and a short description:
 
 ###### get-figlet.sh
 >    This script downloads the figlet ASCII Art text
->    generator as well as figlet fonts from textfiles.com
+>    generator as well as .flf figlet fonts from
+>    [textfiles.com](http://textfiles.com/art)
 
 ###### get-scripts.sh
 >    Creates the dir /pentest/scripts and downloads
@@ -47,8 +49,8 @@ Below is each script's name and a short description:
 >    Snafu's pentest, wireless, & ISO master ones[³][3],
 >    Alexander Hanel's extflow.py for analyzing TCP[⁴][4],
 >    the PenTBox tool[⁵][5], Gentil Kiwi's mimikatz[⁶][6], 
->    various scripts from g0tmi1k[⁷][7] (incl. fakeap-pwn[⁸][8])
->    and the tools from TrustedSec including Artillery[⁹][9]
+>    scripts from g0tmi1k[⁷][7] including fakeap-pwn[⁸][8],
+>    and the tools from TrustedSec[⁹][9] including Artillery
 
 ###### get-tor.sh
 >    This script downloads and configures both [Tor](http://torproject.org)
