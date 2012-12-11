@@ -52,16 +52,17 @@ Here is each script and a short description:
 >    Alexander Hanel's extflow.py for analyzing TCP[⁴][4],
 >    the PenTBox tool[⁵][5], Gentil Kiwi's mimikatz[⁶][6], 
 >    scripts from g0tmi1k[⁷][7] including fakeap-pwn[⁸][8],
->    and the tools from TrustedSec[⁹][9] including Artillery
+>    nessus and nmap scripts from pentestgeek[⁹][9], and jigsaw[¹⁰][10],
+>    and the tools from TrustedSec[¹¹][11] including Artillery
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
 >    and Privoxy and installs torsocks for the **usewithtor** command
 
 ##### get-wordlists.sh
->    This script gets TAPE's wordlist-manipulator[¹⁰][10],
+>    This script gets TAPE's wordlist-manipulator[¹²][12],
 >    grabs a number of good wordlists and then checks out
->    the SVN reposotiroy for InfoSec Daily's wordlists[¹¹][11]
+>    the SVN reposotiroy for InfoSec Daily's wordlists[¹³][13]
 >    -- this is massive, and will *not* fit on your HDD
 >    without a dedicated BackTrack install
 
@@ -73,9 +74,11 @@ Here is each script and a short description:
 [6]: http://blog.gentilkiwi.com/mimikatz "Mimikatz"
 [7]: http://code.google.com/p/g0tmi1k "g0tmi1k's scripts"
 [8]: http://code.google.com/p/fakeap-pwn "g0tmi1k's fakeap-pwn"
-[9]: http://www.trustedsec.com/downloads/tools-download/ "TrustedSec Tools Download"
-[10]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
-[11]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's 62k common passes"
+[9]: https://github.com/pentestgeek/scripts "pentestgeek nessus and nmap scripts"
+[10]: https://github.com/pentestgeek/jigsaw "pentestgeek jigsaw"
+[11]: http://www.trustedsec.com/downloads/tools-download/ "TrustedSec Tools Download"
+[12]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
+[13]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's 62k common passes"
 
 More information about me:  
 http://turing.slu.edu/~hastint
