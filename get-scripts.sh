@@ -31,9 +31,9 @@ svn checkout http://fakeap-pwn.googlecode.com/svn/trunk fakeap-pwn
 cd ..
 echo
 echo -e "Creating directory for \e[33mSnafu\e[0m's scripts..."
-mkdir configitnow
-cd configitnow
-echo -e "Checking out \e[33mSnafu\e[0m's repositories (\e[33m/configitnow\e[0m):"
+mkdir Snafu
+cd Snafu
+echo -e "Checking out \e[33mSnafu\e[0m's repositories individually:"
 echo "1.) backtrack-update"
 svn checkout http://backtrack-update.googlecode.com/svn/trunk backtrack-update
 echo "2.) hydrafy"
@@ -49,8 +49,13 @@ wget http://codepad.org/TfQst1Lu/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
 echo
-echo -e "Getting \e[33mRel1k\e[0m's \"Artillery\" honeypot..."
-svn checkout http://svn.secmaniac.com/artillery artillery
+echo -e "Getting all the tools from from \e[33mTrustedSec\e[0m...
+mkdir TrustedSec
+cd TrustedSec
+wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off http://www.trustedsec.com/downloads/tools-download/
+unzip *.zip
+echo -e "Getting \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
+svn checkout http://svn.trustedsec.com/artillery artillery
 echo "Installing..."
 cd artillery
 python setup.py
