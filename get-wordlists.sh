@@ -5,7 +5,8 @@ echo -e "designed for \e[31mBack|Track 5r2\e[0m"
 cd /pentest/passwords/wordlists
 echo
 echo -e "Getting \e[33mTAPE\e[0m's wordlist-maniuplator 'wlm'"
-svn checkout http://wordlist-manipulator.googlecode.com/svn/wlm wlm.sh
+wget http://wordlist-manipulator.googlecode.com/svn/wlm
+mv wlm wlm.sh
 chmod +x wlm.sh
 echo
 echo -e "Downloading \e[33mUNIQPASS\e[0m passwords.txt"
