@@ -6,6 +6,9 @@ echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
 echo
+echo -e "Getting \e[33mcreepy\e[0m..."
+git clone git://github.com/ilektrojohn/creepy.git
+echo
 echo -e "Getting \e[33mmimikatz\e[0m..."
 mkdir mimikatz
 cd mimikatz
