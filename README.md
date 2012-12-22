@@ -53,7 +53,8 @@ Here is each script and a short description:
 >    the PenTBox tool[⁵][5], Gentil Kiwi's mimikatz[⁶][6], 
 >    scripts from g0tmi1k[⁷][7] including fakeap-pwn[⁸][8],
 >    nessus and nmap scripts from pentestgeek[⁹][9], and jigsaw[¹⁰][10],
->    and the tools from TrustedSec[¹¹][11] including Artillery
+>    the tools from TrustedSec[¹¹][11] including Artillery,
+>    and the OSINT tool "creepy"
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
