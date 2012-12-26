@@ -2,7 +2,12 @@
 echo "Get Wordlists script"
 echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo -e "designed for \e[31mBack|Track 5r2\e[0m"
-cd /pentest/passwords/wordlists
+cd /pentest/passwords/
+echo
+echo -e "Getting \e[33mreusable.py\e[0m"
+wget https://dazzlepod.com/site_media/txt/reusable.py
+chmod +x reusable.py
+cd wordlists/
 echo
 echo -e "Getting \e[33mTAPE\e[0m's wordlist-maniuplator 'wlm'"
 wget http://wordlist-manipulator.googlecode.com/svn/wlm
