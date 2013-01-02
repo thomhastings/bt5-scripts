@@ -7,7 +7,8 @@ mkdir /pentest/scripts
 cd /pentest/scripts
 echo
 echo -e "Getting \e[33mcreepy\e[0m..."
-git clone git://github.com/ilektrojohn/creepy.git
+#git clone git://github.com/ilektrojohn/creepy.git # creepy included in BT5 repos
+apt-get install creepy -y
 echo
 echo -e "Getting \e[33mmimikatz\e[0m..."
 mkdir mimikatz
