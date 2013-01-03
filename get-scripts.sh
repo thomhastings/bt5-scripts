@@ -2,13 +2,18 @@
 echo "Get my Favourite Scripts"
 echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo
+echo -e "Installing \e[33mcreepy\e[0m..."
+apt-get install creepy -y
+echo
 echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
 echo
-echo -e "Getting \e[33mcreepy\e[0m..."
-#git clone git://github.com/ilektrojohn/creepy.git # creepy included in BT5 repos
-apt-get install creepy -y
+echo -e "Cloning \e[33webhandler\e[0m..."
+git clone git://github.com/lnxg33k/webhandler.git
+cd webhandler
+echo "Installing..."
+python setup.py install
 echo
 echo -e "Getting \e[33mmimikatz\e[0m..."
 mkdir mimikatz
