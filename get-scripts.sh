@@ -14,6 +14,7 @@ git clone git://github.com/lnxg33k/webhandler.git
 cd webhandler
 echo "Installing..."
 python setup.py install
+cd ..
 echo
 echo -e "Getting \e[33mmimikatz\e[0m..."
 mkdir mimikatz
