@@ -17,9 +17,9 @@ Here is each script and a short description:
 >    **./get-figlet.sh**  
 >    **./get-wordlists.sh**  
 >    **./get-scripts.sh**  
->    It then installs Tilda and Dropbox, downloads
->    a handful of wallpapers, does customizations
->    of GRUB and BootSplash, runs  
+>    It then installs Guake, Tilda and Dropbox,  
+>    downloads a handful of wallpapers,  
+>    does customizations of GRUB and BootSplash, calls  
 >    **./get-audacious.sh**  
 >    and starts a BackTrack update script.
 
