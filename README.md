@@ -30,7 +30,7 @@ Here is each script and a short description:
 ##### get-audacious.sh
 >    This script installs my favourite media player,
 >    installs my favourite skins for said player, and
->    creates a shortcut to my favourite stream.
+>    creates a shortcut to my favourite stream. (KDE)
 
 ##### get-bt5-repos.sh
 >    This script grabs the BackTrack 5 GPG key and
