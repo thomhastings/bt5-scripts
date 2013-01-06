@@ -87,6 +87,9 @@ tar -xvf bt5up.tar
 echo "Cleaning up..."
 rm bt5up.tar
 echo
+echo "Cleaning up more...
+apt-get autoremove -y
+echo
 echo -e "\e[32mDONE\e[0m"
 echo -e "Run scripts from \e[33m/pentest/scripts\e[0m as:"
 echo -e "\e[33mphillips321/pentest.sh\e[0m (pentest)"
