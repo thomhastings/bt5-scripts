@@ -88,7 +88,7 @@ tar -xvf bt5up.tar
 echo "Cleaning up..."
 rm bt5up.tar
 echo
-echo "Cleaning up more...
+echo "Cleaning up more..."
 apt-get autoremove -y
 echo
 echo -e "\e[32mDONE\e[0m"
