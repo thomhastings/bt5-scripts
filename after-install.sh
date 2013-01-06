@@ -3,18 +3,18 @@ echo -e "\e[31mBack|Track 5r3\e[0m Post-Install Script"
 echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo
 echo -e "Getting \e[33mTor\e[0m..."
-./get-tor.sh
+sh get-tor.sh
 echo
 echo -e "Getting \e[33mFiglet\e[0m..."
-./get-figlet.sh
-#echo # The wordlist grabbing is optional, uncomment if you'd like.
-#echo -e "Getting \e[33mwordlists\e[0m..."
-#./get-wordlists.sh
+sh get-figlet.sh
+echo
+echo -e "Getting \e[33mwordlists\e[0m..."
+sh get-wordlists.sh
 echo
 echo -e "Getting \e[33mscripts\e[0m..."
-./get-scripts.sh
+sh get-scripts.sh
 echo
-echo -e "Installing \e[33mTilda\e[0m..."
+echo -e "Installing \e[33mGuake\e[0m & \e[33mTilda\e[0m..."
 apt-get install guake tilda -y
 echo
 echo -e "Downloading & installing \e[36mDropbox\e[0m..."
@@ -94,11 +94,16 @@ echo "progress_enable=1" >> matrix-bootsplash-1024x768.cfg
 echo "overpaintok=1" >> matrix-bootsplash-1024x768.cfg
 cp -n /opt/bootsplash/bootsplash{,.bkup}
 /usr/local/src/bootsplash-*/Utilities/splash -s -f matrix-bootsplash-1024x768.cfg > /opt/bootsplash/bootsplash
-fix-splash
 cd ~
 echo
-echo "Getting Audacious..."
-./get-audacious.sh
+echo "Getting \e[32Audacious\e[0m..."
+sh get-audacious.sh
+echo
+echo "Cleaning up..."
+apt-get autoremove -y
+echo
+echo "Fixing splash..."
+fix-splash
 echo
 echo "Updating \e[31mBack|Track\e[0m..."
 cd /pentest/scripts
