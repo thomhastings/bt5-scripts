@@ -58,6 +58,7 @@ tar xvf grub2-matrix-theme.tar.gz
 cd matrix/
 bash install.sh #y
 rm -rf /usr/local/src/{matrix/,grub2-matrix-theme.tar.gz}
+update-grub
 #--- bootsplash theme
 cd /usr/local/src/
 if [ ! -e /usr/local/src/bootsplash-3.1.tar.bz2 ]; then wget ftp://ftp.bootsplash.org/pub/bootsplash/rpm-sources/bootsplash/bootsplash-3.1.tar.bz2; fi
