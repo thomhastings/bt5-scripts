@@ -68,7 +68,7 @@ echo
 echo -e "Getting tools from from \e[33mTrustedSec\e[0m..."
 mkdir TrustedSec
 cd TrustedSec
-wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off http://www.trustedsec.com/downloads/tools-download/
+wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off https://www.trustedsec.com/downloads/tools-download/
 unzip *.zip
 echo -e "Getting \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
 svn checkout http://svn.trustedsec.com/artillery artillery
