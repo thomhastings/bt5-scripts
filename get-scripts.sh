@@ -9,7 +9,7 @@ echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
 echo
-echo -e "Cloning \e[33webhandler\e[0m..."
+echo -e "Cloning \e[33mwebhandler\e[0m..."
 git clone git://github.com/lnxg33k/webhandler.git
 cd webhandler
 echo "Installing..."
