@@ -9,6 +9,9 @@ echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
 echo
+echo -e "Cloning \e[33mschadcode\e[0m..."
+git clone git://github.com/emboss/schadcode.git
+echo
 echo -e "Cloning \e[33mwebhandler\e[0m..."
 git clone git://github.com/lnxg33k/webhandler.git
 cd webhandler
@@ -55,7 +58,7 @@ svn checkout http://wifi-101.googlecode.com/svn/trunk wifi-101
 cd ..
 mkdir pentestgeek
 cd pentestgeek
-echo -e "Getting \e[33mpentestgeek\e[0m scripts..."
+echo -e "Cloning \e[33mpentestgeek\e[0m scripts..."
 git clone git://github.com/pentestgeek/scripts.git
 echo -e "\e[33mjigsaw\e[0m..."
 git clone git://github.com/pentestgeek/jigsaw.git
@@ -71,7 +74,7 @@ mkdir TrustedSec
 cd TrustedSec
 wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off https://www.trustedsec.com/downloads/tools-download/
 unzip *.zip
-echo -e "Getting \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
+echo -e "Checking out \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
 svn checkout http://svn.trustedsec.com/artillery artillery
 echo "Installing..."
 cd artillery
