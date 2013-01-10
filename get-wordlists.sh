@@ -1,7 +1,7 @@
 #/bin/sh
 echo "Get Wordlists script"
 echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
-echo -e "designed for \e[31mBack|Track 5r2\e[0m"
+echo -e "designed for \e[31mBack|Track 5r3\e[0m"
 cd /pentest/passwords/
 echo
 echo -e "Getting \e[33mreusable.py\e[0m"
@@ -34,5 +34,6 @@ rm 62kcmnpass.tar.gz
 # *** COMMENTED OUT BECAUSE THIS WORDLIST COLLECTION IS SIMPLY TOO BIG ***
 #echo -e "Checking out \e[33mISDpodcast\e[0m wordlist repository (BIG)..."
 #svn checkout http://svn.isdpodcast.com/wordlists InfoSecDaily
+cd ~
 echo
 echo -e "\e[32mDONE\e[0m"
