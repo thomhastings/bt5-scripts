@@ -11,16 +11,17 @@ All scripts are &copy; Thom Hastings 2012
 Here is each script and a short description:
 
 ##### after-install.sh
->    This script calls several other scripts in the
->    following order:  
+>    This script installs Guake and Tilda, then  calls 
+>    several other scripts in the following order:  
 >    **./get-tor.sh**  
 >    **./get-figlet.sh**  
->    **./get-wordlists.sh**  
->    **./get-scripts.sh**  
->    It then installs Guake, Tilda and Dropbox,  
->    downloads a handful of wallpapers,  
->    does customizations of GRUB and BootSplash, calls  
+>    **./get-dropbox.sh**  
+>    **./get-chrome.sh**  
 >    **./get-audacious.sh**  
+>    downloads a handful of wallpapers, runs  
+>    **./matrix-boot.sh**  
+>    **./get-scripts.sh**  
+>    **./get-wordlits.sh**  
 >    and starts a BackTrack update script.
 
 ##### fix-rtl8187.sh
@@ -38,6 +39,16 @@ Here is each script and a short description:
 >    **/etc/apt/sources.list** for non-BT distributions.
 >    *** **According to Offensive-Security, this can
 >    BREAK your non-BackTrack install. BE FOREWARNED.**
+
+##### get-chrome.sh
+>    This script downloads and installs a .deb for
+>    Google's Chrome browser. I am still trying to
+>    include in the script modifying the binary so
+>    that Google Chrome can be run as root
+
+##### get-dropbox.sh
+>    This script downloads and begins the first run
+>    of Dropbox
 
 ##### get-figlet.sh
 >    This script installs the figlet ASCII Art text
@@ -68,6 +79,9 @@ Here is each script and a short description:
 >    the SVN reposotiroy for InfoSec Daily's wordlists[¹⁷][17]
 >    -- this is massive, and will *not* fit on your HDD
 >    without a dedicated BackTrack install
+
+##### matrix-boot.sh
+>    This script does customizations of GRUB and BootSplash.
 
 [1]: http://bl4ck5w4n.tk/?p=44 "Bl4ck5w4n's BT5 update script"
 [2]: http://phillips321.googlecode.com "phillips321's pentest scripts"

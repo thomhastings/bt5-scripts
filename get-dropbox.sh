@@ -17,8 +17,8 @@ else
 fi
 echo "Installing..."
 echo -e "Starting Dropbox installer-- \e[33mfollow instructions\e[0m!"
-exec ~/.dropbox-dist/dropboxd
+~/.dropbox-dist/dropboxd
 echo "Cleaning up..."
 rm -rf ~/.dropbox-dist
 echo
-echo "\e[32mDONE\e[0m"
+echo -e "\e[32mDONE\e[0m"

@@ -30,6 +30,8 @@ tar xvjf bootsplash-3.1.tar.bz2
 cd bootsplash-*/Utilities/
 echo "Compiling..."
 make splash
+echo "Cleaning up..."
+rm -rf /usr/local/src/{bootsplash-3.1/,bootsplash-3.1.tar.bz2}
 echo "Downloading theme..."
 mkdir -p /opt/bootsplash/themes/
 cd /opt/bootsplash/themes/

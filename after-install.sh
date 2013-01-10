@@ -2,26 +2,23 @@
 echo -e "\e[31mBack|Track 5r3\e[0m Post-Install Script"
 echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo
-echo -e "Getting \e[33mTor\e[0m..."
+echo -e "Installing \e[33mGuake\e[0m & \e[33mTilda\e[0m..."
+apt-get install guake tilda -y
+echo
+echo -e "Getting \e[32mTor\e[0m..."
 sh get-tor.sh
 echo
 echo -e "Getting \e[33mFiglet\e[0m..."
 sh get-figlet.sh
-#echo  # This takes forever.
-#echo -e "Getting \e[33mwordlists\e[0m..."
-#sh get-wordlists.sh
-echo
-echo -e "Getting \e[33mscripts\e[0m..."
-sh get-scripts.sh
-echo
-echo -e "Installing \e[33mGuake\e[0m & \e[33mTilda\e[0m..."
-apt-get install guake tilda -y
 echo
 echo -e "Getting \e[36mDropbox\e[0m..."
 sh get-dropbox.sh
 echo
 echo -e "Getting \e[34mG\e[31mo\e[33mo\e[34mg\e[32ml\e[31me\e[37m Chrome\e[0m..."
 sh get-chrome.sh
+echo
+echo -e "Getting \e[32mAudacious\e[0m..."
+sh get-audacious.sh
 echo
 echo "Grabbing a few wallpapers..."
 cd /usr/share/wallpapers/backtrack/
@@ -35,11 +32,14 @@ echo
 echo -e "Setting \e[32mMatrix\e[0m Boot..."
 sh matrix-boot.sh
 echo
-echo -e "Getting \e[32mAudacious\e[0m..."
-sh get-audacious.sh
+echo -e "Getting \e[33mscripts\e[0m..."
+sh get-scripts.sh
 echo
 echo "Cleaning up..."
 apt-get autoremove -y
+echo  # This takes forever.
+echo -e "Getting \e[33mwordlists\e[0m..."
+sh get-wordlists.sh &
 echo
 echo -e "Updating \e[31mBack|Track\e[0m..."
 python /pentest/scripts/bt5up.py
