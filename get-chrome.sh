@@ -14,12 +14,12 @@ else
   wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
 fi
 echo "Installing..."
-sudo dpkg -i ./google-chrome*.deb -y
+sudo dpkg -i ./google-chrome*.deb
 echo "Resolving dependencies..."
 sudo apt-get -f install -y
 echo "Cleaning up..."
 rm google-chrome*.deb
-echo "Fixing run-as-root issue..."
+echo "Fixing run-as-root issue..." # doesn't work yet
 sed -i 's/exec.*/& --user-data-dir/g' /usr/bin/google-chrome
 echo
 echo -e "\e[32mDONE\e[0m"
