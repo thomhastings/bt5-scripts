@@ -8,10 +8,10 @@ MACHINE_TYPE=`uname -m`
 echo -e "Machine type is \e[37m$MACHINE_TYPE\e[0m"
 if [ ${MACHINE_TYPE} == 'x86_64' ]; then
   echo "Downloading 64-bit..."
-  wget -O - "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 else
   echo "Downloading 32-bit..."
-  wget -O - "https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb"
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
 fi
 echo "Installing..."
 sudo dpkg -i ./google-chrome*.deb -y
