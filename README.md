@@ -83,6 +83,9 @@ Here is each script and a short description:
 ##### matrix-boot.sh
 >    This script does customizations of GRUB and BootSplash.
 
+##### start-red-team.sh
+>    I found this script somewhere it starts Armitage Teamserver.
+
 [1]: http://bl4ck5w4n.tk/?p=44 "Bl4ck5w4n's BT5 update script"
 [2]: http://phillips321.googlecode.com "phillips321's pentest scripts"
 [3]: http://configitnow.com/snippets "Snafu's scripts"

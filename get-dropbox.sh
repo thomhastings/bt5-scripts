@@ -16,7 +16,7 @@ else
   wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_1.4.0_i386.deb
 fi
 echo "Installing..."
-sudo dpkg -i dropbox_1.4.0_*.deb
+sudo dpkg -i ./dropbox_1.4.0_*.deb
 echo "Cleaning up..."
 rm dropbox_1.4.0_*.deb
 echo
