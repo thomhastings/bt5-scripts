@@ -9,7 +9,7 @@ wget https://dazzlepod.com/site_media/txt/reusable.py
 chmod +x reusable.py
 cd wordlists/
 echo
-echo -e "Getting \e[33mTAPE\e[0m's wordlist-maniuplator 'wlm'"
+echo -e "Getting \e[33mTAPE\e[0m's wordlist-maniuplator '\e[32mwlm.sh\e[0m'"
 wget http://wordlist-manipulator.googlecode.com/svn/wlm
 mv wlm wlm.sh
 chmod +x wlm.sh
