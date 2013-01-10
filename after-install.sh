@@ -99,7 +99,7 @@ cp -n /opt/bootsplash/bootsplash{,.bkup}
 /usr/local/src/bootsplash-*/Utilities/splash -s -f matrix-bootsplash-1024x768.cfg > /opt/bootsplash/bootsplash
 cd ~
 echo
-echo "Getting \e[32Audacious\e[0m..."
+echo -e "Getting \e[32Audacious\e[0m..."
 sh get-audacious.sh
 echo
 echo "Cleaning up..."
@@ -108,8 +108,7 @@ echo
 echo "Fixing splash..."
 fix-splash
 echo
-echo "Updating \e[31mBack|Track\e[0m..."
-cd /pentest/scripts
-python bt5up.py
+echo -e "Updating \e[31mBack|Track\e[0m..."
+python /pentest/scripts/bt5up.py
 echo
 echo -e "\e[32mDONE\e[0m"
