@@ -72,7 +72,7 @@ echo
 echo -e "Getting tools from from \e[33mTrustedSec\e[0m..."
 mkdir TrustedSec
 cd TrustedSec
-wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off https://www.trustedsec.com/downloads/tools-download/ # WHY IS THIS BROKEN FUCK YOU REL1K
+wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off https://www.trustedsec.com/downloads/tools-download/ # -H argument is supposed to span hosts. why doesn't it?
 unzip *.zip
 echo -e "Checking out \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
 svn checkout http://svn.trustedsec.com/artillery artillery

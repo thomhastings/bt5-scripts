@@ -7,9 +7,9 @@ sh get-tor.sh
 echo
 echo -e "Getting \e[33mFiglet\e[0m..."
 sh get-figlet.sh
-echo
-echo -e "Getting \e[33mwordlists\e[0m..."
-sh get-wordlists.sh
+#echo  # This takes forever.
+#echo -e "Getting \e[33mwordlists\e[0m..."
+#sh get-wordlists.sh
 echo
 echo -e "Getting \e[33mscripts\e[0m..."
 sh get-scripts.sh
@@ -32,7 +32,9 @@ else
 fi
 echo "Installing..."
 echo -e "Starting Dropbox installer-- \e[33mfollow instructions\e[0m!"
-start ~/.dropbox-dist/dropboxd
+exec ~/.dropbox-dist/dropboxd
+echo "Cleaning up..."
+rm -rf ~/.dropbox-dist
 echo
 echo "Getting Google Chrome..."
 echo "deb http://dl.google.com/linux/deb/ stable non-free main" >> /etc/apt/sources.list
