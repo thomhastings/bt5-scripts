@@ -4,21 +4,20 @@ echo "(c) Thom Hastings 2013 New BSD license"
 echo
 echo -e "Downloading & installing \e[36mDropbox\e[0m..."
 echo "Getting prerequisites..."
-apt-get install python-gpgme -y
+sudo apt-get install python-gpgme -y
 cd ~
 MACHINE_TYPE=`uname -m`
 echo -e "Machine type is \e[37m$MACHINE_TYPE\e[0m"
 if [ ${MACHINE_TYPE} == 'x86_64' ]; then
   echo "Downloading 64-bit..."
-  wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+  wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_1.4.0_amd64.deb
 else
   echo "Downloading 32-bit..."
-  wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+  wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_1.4.0_i386.deb
 fi
 echo "Installing..."
-echo -e "Starting Dropbox installer-- \e[33mfollow instructions\e[0m!"
-~/.dropbox-dist/dropboxd
+sudo dpkg -i dropbox_1.4.0_*.deb
 echo "Cleaning up..."
-rm -rf ~/.dropbox-dist
+rm dropbox_1.4.0_*.deb
 echo
 echo -e "\e[32mDONE\e[0m"
