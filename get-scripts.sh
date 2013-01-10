@@ -68,20 +68,21 @@ echo -e "Getting \e[33mAlexander Hanel\e[0m's extflow.py:"
 wget http://codepad.org/TfQst1Lu/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
-echo
-echo -e "Getting tools from from \e[33mTrustedSec\e[0m..."
-mkdir TrustedSec
-cd TrustedSec
-wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off https://www.trustedsec.com/downloads/tools-download/ # -H argument is supposed to span hosts. why doesn't it?
-unzip *.zip
-echo -e "Checking out \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
-svn checkout http://svn.trustedsec.com/artillery artillery
-echo "Installing..."
-cd artillery
-python setup.py
-cd ..
-echo "Cleaning up..."
-rm -rf artillery
+#echo  # This whole section needs fixing or removal. Fuck you, Rel1k
+#echo -e "Getting tools from from \e[33mTrustedSec\e[0m..."
+#mkdir TrustedSec
+#cd TrustedSec
+#wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off https://www.trustedsec.com/downloads/tools-download/ # -H argument is supposed to span hosts. why doesn't it?
+#unzip *.zip
+#echo -e "Checking out \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
+#svn checkout http://svn.trustedsec.com/artillery artillery # this is so unnecessary as a thing, really.
+#echo "Installing..."
+#cd artillery
+#python setup.py
+#cd ..
+#echo "Cleaning up..."
+#rm -rf artillery
+#cd ..
 echo
 echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
 echo "Downloading..."
