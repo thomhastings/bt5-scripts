@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Set Matrix 'Theme' (GRUB, Bootsplash, Plymouth & wallpaper) script"
+echo "Set Matrix 'Theme' (GRUB, BootSplash, Plymouth & wallpaper) script"
 echo "(c) Thom Hastings 2013 New BSD license"
 echo "Original author: g0tmi1k"
 echo
@@ -102,7 +102,8 @@ if [ ! -e /usr/share/wallpapers/backtrack/hacker_manifesto_mentor.jpg ]; then wg
 
 echo "Applying wallpaper..."
 rm -f /root/Desktop/backtrack-install.desktop
-gconftool-2 --type string --set /desktop/gnome/background/picture_filename /usr/share/wallpapers/backtrack/hacker_manifesto_mentor.jpg
+convert hacker_manifesto_mentor.jpg \( +clone -blur 0x3 \) -compose Darken -composite hacker_manifesto_mentor_darkglow.jpg
+gconftool-2 --type string --set /desktop/gnome/background/picture_filename /usr/share/wallpapers/backtrack/hacker_manifesto_mentor_darkglow.jpg
 
 
 #--- cmatrix
