@@ -82,9 +82,11 @@ chmod +x extflow.py
 #cd ..
 #echo "Cleaning up..."
 #rm -rf artillery
-#cd ..
+cd ..
 echo
 echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
+mkdir bt5up
+cd bt5up
 echo "Downloading..."
 wget http://bl4ck5w4n.tk/wp-content/uploads/2011/07/bt5up.tar
 echo "Decompressing..."
