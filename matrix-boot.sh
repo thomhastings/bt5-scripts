@@ -1,4 +1,5 @@
 #!/bin/sh
+# chunks of code courtesy of g0tmi1k
 echo "Set Matrix Boot (Splash & GRUB) script"
 echo "(c) Thom Hastings 2013 New BSD license"
 echo
