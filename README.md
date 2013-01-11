@@ -37,7 +37,7 @@ Here is each script and a short description:
 >    This script grabs the BackTrack 5 GPG key and
 >    then adds the BackTrack 5 repositories to your
 >    **/etc/apt/sources.list** for non-BT distributions.
->    *** **According to Offensive-Security, this can
+>    **WARNING: According to Offensive-Security, this can
 >    BREAK your non-BackTrack install. BE FOREWARNED.**
 
 ##### get-chrome.sh
@@ -78,7 +78,7 @@ Here is each script and a short description:
 >    grabs a number of good wordlists and then checks out
 >    the SVN reposotiroy for InfoSec Daily's wordlists[¹⁷][17]
 >    -- this is massive, and will *not* fit on your HDD
->    without a dedicated BackTrack install
+>    without a dedicated BackTrack install (uncomment first)
 
 ##### matrix-boot.sh
 >    This script does customizations of GRUB and BootSplash.

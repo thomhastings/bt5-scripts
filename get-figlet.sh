@@ -2,9 +2,6 @@
 echo "Get Figlet script"
 echo "(c) Thom Hastings 2011 New BSD license"
 echo
-echo "Updating repositories..."
-sudo apt-get update
-echo
 echo "Installing Figlet..."
 sudo apt-get install figlet -y
 echo
