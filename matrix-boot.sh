@@ -56,8 +56,8 @@ tar xf matrix-splash-v1.0.tar.gz
 cd matrix-splash/
 
 echo "Installing..."
-if [ ! -e /lib/plymouth/themes/simple/bt5_1024x768.png.bkup ]; then cp -f /opt/bootsplash/bootsplash{,.bkup}; fi
-if [ ! -e /lib/plymouth/themes/simple/bt5_1024x768.png.bkup ]; then cp -f /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg{,.bkup}; fi
+if [ ! -e /opt/bootsplash/bootsplash.bkup ]; then cp -f /opt/bootsplash/bootsplash{,.bkup}; fi
+if [ ! -e /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg.bkup ]; then cp -f /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg{,.bkup}; fi
 sed -i 's/^jpeg=.*/jpeg=\/opt\/bootsplash\/themes\/matrix-splash\/images\/bootsplash-1024x768.jpg/' /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg
 sed -i 's/^silentjpeg=.*/silentjpeg=\/opt\/bootsplash\/themes\/matrix-splash\/images\/silent-1024x768.jpg/' /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg
 /usr/local/src/bootsplash-*/Utilities/splash -s -f /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg > /opt/bootsplash/bootsplash

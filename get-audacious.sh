@@ -42,5 +42,6 @@ echo "StartupNotify=false" >> haxradio-listen.desktop
 echo "Terminal=false" >> haxradio-listen.desktop
 echo "Type=Application" >> haxradio-listen.desktop
 echo "Categories=HaxRadio;" >> haxradio-listen.desktop
+chmod +x haxradio-listen.desktop
 echo
 echo -e "\e[32mDONE\e[0m"
