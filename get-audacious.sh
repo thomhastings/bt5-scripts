@@ -14,8 +14,8 @@ wget -N http://www.winampskins.info/getfile/1411/TWS_Sunburn.wsz
 echo
 echo "Starting Audacious... (to generate config files)"
 /usr/bin/audacious &
-echo "Waiting 3 seconds..."
-sleep 3
+echo "Waiting 1 second..."
+sleep 1
 echo "Killing Audacious..."
 killall audacious
 echo
@@ -25,7 +25,7 @@ wget -N http://haxradio.com/scripts/playlist.pls
 cd ..
 echo
 echo "Configuring skin..."
-sed -i 's/.*skin =.*/skin = \/usr\/share\/audacious\/Skins\/SosoundDarkandGreen.wsz/' config
+sed -i 's/.*skin=.*/skin=\/usr\/share\/audacious\/Skins\/TWS_Sunburn.wsz/' config
 echo
 echo "Writing shortcut..."
 cd /usr/share/icons/

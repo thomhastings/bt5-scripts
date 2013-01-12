@@ -24,7 +24,7 @@ sed -i 's/^GRUB_HIDDEN_TIMEOUT=/#GRUB_HIDDEN_TIMEOUT=/' /etc/default/grub
 sed -i 's/.*GRUB_HIDDEN_TIMEOUT_QUIET=.*/GRUB_HIDDEN_TIMEOUT_QUIET=false/' /etc/default/grub
 
 echo -e "Running \e[33mupdate-grub\e[0m..."
-#update-grub
+update-grub
 
 echo "Cleaning up..."
 rm -rf /usr/local/src/{matrix/,grub2-matrix-theme.tar.gz}
@@ -61,6 +61,9 @@ sed -i 's/^jpeg=.*/jpeg=\/opt\/bootsplash\/themes\/matrix-splash\/images\/bootsp
 sed -i 's/^silentjpeg=.*/silentjpeg=\/opt\/bootsplash\/themes\/matrix-splash\/images\/silent-1024x768.jpg/' /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg
 /usr/local/src/bootsplash-*/Utilities/splash -s -f /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg > /opt/bootsplash/bootsplash
 
+echo -e "Running \e[33mfix-splash\e[0m..."
+fix-splash # we do this at the end, do we need to do it twice?
+
 echo "Cleaning up..."
 #rm -rf /usr/local/src/{bootsplash-3.1/,bootsplash-3.1.tar.bz2}
 rm -rf /opt/bootsplash/themes/matrix-splash-v1.0.tar.gz
@@ -76,13 +79,13 @@ if [ ! -e /lib/plymouth/themes/simple/miscellaneous-95767.jpeg ]; then wget http
 
 echo "Converting image..."
 mogrify -density 72x72 -units PixelsPerInch miscellaneous-95767.jpeg
-convert miscellaneous-95767.jpeg /opt/bootsplash/themes/matrix-splash/images/silent-1024x768.jpg -compose Darken -composite -resize 1024x768! /lib/plymouth/themes/simple/bt5_1024x768.png
+convert /opt/bootsplash/themes/matrix-splash/images/silent-1024x768.jpg miscellaneous-95767.jpeg -resize 1024x768! -compose blend -define compose:args=33 -composite /lib/plymouth/themes/simple/bt5_1024x768.png
 
 echo "Applying image..."
 update-alternatives --auto default.plymouth #update-alternatives --config default.plymouth
 update-initramfs -u
 
-echo -e "Running: \e[33mfix-splash\e[0m..."
+echo -e "Running \e[33mfix-splash\e[0m..."
 fix-splash
 
 echo "Cleaning up..."
@@ -93,11 +96,10 @@ rm -rf /lib/plymouth/themes/simple/miscellaneous-95767.jpeg
 echo -e "Customizing \e[33mWallpaper\e[0m theme..."
 cd /usr/share/wallpapers/backtrack/
 
-echo -e "Downloading \e[33mPlymouth\e[0m..."
+echo -e "Downloading..."
 if [ ! -e /usr/share/wallpapers/backtrack/hacker_manifesto_mentor.jpg ]; then wget http://pip.cat/bloc/wp-content/uploads/2012/05/hacker_manifesto_mentor.jpg; fi
 
-echo "Applying wallpaper..."
-rm -f /root/Desktop/backtrack-install.desktop
+echo "Applying..."
 convert hacker_manifesto_mentor.jpg \( +clone -blur 0x3 \) -compose Darken -composite hacker_manifesto_mentor_darkglow.jpg
 gconftool-2 --type string --set /desktop/gnome/background/picture_filename /usr/share/wallpapers/backtrack/hacker_manifesto_mentor_darkglow.jpg
 

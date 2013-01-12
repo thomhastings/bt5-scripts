@@ -2,6 +2,9 @@
 echo -e "\e[31mBack|Track 5r3\e[0m Post-Install Script"
 echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo
+echo "Deleting that pesky install icon..."
+rm -f /root/Desktop/backtrack-install.desktop
+echo
 echo -e "Installing \e[33mGuake\e[0m & \e[33mTilda\e[0m..."
 apt-get install guake tilda -y
 echo
@@ -37,9 +40,9 @@ sh get-scripts.sh
 echo
 echo "Cleaning up..."
 apt-get autoremove -y
-echo  # This takes forever.
+echo
 echo -e "Getting \e[33mwordlists\e[0m..."
-sh get-wordlists.sh &
+sh get-wordlists.sh & # this takes forever
 echo
 echo -e "Updating \e[31mBack|Track\e[0m..."
 python /pentest/scripts/bt5up.py
