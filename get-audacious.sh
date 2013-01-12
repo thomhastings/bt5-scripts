@@ -25,7 +25,7 @@ wget -N http://haxradio.com/scripts/playlist.pls
 cd ..
 echo
 echo "Configuring skin..."
-sed -i "s#\(skin *= *\).*#\0/usr/share/audacious/Skins/TWS_Sunburn.wsz#" config
+sed -i "s/\(skin *= *\).*/\0\/usr\/share\/audacious\/Skins\/SosoundDarkandGreen.wsz/" config
 echo
 echo "Writing shortcut..."
 cd /usr/share/icons/

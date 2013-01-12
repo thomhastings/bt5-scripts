@@ -76,7 +76,7 @@ if [ ! -e /lib/plymouth/themes/simple/miscellaneous-95767.jpeg ]; then wget http
 
 echo "Converting image..."
 mogrify -density 72x72 -units PixelsPerInch miscellaneous-95767.jpeg
-convert -resize 1024x768! miscellaneous-95767.jpeg /opt/bootsplash/themes/matrix-splash/images/silent-1024x768.jpg -compose Darken -composite /lib/plymouth/themes/simple/bt5_1024x768.png
+convert miscellaneous-95767.jpeg /opt/bootsplash/themes/matrix-splash/images/silent-1024x768.jpg -compose Darken -composite -resize 1024x768! /lib/plymouth/themes/simple/bt5_1024x768.png
 
 echo "Applying image..."
 update-alternatives --auto default.plymouth #update-alternatives --config default.plymouth
