@@ -1,12 +1,11 @@
 #!/bin/sh
-echo "Set Matrix 'Theme' (GRUB, BootSplash, Plymouth & wallpaper) script"
+echo -e "Set Matrix 'Theme' (\e[33mGRUB\e[0m, \e[33mBootSplash\e[0m, \e[33mPlymouth\e[0m & \e[33mWallpaper\e[0m) script"
 echo "(c) Thom Hastings 2013 New BSD license"
-echo "Original author: g0tmi1k"
+echo -e "Original author: \e[37mg0tmi1k\e[0m"
 echo
 
 
 #--- GRUB
-echo -e "Customizing \e[33mGRUB\e[0m and \e[33mBootSplash\e[0m..."
 cd /usr/local/src/
 
 echo -e "Downloading \e[33mGRUB\e[0m theme..."
@@ -16,7 +15,7 @@ echo "Decompressing..."
 tar xf grub2-matrix-theme.tar.gz
 cd matrix/
 
-echo -e "Installing... \e[33mtype 'y'\e[0m"
+echo -e "Installing... \e[33mfollow instructions\e[0m"
 bash install.sh
 
 echo -e "Altering \e[33mGRUB\e[0m settings (So we see it!)..."
@@ -24,8 +23,8 @@ if [ ! -e /lib/plymouth/themes/simple/bt5_1024x768.png.bkup ]; then cp -f /etc/d
 sed -i 's/^GRUB_HIDDEN_TIMEOUT=/#GRUB_HIDDEN_TIMEOUT=/' /etc/default/grub
 sed -i 's/.*GRUB_HIDDEN_TIMEOUT_QUIET=.*/GRUB_HIDDEN_TIMEOUT_QUIET=false/' /etc/default/grub
 
-echo "Running:  \e[33mupdate-grub\e[0m..."
-update-grub
+echo -e "Running \e[33mupdate-grub\e[0m..."
+#update-grub
 
 echo "Cleaning up..."
 rm -rf /usr/local/src/{matrix/,grub2-matrix-theme.tar.gz}
@@ -43,7 +42,7 @@ echo "Decompressing..."
 tar xjf bootsplash-3.1.tar.bz2
 cd bootsplash-*/Utilities/
 
-echo "Compiling \e[33mbootsplash\e[0m theme..."
+echo -e "Compiling..."
 make splash
 
 echo "Downloading theme..."
@@ -62,9 +61,6 @@ sed -i 's/^jpeg=.*/jpeg=\/opt\/bootsplash\/themes\/matrix-splash\/images\/bootsp
 sed -i 's/^silentjpeg=.*/silentjpeg=\/opt\/bootsplash\/themes\/matrix-splash\/images\/silent-1024x768.jpg/' /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg
 /usr/local/src/bootsplash-*/Utilities/splash -s -f /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg > /opt/bootsplash/bootsplash
 
-echo "Running: \e[33mfix-splash\e[0m..."
-fix-splash
-
 echo "Cleaning up..."
 #rm -rf /usr/local/src/{bootsplash-3.1/,bootsplash-3.1.tar.bz2}
 rm -rf /opt/bootsplash/themes/matrix-splash-v1.0.tar.gz
@@ -78,15 +74,15 @@ echo -e "Downloading \e[33mPlymouth\e[0m..."
 if [ ! -e /lib/plymouth/themes/simple/bt5_1024x768.png.bkup ]; then cp -f /lib/plymouth/themes/simple/bt5_1024x768.png{,.bkup}; fi
 if [ ! -e /lib/plymouth/themes/simple/miscellaneous-95767.jpeg ]; then wget http://www.n1tr0g3n.com/wp-content/uploads/2011/12/miscellaneous-95767.jpeg; fi #-O bt5_1024x768.png
 
-echo "Converting plymouth..."
+echo "Converting image..."
 mogrify -density 72x72 -units PixelsPerInch miscellaneous-95767.jpeg
-convert -resize 1024x768! miscellaneous-95767.jpeg /lib/plymouth/themes/simple/bt5_1024x768.png
+convert -resize 1024x768! miscellaneous-95767.jpeg /opt/bootsplash/themes/matrix-splash/images/silent-1024x768.jpg -compose Darken -composite /lib/plymouth/themes/simple/bt5_1024x768.png
 
 echo "Applying image..."
 update-alternatives --auto default.plymouth #update-alternatives --config default.plymouth
 update-initramfs -u
 
-echo "Running: \e[33mfix-splash\e[0m..."
+echo -e "Running: \e[33mfix-splash\e[0m..."
 fix-splash
 
 echo "Cleaning up..."

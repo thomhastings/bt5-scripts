@@ -1,7 +1,7 @@
 #!/bin/sh
 echo "Get Audacious & Skins Script"
 echo "(c) Thom Hastings 2013 New BSD License"
-echo "Hint or two from g0tmi1k"
+echo "Hint or two from g0tmi1k :)"
 echo
 echo "Installing Audacious..."
 sudo apt-get install -y audtty audacious audacious-plugins
@@ -36,7 +36,7 @@ echo "" >> haxradio-listen.desktop
 echo "[Desktop Entry]" > haxradio-listen.desktop
 echo "Name=Listen to HaxRadio" >> haxradio-listen.desktop
 echo "Encoding=UTF-8" >> haxradio-listen.desktop
-echo "Exec=audacious ~/.config/audacious/playlists/haxradio.pls" >> haxradio-listen.desktop
+echo "Exec=/usr/bin/audacious ~/.config/audacious/playlists/haxradio.pls" >> haxradio-listen.desktop
 echo "Icon=/usr/share/icons/haxradio.png" >> haxradio-listen.desktop
 echo "StartupNotify=false" >> haxradio-listen.desktop
 echo "Terminal=false" >> haxradio-listen.desktop
