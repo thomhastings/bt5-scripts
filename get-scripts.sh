@@ -2,9 +2,6 @@
 echo "Get my Favourite Scripts"
 echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
 echo
-echo -e "Installing \e[33mcreepy\e[0m..."
-apt-get install creepy -y
-echo
 echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
@@ -68,14 +65,14 @@ echo -e "Getting \e[33mAlexander Hanel\e[0m's extflow.py:"
 wget http://codepad.org/TfQst1Lu/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
-#echo  # This whole section needs fixing or removal. Fuck you, Rel1k
+#echo  # This whole section needs fixing or removal. Oh Rel1k
 #echo -e "Getting tools from from \e[33mTrustedSec\e[0m..."
 #mkdir TrustedSec
 #cd TrustedSec
 #wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off https://www.trustedsec.com/downloads/tools-download/ # -H argument is supposed to span hosts. why doesn't it?
 #unzip *.zip
 #echo -e "Checking out \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
-#svn checkout http://svn.trustedsec.com/artillery artillery # this is so unnecessary as a thing, really.
+#svn checkout http://svn.trustedsec.com/artillery artillery # this is unnecessary in this context
 #echo "Installing..."
 #cd artillery
 #python setup.py
@@ -85,8 +82,8 @@ chmod +x extflow.py
 cd ..
 echo
 echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
-mkdir bt5up
-cd bt5up
+mkdir /pentest/bt5up/
+cd /pentest/bt5up/
 echo "Downloading..."
 wget http://bl4ck5w4n.tk/wp-content/uploads/2011/07/bt5up.tar
 echo "Decompressing..."

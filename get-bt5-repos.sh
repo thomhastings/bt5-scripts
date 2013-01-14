@@ -15,6 +15,6 @@ echo "Adding source repository..."
 echo "deb http://source.repository.backtrack-linux.org revolution main microverse non-free testing" >> /etc/apt/sources.list
 echo
 echo "Updating sources..."
-apt-get update
+sudo apt-get update
 echo
 echo "DONE"

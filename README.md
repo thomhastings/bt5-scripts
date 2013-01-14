@@ -64,19 +64,19 @@ Here is each script and a short description:
 >    the PenTBox tool[⁵][5], Gentil Kiwi's mimikatz[⁶][6], 
 >    scripts from g0tmi1k[⁷][7] including fakeap-pwn[⁸][8],
 >    nessus and nmap scripts from pentestgeek[⁹][9], and jigsaw[¹⁰][10],
->    the tools from TrustedSec[¹¹][11] including Artillery,
->    Martin Bosslet's hash-flooding DoS tool schadcode[¹²][12],
->    lnxg33k's webhandler[¹³][13], and the OSINT tool "creepy"[¹⁴][14]
+>    Martin Bosslet's hash-flooding DoS tool schadcode[¹¹][11],
+>    lnxg33k's webhandler[¹²][12]
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
 >    and Privoxy and installs torsocks for the **usewithtor** command
 
 ##### get-wordlists.sh
->    This script gets reusable.py[¹⁵][15] for people who use the same
->    pass for different sites, TAPE's wordlist-manipulator[¹⁶][16],
->    grabs a number of good wordlists and then checks out
->    the SVN reposotiroy for InfoSec Daily's wordlists[¹⁷][17]
+>    This script gets reusable.py[¹³][13] for people who use the same
+>    pass for different sites, TAPE's wordlist-manipulator[¹⁴][14],
+>    grabs couple good wordlists and then checks out the
+>    SVN repository for InfoSec Daily's wordlists[¹⁵][15]
+>    while wgetting every wordlist from SkullSecurity.org[¹⁶][16]
 >    -- this is massive, and will *not* fit on your HDD
 >    without a dedicated BackTrack install (uncomment first)
 
@@ -96,13 +96,12 @@ Here is each script and a short description:
 [8]: http://code.google.com/p/fakeap-pwn "g0tmi1k's fakeap-pwn"
 [9]: https://github.com/pentestgeek/scripts "pentestgeek nessus and nmap scripts"
 [10]: https://github.com/pentestgeek/jigsaw "pentestgeek jigsaw"
-[11]: http://www.trustedsec.com/downloads/tools-download/ "TrustedSec Tools Download"
-[12]: http://emboss.github.com/blog/2012/12/14/breaking-murmur-hash-flooding-dos-reloaded/ "schadcode"
-[13]: https://github.com/lnxg33k/webhandler "lnxg33k's webhandler"
-[14]: http://ilektrojohn.github.com/creepy/ "creepy"
-[15]: https://dazzlepod.com/reusable/ "reusable.py"
-[16]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
-[17]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's 62k common passes"
+[11]: http://emboss.github.com/blog/2012/12/14/breaking-murmur-hash-flooding-dos-reloaded/ "schadcode"
+[12]: https://github.com/lnxg33k/webhandler "lnxg33k's webhandler"
+[13]: https://dazzlepod.com/reusable/ "reusable.py"
+[14]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
+[15]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
+[16]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
 
 More information about me:  
 http://turing.slu.edu/~hastint
