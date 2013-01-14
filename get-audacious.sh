@@ -1,7 +1,7 @@
 #!/bin/sh
 echo "Get Audacious & Skins Script"
 echo "(c) Thom Hastings 2013 New BSD License"
-echo "Hint or two from g0tmi1k :)"
+echo -e "Hint or two from \e[37mg0tmi1k\e[0m :)"
 echo
 echo "Installing Audacious..."
 sudo apt-get install -y audtty audacious audacious-plugins
