@@ -33,6 +33,7 @@ sh get-audacious.sh
 echo
 echo "Grabbing a few wallpapers..."
 cd /usr/share/wallpapers/backtrack/
+wget -N http://onlyhdwallpapers.com/wallpaper/abstract_blue_matrix_binary_digital_art_desktop_1920x1080_hd-wallpaper-747379.jpg
 wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/Fucking-ninja-is-Bad-ass.jpg
 wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/matrix_hacker_by_zahid4world-d3dyf5r2.jpg
 wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/miscellaneous-95767.jpeg
