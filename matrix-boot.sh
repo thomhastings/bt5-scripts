@@ -46,7 +46,7 @@ cd bootsplash-*/Utilities/
 echo -e "Compiling..."
 make splash
 
-echo "Downloading \e[33mBootsplash\e[0m..."
+echo -e "Downloading \e[33mBootsplash\e[0m..."
 mkdir -p /opt/bootsplash/themes/
 cd /opt/bootsplash/themes/
 if [ ! -e /usr/local/src/matrix-splash-v1.0.tar.gz ]; then wget http://matrixsplash.altervista.org/matrix-splash-v1.0.tar.gz; fi
