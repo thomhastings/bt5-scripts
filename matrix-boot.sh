@@ -101,7 +101,7 @@ echo -e "Downloading..."
 if [ ! -e /usr/share/wallpapers/backtrack/hacker_manifesto_mentor.jpg ]; then wget http://pip.cat/bloc/wp-content/uploads/2012/05/hacker_manifesto_mentor.jpg; fi
 
 echo "Applying..."
-convert hacker_manifesto_mentor.jpg \( +clone -blur 0x3 \) -compose Darken -composite hacker_manifesto_mentor_darkglow.jpg
+convert hacker_manifesto_mentor.jpg -background "black" -brightness-contrast -33x13 \( +clone -blur 0x3 \) -compose Darken -composite hacker_manifesto_mentor_darkglow.jpg
 gconftool-2 --type string --set /desktop/gnome/background/picture_filename /usr/share/wallpapers/backtrack/hacker_manifesto_mentor_darkglow.jpg
 
 
