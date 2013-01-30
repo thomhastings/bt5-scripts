@@ -9,6 +9,9 @@ echo
 echo -e "Cloning \e[33mmallory\e[0m..."
 hg clone https://bitbucket.org/IntrepidusGroup/mallory
 echo
+echo -e "Cloning \e[33momphalos\e[0m..."
+git clone git://github.com/dankamongmen/omphalos.git
+echo
 echo -e "Cloning \e[33mschadcode\e[0m..."
 git clone git://github.com/emboss/schadcode.git
 echo
