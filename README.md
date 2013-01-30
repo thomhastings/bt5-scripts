@@ -66,7 +66,7 @@ Here is each script and a short description:
 >    nessus and nmap scripts from pentestgeek[⁹][9], and jigsaw[¹⁰][10],
 >    Martin Bosslet's hash-flooding DoS tool schadcode[¹¹][11],
 >    lnxg33k's webhandler[¹²][12], Mallory MitM proxy[¹³][13],
->    and the "tool for network enumeration and domination" Omphalos[¹⁴][14]
+>    and the "tool for network enumeration and domination," Omphalos[¹⁴][14]
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
