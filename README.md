@@ -5,7 +5,7 @@ Included is a set of scripts written for
 [BackTrack](http://backtrack-linux.org) 5r3,
 though they will likely work on other versions.
 
-All scripts are &copy; Thom Hastings 2012
+All scripts are &copy; Thom Hastings 2011-2013
 [New BSD license](http://opensource.org/licenses/BSD-3-Clause).
 
 Here is each script and a short description:
@@ -65,18 +65,19 @@ Here is each script and a short description:
 >    scripts from g0tmi1k[⁷][7] including fakeap-pwn[⁸][8],
 >    nessus and nmap scripts from pentestgeek[⁹][9], and jigsaw[¹⁰][10],
 >    Martin Bosslet's hash-flooding DoS tool schadcode[¹¹][11],
->    lnxg33k's webhandler[¹²][12], and Mallory MitM proxy[¹³][13]
+>    lnxg33k's webhandler[¹²][12], Mallory MitM proxy[¹³][13],
+>    and the "tool for network enumeration and domination" Omphalos[¹⁴][14]
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
 >    and Privoxy and installs torsocks for the **usewithtor** command
 
 ##### get-wordlists.sh
->    This script gets reusable.py[¹⁴][14] for people who use the same
->    pass for different sites, TAPE's wordlist-manipulator[¹⁵][15],
+>    This script gets reusable.py[¹⁵][15] for people who use the same
+>    pass for different sites, TAPE's wordlist-manipulator[¹⁶][16],
 >    grabs couple good wordlists and then checks out the
->    SVN repository for InfoSec Daily's wordlists[¹⁶][16]
->    while wgetting every wordlist from SkullSecurity.org[¹⁷][17]
+>    SVN repository for InfoSec Daily's wordlists[¹⁷][17]
+>    while wgetting every wordlist from SkullSecurity.org[¹⁸][18]
 >    -- this is massive, and will *not* fit on your HDD
 >    without a dedicated BackTrack install (uncomment first)
 
@@ -99,10 +100,11 @@ Here is each script and a short description:
 [11]: http://emboss.github.com/blog/2012/12/14/breaking-murmur-hash-flooding-dos-reloaded/ "schadcode"
 [12]: https://github.com/lnxg33k/webhandler "lnxg33k's webhandler"
 [13]: http://intrepidusgroup.com/insight/mallory/ "Mallory Man-in-the-Middle Proxy"
-[14]: https://dazzlepod.com/reusable/ "reusable.py"
-[15]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
-[16]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
-[17]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
+[14]: http://dank.qemfd.net/dankwiki/index.php/Omphalos "Omphalos"
+[15]: https://dazzlepod.com/reusable/ "reusable.py"
+[16]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
+[17]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
+[18]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
 
 More information about me:  
 http://turing.slu.edu/~hastint
