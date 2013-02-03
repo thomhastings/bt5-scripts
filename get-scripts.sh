@@ -2,8 +2,8 @@
 echo "Get my Favourite Scripts"
 echo -e "\e[37m(c) Thom Hastings 2012-2013 New BSD license\e[0m"
 echo
-echo -e "Installing prerequisite (\e[33mmercurial\e[0m)..."
-apt-get install mercurial -y
+echo -e "Installing prerequisites: (\e[33mp7zip\e[0m and \e[33mmercurial\e[0m)..."
+apt-get install p7zip mercurial -y
 echo
 echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
@@ -31,8 +31,6 @@ echo
 echo -e "Getting \e[33mmimikatz\e[0m..."
 mkdir mimikatz
 cd mimikatz
-echo "Installing prerequisites..."
-apt-get install p7zip -y
 echo "Downloading..."
 wget http://blog.gentilkiwi.com/downloads/mimikatz_trunk.7z
 echo "Decompressing..."
