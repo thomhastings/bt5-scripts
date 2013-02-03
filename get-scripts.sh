@@ -84,7 +84,7 @@ git clone git://github.com/pentestgeek/jigsaw.git
 cd ..
 echo
 echo -e "Getting \e[33mAlexander Hanel\e[0m's extflow.py:"
-wget http://codepad.org/TfQst1Lu/raw.py
+wget http://codepad.org/BYdtDf9c/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
 #echo  # This whole section needs fixing or removal. Oh Rel1k
