@@ -11,8 +11,8 @@ All scripts are &copy; Thom Hastings 2011-2013
 Here is each script and a short description:
 
 ##### after-install.sh
->    This script installs Guake and Tilda, then  calls 
->    several other scripts in the following order:  
+>    This script installs Guake and Tilda,
+>    runs these other scripts:  
 >    **./get-tor.sh**  
 >    **./get-figlet.sh**  
 >    **./get-dropbox.sh**  
@@ -44,7 +44,7 @@ Here is each script and a short description:
 >    This script downloads and installs a .deb for
 >    Google's Chrome browser. I am still trying to
 >    include in the script modifying the binary so
->    that Google Chrome can be run as root
+>    that Google Chrome can be run as root. :-(
 
 ##### get-dropbox.sh
 >    This script downloads and begins the first run
@@ -79,14 +79,15 @@ Here is each script and a short description:
 >    grabs couple good wordlists and then checks out the
 >    SVN repository for InfoSec Daily's wordlists[¹⁹][19]
 >    while wgetting every wordlist from SkullSecurity.org[²⁰][20]
->    -- this is massive, and will *not* fit on your HDD
->    without a dedicated BackTrack install (uncomment first)
+>    **WARNING: This is massive, and will _not_ fit on your HDD
+>    without a dedicated BackTrack install!**
 
 ##### matrix-boot.sh
->    This script does customizations of GRUB and BootSplash.
+>    This script does customizations of GRUB and BootSplash
+>    and sets your wallpaper to The Hacker Manifesto. :-)
 
 ##### start-red-team.sh
->    I found this script somewhere it starts Armitage Teamserver.
+>    I found this script on BT forums it starts Armitage Teamserver.
 
 [1]: http://bl4ck5w4n.tk/?p=44 "Bl4ck5w4n's BT5 update script"
 [2]: http://phillips321.googlecode.com "phillips321's pentest scripts"
