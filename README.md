@@ -66,18 +66,19 @@ Here is each script and a short description:
 >    nessus and nmap scripts from pentestgeek[⁹][9], and jigsaw[¹⁰][10],
 >    Martin Bosslet's hash-flooding DoS tool schadcode[¹¹][11],
 >    lnxg33k's webhandler[¹²][12], Mallory MitM proxy[¹³][13],
->    and the "tool for network enumeration and domination," Omphalos[¹⁴][14]
+>    the "tool for network enumeration and domination" Omphalos[¹⁴][14],
+>    a few tools for pentesting SCADA ICS[¹⁵][15], and Recon-ng[¹⁶][16].
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
 >    and Privoxy and installs torsocks for the **usewithtor** command
 
 ##### get-wordlists.sh
->    This script gets reusable.py[¹⁵][15] for people who use the same
->    pass for different sites, TAPE's wordlist-manipulator[¹⁶][16],
+>    This script gets reusable.py[¹⁷][17] for people who use the same
+>    pass for different sites, TAPE's wordlist-manipulator[¹⁸][18],
 >    grabs couple good wordlists and then checks out the
->    SVN repository for InfoSec Daily's wordlists[¹⁷][17]
->    while wgetting every wordlist from SkullSecurity.org[¹⁸][18]
+>    SVN repository for InfoSec Daily's wordlists[¹⁹][19]
+>    while wgetting every wordlist from SkullSecurity.org[²⁰][20]
 >    -- this is massive, and will *not* fit on your HDD
 >    without a dedicated BackTrack install (uncomment first)
 
@@ -101,10 +102,12 @@ Here is each script and a short description:
 [12]: https://github.com/lnxg33k/webhandler "lnxg33k's webhandler"
 [13]: http://intrepidusgroup.com/insight/mallory/ "Mallory Man-in-the-Middle Proxy"
 [14]: http://dank.qemfd.net/dankwiki/index.php/Omphalos "Omphalos"
-[15]: https://dazzlepod.com/reusable/ "reusable.py"
-[16]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
-[17]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
-[18]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
+[15]: http://blog.ptsecurity.com/2013/01/ics-security-analysis-new-pentest-tools.html "SCADA tools"
+[16]: https://bitbucket.org/LaNMaSteR53/recon-ng "Recon-ng"
+[17]: https://dazzlepod.com/reusable/ "reusable.py"
+[18]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
+[19]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
+[20]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
 
 More information about me:  
 http://turing.slu.edu/~hastint
