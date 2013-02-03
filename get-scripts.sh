@@ -45,6 +45,9 @@ cd scada
 echo -e "Getting \e[33mSCADA\e[0m tools:"
 echo -e "1.) \e[33mPLCscan\e[0m..."
 svn checkout http://plcscan.googlecode.com/svn/trunk/ plcscan
+cd plcscan
+chmod +x *.py
+cd ..
 echo -e "2.) \e[33mWinCC harvester\e[0m..."
 git clone git://github.com/nxnrt/wincc_harvester.git
 cd wincc_harvester
