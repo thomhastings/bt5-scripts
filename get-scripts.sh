@@ -6,6 +6,9 @@ echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
 echo
+echo -e "Cloning \e[33mRecon-ng\e[0m..."
+git clone https://bitbucket.org/LaNMaSteR53/recon-ng.git
+echo
 echo -e "Cloning \e[33mmallory\e[0m..."
 hg clone https://bitbucket.org/IntrepidusGroup/mallory
 echo
