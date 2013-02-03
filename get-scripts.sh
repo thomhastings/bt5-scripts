@@ -35,6 +35,19 @@ wget http://blog.gentilkiwi.com/downloads/mimikatz_trunk.7z
 echo "Decompressing..."
 p7zip -d mimikatz_trunk.7z
 cd ..
+echo # ref: http://blog.ptsecurity.com/2013/01/ics-security-analysis-new-pentest-tools.html
+mkdir scada
+cd scada
+echo -e "Getting \e[33mSCADA\e[0m tools..."
+echo -e "\e[33mPLCscan\e[0m..."
+svn checkout http://plcscan.googlecode.com/svn/trunk/ plcscan
+echo -e "\e[33mWinCC harvester\e[0m..."
+git clone git://github.com/nxnrt/wincc_harvester.git
+echo -e "\e[33ms7-brute-offline.py\e[0m..."
+wget http://pastebin.com/raw.php?i=0G9Q2k6y
+mv raw.php\?i\=0G9Q2k6y s7-brute-offline.py
+chmod +x s7-brute-offline.py
+cd ..
 echo
 echo -e "Getting \e[33mPenTBox\e[0m..."
 svn checkout https://pentbox.svn.sourceforge.net/svnroot/pentbox/trunk pentbox
