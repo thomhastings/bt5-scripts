@@ -2,15 +2,18 @@
 echo "Get my Favourite Scripts"
 echo -e "\e[37m(c) Thom Hastings 2012-2013 New BSD license\e[0m"
 echo
+echo -e "Installing prerequisite (\e[33mmercurial\e[0m)..."
+apt-get install mercurial -y
+echo
 echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
 cd /pentest/scripts
 echo
-echo -e "Cloning \e[33mRecon-ng\e[0m..."
-git clone https://bitbucket.org/LaNMaSteR53/recon-ng.git
-echo
 echo -e "Cloning \e[33mmallory\e[0m..."
 hg clone https://bitbucket.org/IntrepidusGroup/mallory
+echo
+echo -e "Cloning \e[33mRecon-ng\e[0m..."
+git clone https://bitbucket.org/LaNMaSteR53/recon-ng.git
 echo
 echo -e "Cloning \e[33momphalos\e[0m..."
 git clone git://github.com/dankamongmen/omphalos.git
@@ -35,15 +38,20 @@ wget http://blog.gentilkiwi.com/downloads/mimikatz_trunk.7z
 echo "Decompressing..."
 p7zip -d mimikatz_trunk.7z
 cd ..
-echo # ref: http://blog.ptsecurity.com/2013/01/ics-security-analysis-new-pentest-tools.html
+echo
+echo -e "Creating directory for \e[33mSCADA\e[0m tools..."
 mkdir scada
 cd scada
-echo -e "Getting \e[33mSCADA\e[0m tools..."
-echo -e "\e[33mPLCscan\e[0m..."
+echo -e "Getting \e[33mSCADA\e[0m tools:"
+echo -e "1.) \e[33mPLCscan\e[0m..."
 svn checkout http://plcscan.googlecode.com/svn/trunk/ plcscan
-echo -e "\e[33mWinCC harvester\e[0m..."
+echo -e "2.) \e[33mWinCC harvester\e[0m..."
 git clone git://github.com/nxnrt/wincc_harvester.git
-echo -e "\e[33ms7-brute-offline.py\e[0m..."
+cd wincc_harvester
+echo "Installing metasploit module..."
+cp wincc_harvester.rb /opt/metasploit/msf3/modules/auxiliary/admin/scada/
+cd ..
+echo -e "3.) \e[33ms7-brute-offline.py\e[0m..."
 wget http://pastebin.com/raw.php?i=0G9Q2k6y
 mv raw.php\?i\=0G9Q2k6y s7-brute-offline.py
 chmod +x s7-brute-offline.py
