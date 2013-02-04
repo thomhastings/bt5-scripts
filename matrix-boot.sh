@@ -1,5 +1,5 @@
 #!/bin/sh
-echo -e "Set Matrix 'Theme' (\e[33mGRUB\e[0m, \e[33mBootsplash\e[0m, \e[33mPlymouth\e[0m & \e[33mWallpaper\e[0m) script"
+echo -e "Set \e[32mMatrix\e[0m 'Theme' (\e[33mGRUB\e[0m, \e[33mBootsplash\e[0m, \e[33mPlymouth\e[0m & \e[33mWallpaper\e[0m) script"
 echo "(c) Thom Hastings 2013 New BSD license"
 echo -e "Original author: \e[37mg0tmi1k\e[0m"
 echo
@@ -61,9 +61,6 @@ if [ ! -e /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg.bk
 sed -i 's/^jpeg=.*/jpeg=\/opt\/bootsplash\/themes\/matrix-splash\/images\/bootsplash-1024x768.jpg/' /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg
 sed -i 's/^silentjpeg=.*/silentjpeg=\/opt\/bootsplash\/themes\/matrix-splash\/images\/silent-1024x768.jpg/' /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg
 /usr/local/src/bootsplash-*/Utilities/splash -s -f /opt/bootsplash/themes/matrix-splash/config/bootsplash-1024x768.cfg > /opt/bootsplash/bootsplash
-
-#echo -e "Running \e[33mfix-splash\e[0m..."
-#fix-splash
 
 echo "Cleaning up..."
 #rm -rf /usr/local/src/{bootsplash-3.1/,bootsplash-3.1.tar.bz2}
