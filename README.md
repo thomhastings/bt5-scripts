@@ -68,7 +68,7 @@ Here is each script and a short description:
 >    pentestgeek's jigsaw[¹²][12], nessus and nmap scripts[¹³][13],
 >    Joshua Begleiter's directory traversing cgi-scanner.py[¹⁴][14],
 >    the "tool for network enumeration and domination" Omphalos[¹⁵][15],
->    a few tools for pentesting SCADA ICS[¹⁶][16], and Recon-ng[¹⁷][17].
+>    a few tools for pentesting SCADA ICS[¹⁶][16], and Recon-ng[¹⁷][17]
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
