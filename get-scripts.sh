@@ -92,6 +92,10 @@ echo -e "\e[33mjigsaw\e[0m..."
 git clone git://github.com/pentestgeek/jigsaw.git
 cd ..
 echo
+echo -e "Getting \e[33mJosh Begleiter\e[0m's cgi-scanner.py:"
+wget http://josh.myhugesite.com/static/docs/cgi-scanner.py
+chmod +x cgi-scanner.py
+echo
 echo -e "Getting \e[33mAlexander Hanel\e[0m's extflow.py:"
 wget http://codepad.org/BYdtDf9c/raw.py
 mv raw.py extflow.py
