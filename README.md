@@ -38,7 +38,7 @@ Here is each script and a short description:
 >    then adds the BackTrack 5 repositories to your
 >    **/etc/apt/sources.list** for non-BT distributions.
 >    **WARNING: According to Offensive-Security, this can
->    BREAK your non-BackTrack install. BE FOREWARNED.**
+>    BREAK your non-BackTrack install. BE FOREWARNED**
 
 ##### get-chrome.sh
 >    This script downloads and installs a .deb for
