@@ -61,24 +61,25 @@ Here is each script and a short description:
 >    well as phillips321's set of pentest scripts[²][2],
 >    Snafu's pentest, wireless, & ISO master ones[³][3],
 >    Alexander Hanel's extflow.py for analyzing TCP[⁴][4],
->    the PenTBox tool[⁵][5], Gentil Kiwi's mimikatz[⁶][6], 
+>    the PenTBox tool[⁵][5], Gentil Kiwi's mimikatz[⁶][6],
 >    scripts from g0tmi1k[⁷][7] including fakeap-pwn[⁸][8],
->    nessus and nmap scripts from pentestgeek[⁹][9], and jigsaw[¹⁰][10],
+>    lnxg33k's webhandler[⁹][9], Mallory MitM proxy[¹⁰][10],
 >    Martin Bosslet's hash-flooding DoS tool schadcode[¹¹][11],
->    lnxg33k's webhandler[¹²][12], Mallory MitM proxy[¹³][13],
->    the "tool for network enumeration and domination" Omphalos[¹⁴][14],
->    a few tools for pentesting SCADA ICS[¹⁵][15], and Recon-ng[¹⁶][16].
+>    pentestgeek's jigsaw[¹²][12], nessus and nmap scripts[¹³][13],
+>    Joshua Begleiter's directory traversing cgi-scanner.py[¹⁴][14],
+>    the "tool for network enumeration and domination" Omphalos[¹⁵][15],
+>    a few tools for pentesting SCADA ICS[¹⁶][16], and Recon-ng[¹⁷][17].
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
 >    and Privoxy and installs torsocks for the **usewithtor** command
 
 ##### get-wordlists.sh
->    This script gets reusable.py[¹⁷][17] for people who use the same
->    pass for different sites, TAPE's wordlist-manipulator[¹⁸][18],
+>    This script gets reusable.py[¹⁸][18] for people who use the same
+>    pass for different sites, TAPE's wordlist-manipulator[¹⁹][19],
 >    grabs couple good wordlists and then checks out the
->    SVN repository for InfoSec Daily's wordlists[¹⁹][19]
->    while wgetting every wordlist from SkullSecurity.org[²⁰][20]
+>    SVN repository for InfoSec Daily's wordlists[²⁰][20]
+>    while wgetting every wordlist from SkullSecurity.org[²¹][21]
 >    **WARNING: This is massive, and will _not_ fit on your HDD
 >    without a dedicated BackTrack install!**
 
@@ -97,18 +98,19 @@ Here is each script and a short description:
 [6]: http://blog.gentilkiwi.com/mimikatz "Gentil Kiwi's Mimikatz"
 [7]: http://code.google.com/p/g0tmi1k "g0tmi1k's scripts"
 [8]: http://code.google.com/p/fakeap-pwn "g0tmi1k's fakeap-pwn"
-[9]: https://github.com/pentestgeek/scripts "pentestgeek nessus and nmap scripts"
-[10]: https://github.com/pentestgeek/jigsaw "pentestgeek jigsaw"
+[9]: https://github.com/lnxg33k/webhandler "lnxg33k's webhandler"
+[10]: http://intrepidusgroup.com/insight/mallory/ "Mallory Man-in-the-Middle Proxy"
 [11]: http://emboss.github.com/blog/2012/12/14/breaking-murmur-hash-flooding-dos-reloaded/ "schadcode"
-[12]: https://github.com/lnxg33k/webhandler "lnxg33k's webhandler"
-[13]: http://intrepidusgroup.com/insight/mallory/ "Mallory Man-in-the-Middle Proxy"
-[14]: http://dank.qemfd.net/dankwiki/index.php/Omphalos "Omphalos"
-[15]: http://blog.ptsecurity.com/2013/01/ics-security-analysis-new-pentest-tools.html "SCADA tools"
-[16]: https://bitbucket.org/LaNMaSteR53/recon-ng "Recon-ng"
-[17]: https://dazzlepod.com/reusable/ "reusable.py"
-[18]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
-[19]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
-[20]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
+[12]: https://github.com/pentestgeek/jigsaw "pentestgeek jigsaw"
+[13]: https://github.com/pentestgeek/scripts "pentestgeek nessus and nmap scripts"
+[14]: http://josh.myhugesite.com/blog/18#blog "cgi-scanner.py blog post"
+[15]: http://dank.qemfd.net/dankwiki/index.php/Omphalos "Omphalos"
+[16]: http://blog.ptsecurity.com/2013/01/ics-security-analysis-new-pentest-tools.html "SCADA tools"
+[17]: https://bitbucket.org/LaNMaSteR53/recon-ng "Recon-ng"
+[18]: https://dazzlepod.com/reusable/ "reusable.py"
+[19]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
+[20]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
+[21]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
 
 More information about me:  
 http://turing.slu.edu/~hastint
