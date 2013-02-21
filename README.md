@@ -87,7 +87,7 @@ Here is each script and a short description:
 
 ##### matrix-boot.sh
 >    This script does customizations of GRUB and BootSplash
->    and sets your wallpaper to The Hacker Manifesto. :-)
+>    and sets your wallpaper to the (Hacker Manifesto)[http://www.mithral.com/~beberg/manifesto.html]. :-)
 
 ##### start-red-team.sh
 >    I found this script on BT forums it starts Armitage Teamserver.
