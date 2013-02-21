@@ -18,6 +18,9 @@ echo
 echo -e "Cloning \e[33momphalos\e[0m..."
 git clone git://github.com/dankamongmen/omphalos.git
 echo
+echo -e "Cloning \e[33mOffensive (Web) Testing Framework\e[0m..."
+git clone git://github.com/7a/owtf.git
+echo
 echo -e "Cloning \e[33mschadcode\e[0m..."
 git clone git://github.com/emboss/schadcode.git
 echo
