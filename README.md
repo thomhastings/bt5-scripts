@@ -60,26 +60,28 @@ Here is each script and a short description:
 >    Bl4ck5w4n's BT5r3-compatible update script[¹][1] as
 >    well as phillips321's set of pentest scripts[²][2],
 >    Snafu's pentest, wireless, & ISO master ones[³][3],
->    Alexander Hanel's extflow.py for analyzing TCP[⁴][4],
->    the PenTBox tool[⁵][5], Gentil Kiwi's mimikatz[⁶][6],
->    scripts from g0tmi1k[⁷][7] including fakeap-pwn[⁸][8],
->    lnxg33k's webhandler[⁹][9], Mallory MitM proxy[¹⁰][10],
->    Martin Bosslet's hash-flooding DoS tool schadcode[¹¹][11],
->    pentestgeek's jigsaw[¹²][12], nessus and nmap scripts[¹³][13],
->    Joshua Begleiter's directory traversing cgi-scanner.py[¹⁴][14],
->    the "tool for network enumeration and domination" Omphalos[¹⁵][15],
->    a few tools for pentesting SCADA ICS[¹⁶][16], and Recon-ng[¹⁷][17]
+>    DotDotPwn directory traversal fuzzer[⁴][4],
+>    OWASP's Offensive (Web) Testing Framework[⁵][5],
+>    Alexander Hanel's extflow.py for analyzing TCP[⁶][6],
+>    the PenTBox tool[⁷][7], Gentil Kiwi's mimikatz[⁸][8],
+>    scripts from g0tmi1k[⁹][9] including fakeap-pwn[¹⁰][10],
+>    lnxg33k's webhandler[¹¹][11], Mallory MitM proxy[¹²][12],
+>    Martin Bosslet's hash-flooding DoS tool schadcode[¹³][13],
+>    pentestgeek's jigsaw[¹⁴][14], nessus and nmap scripts[¹⁵][15],
+>    Joshua Begleiter's directory traversing cgi-scanner.py[¹⁶][16],
+>    the "tool for network enumeration and domination" Omphalos[¹⁷][17],
+>    a few tools for pentesting SCADA ICS[¹⁸][18], and Recon-ng[¹⁹][19]
 
 ##### get-tor.sh
 >    This script installs and configures both [Tor](http://torproject.org)
 >    and Privoxy and installs torsocks for the **usewithtor** command
 
 ##### get-wordlists.sh
->    This script gets reusable.py[¹⁸][18] for people who use the same
->    pass for different sites, TAPE's wordlist-manipulator[¹⁹][19],
+>    This script gets reusable.py[²⁰][20] for people who use the same
+>    pass for different sites, TAPE's wordlist-manipulator[²¹][21],
 >    grabs couple good wordlists and then checks out the
->    SVN repository for InfoSec Daily's wordlists[²⁰][20]
->    while wgetting every wordlist from SkullSecurity.org[²¹][21]
+>    SVN repository for InfoSec Daily's wordlists[²²][22]
+>    while wgetting every wordlist from SkullSecurity.org[²³][23]
 >    **WARNING: This is massive, and will _not_ fit on your HDD
 >    without a dedicated BackTrack install!**
 
@@ -93,24 +95,26 @@ Here is each script and a short description:
 [1]: http://bl4ck5w4n.tk/?p=44 "Bl4ck5w4n's BT5 update script"
 [2]: http://phillips321.googlecode.com "phillips321's pentest scripts"
 [3]: http://configitnow.com/snippets "Snafu's scripts"
-[4]: http://hooked-on-mnemonics.blogspot.jp/2012/04/extflowpy-hack-for-carving-files-from.html "extflow.py blog post"
-[5]: http://www.pentbox.net "PenTBox"
-[6]: http://blog.gentilkiwi.com/mimikatz "Gentil Kiwi's Mimikatz"
-[7]: http://code.google.com/p/g0tmi1k "g0tmi1k's scripts"
-[8]: http://code.google.com/p/fakeap-pwn "g0tmi1k's fakeap-pwn"
-[9]: https://github.com/lnxg33k/webhandler "lnxg33k's webhandler"
-[10]: http://intrepidusgroup.com/insight/mallory/ "Mallory Man-in-the-Middle Proxy"
-[11]: http://emboss.github.com/blog/2012/12/14/breaking-murmur-hash-flooding-dos-reloaded/ "schadcode"
-[12]: https://github.com/pentestgeek/jigsaw "pentestgeek jigsaw"
-[13]: https://github.com/pentestgeek/scripts "pentestgeek nessus and nmap scripts"
-[14]: http://josh.myhugesite.com/blog/18#blog "cgi-scanner.py blog post"
-[15]: http://dank.qemfd.net/dankwiki/index.php/Omphalos "Omphalos"
-[16]: http://blog.ptsecurity.com/2013/01/ics-security-analysis-new-pentest-tools.html "SCADA tools"
-[17]: https://bitbucket.org/LaNMaSteR53/recon-ng "Recon-ng"
-[18]: https://dazzlepod.com/reusable/ "reusable.py"
-[19]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
-[20]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
-[21]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
+[4]: http://dotdotpwn.blogspot.com "DotDotPwn Directory Traversal Fuzzer"
+[5]: https://www.owasp.org/index.php/OWASP_OWTF "OWASP OWTF"
+[6]: http://hooked-on-mnemonics.blogspot.jp/2012/04/extflowpy-hack-for-carving-files-from.html "extflow.py blog post"
+[7]: http://www.pentbox.net "PenTBox"
+[8]: http://blog.gentilkiwi.com/mimikatz "Gentil Kiwi's Mimikatz"
+[9]: http://code.google.com/p/g0tmi1k "g0tmi1k's scripts"
+[10]: http://code.google.com/p/fakeap-pwn "g0tmi1k's fakeap-pwn"
+[11]: https://github.com/lnxg33k/webhandler "lnxg33k's webhandler"
+[12]: http://intrepidusgroup.com/insight/mallory/ "Mallory Man-in-the-Middle Proxy"
+[13]: http://emboss.github.com/blog/2012/12/14/breaking-murmur-hash-flooding-dos-reloaded/ "schadcode"
+[14]: https://github.com/pentestgeek/jigsaw "pentestgeek jigsaw"
+[15]: https://github.com/pentestgeek/scripts "pentestgeek nessus and nmap scripts"
+[16]: http://josh.myhugesite.com/blog/18#blog "cgi-scanner.py blog post"
+[17]: http://dank.qemfd.net/dankwiki/index.php/Omphalos "Omphalos"
+[18]: http://blog.ptsecurity.com/2013/01/ics-security-analysis-new-pentest-tools.html "SCADA tools"
+[19]: https://bitbucket.org/LaNMaSteR53/recon-ng "Recon-ng"
+[20]: https://dazzlepod.com/reusable/ "reusable.py"
+[21]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
+[22]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
+[23]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
 
 More information about me:  
 http://turing.slu.edu/~hastint
