@@ -18,7 +18,7 @@ echo
 echo -e "Cloning \e[33mRecon-ng\e[0m..."
 git clone https://bitbucket.org/LaNMaSteR53/recon-ng.git
 echo
-echo -e "Cloning \e[33mOffensive (Web) Testing Framework\e[0m..."
+echo -e "Cloning \e[33mOWTF\e[0m..."
 git clone git://github.com/7a/owtf.git
 echo
 echo -e "Cloning \e[33momphalos\e[0m..."
