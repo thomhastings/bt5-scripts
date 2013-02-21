@@ -25,8 +25,8 @@ echo
 echo -e "Getting \e[36mDropbox\e[0m..."
 sh get-dropbox.sh
 echo
-echo -e "Getting \e[34mG\e[31mo\e[33mo\e[34mg\e[32ml\e[31me\e[37m Chrome\e[0m..."
-sh get-chrome.sh
+echo "Getting SRware Iron..."
+sh get-iron.sh
 echo
 echo -e "Getting \e[32mAudacious\e[0m..."
 sh get-audacious.sh

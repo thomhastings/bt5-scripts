@@ -40,11 +40,11 @@ Here is each script and a short description:
 >    **WARNING: According to Offensive-Security, this can
 >    BREAK your non-BackTrack install. BE FOREWARNED**
 
-##### get-chrome.sh
+##### get-iron.sh
 >    This script downloads and installs a .deb for
->    Google's Chrome browser. I am still trying to
->    include in the script modifying the binary so
->    that Google Chrome can be run as root. :-(
+>    [SRware Iron](http://www.srware.net/en/software_srware_iron.php)
+>    browser. I am still trying to include in the script modifying
+>    the binary so that it can be run as root. :-(
 
 ##### get-dropbox.sh
 >    This script downloads and begins the first run
