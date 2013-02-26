@@ -16,7 +16,7 @@ Here is each script and a short description:
 >    **./get-tor.sh**  
 >    **./get-figlet.sh**  
 >    **./get-dropbox.sh**  
->    **./get-chrome.sh**  
+>    **./get-iron.sh**  
 >    **./get-audacious.sh**  
 >    downloads a handful of wallpapers, runs  
 >    **./matrix-boot.sh**  
