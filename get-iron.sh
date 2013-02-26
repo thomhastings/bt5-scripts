@@ -11,7 +11,7 @@ if [ ${MACHINE_TYPE} == 'x86_64' ]; then
   URL="http://www.srware.net/downloads/iron64.deb"
 else
   echo "Downloading 32-bit..."
-  URL="http://www.srware.net/downloads/iron64.deb"
+  URL="http://www.srware.net/downloads/iron.deb"
 fi
 FILE="iron.deb"
 wget "$URL" -qO $FILE && echo "Installing..." && sudo dpkg -i $FILE
