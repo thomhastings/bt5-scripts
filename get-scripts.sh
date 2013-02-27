@@ -17,6 +17,9 @@ git clone git://github.com/wireghoul/dotdotpwn.git
 echo
 echo -e "Cloning \e[33mLORCON\e[0m..."
 git clone https://code.google.com/p/lorcon
+cd lorcon
+git clone git://github.com/tom5760/pylorcon2.git
+cd ..
 echo
 echo -e "Cloning \e[33mOWTF\e[0m..."
 git clone git://github.com/7a/owtf.git
