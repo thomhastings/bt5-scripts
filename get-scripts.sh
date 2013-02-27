@@ -15,14 +15,17 @@ echo
 echo -e "Cloning \e[33mDotDotPwn\e[0m..."
 git clone git://github.com/wireghoul/dotdotpwn.git
 echo
-echo -e "Cloning \e[33mRecon-ng\e[0m..."
-git clone https://bitbucket.org/LaNMaSteR53/recon-ng.git
+echo -e "Cloning \e[33mLORCON\e[0m..."
+git clone https://code.google.com/p/lorcon
 echo
 echo -e "Cloning \e[33mOWTF\e[0m..."
 git clone git://github.com/7a/owtf.git
 echo
 echo -e "Cloning \e[33momphalos\e[0m..."
 git clone git://github.com/dankamongmen/omphalos.git
+echo
+echo -e "Cloning \e[33mRecon-ng\e[0m..."
+git clone https://bitbucket.org/LaNMaSteR53/recon-ng.git
 echo
 echo -e "Cloning \e[33mschadcode\e[0m..."
 git clone git://github.com/emboss/schadcode.git
