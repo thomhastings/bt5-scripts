@@ -14,7 +14,7 @@ else
   URL="http://www.srware.net/downloads/iron.deb"
 fi
 FILE="iron-installer.deb"
-wget "$URL" -qO $FILE && echo "Installing..." && sudo dpkg -i $FILE
+wget "$URL" -O $FILE && echo "Installing..." && sudo dpkg -i $FILE
 echo "Cleaning up..."
 rm $FILE
 echo
