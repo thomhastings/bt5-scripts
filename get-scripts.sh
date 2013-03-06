@@ -44,18 +44,18 @@ echo -e "Creating directory for \e[33mSCADA\e[0m tools..."
 mkdir scada
 cd scada
 echo -e "Getting \e[33mSCADA\e[0m tools:"
-echo -e "1.) \e[33mPLCscan\e[0m..."
+echo -e "1.) PLCscan"
 svn checkout http://plcscan.googlecode.com/svn/trunk/ plcscan
 cd plcscan
 chmod +x *.py
 cd ..
-echo -e "2.) \e[33mWinCC harvester\e[0m..."
+echo -e "2.) WinCC harvester"
 git clone git://github.com/nxnrt/wincc_harvester.git
 cd wincc_harvester
-echo "Installing metasploit module..."
+echo "Installing metasploit module"
 cp wincc_harvester.rb /opt/metasploit/msf3/modules/auxiliary/admin/scada/
 cd ..
-echo -e "3.) \e[33ms7-brute-offline.py\e[0m..."
+echo -e "3.) s7-brute-offline.py"
 wget http://pastebin.com/raw.php?i=0G9Q2k6y
 mv raw.php\?i\=0G9Q2k6y s7-brute-offline.py
 chmod +x s7-brute-offline.py
@@ -120,6 +120,11 @@ chmod +x extflow.py
 #cd ..
 #echo "Cleaning up..."
 #rm -rf artillery
+mkdir xerxes
+cd xerxes
+wget http://pastebin.com/raw.php?i=MLFs5m1K
+mv raw.php\?i\=MLFs5m1K xerxes.c
+gcc xerxes.c -o xerxes
 cd ..
 echo
 echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
