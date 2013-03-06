@@ -40,15 +40,6 @@ echo "Installing..."
 python setup.py install
 cd ..
 echo
-echo -e "Getting \e[33mmimikatz\e[0m..."
-mkdir mimikatz
-cd mimikatz
-echo "Downloading..."
-wget http://blog.gentilkiwi.com/downloads/mimikatz_trunk.7z
-echo "Decompressing..."
-p7zip -d mimikatz_trunk.7z
-cd ..
-echo
 echo -e "Creating directory for \e[33mSCADA\e[0m tools..."
 mkdir scada
 cd scada
