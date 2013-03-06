@@ -1,6 +1,6 @@
 #!/bin/sh
-echo "Get BT5 Repositories Script"
-echo "(c) Thom Hastings 2012 New BSD License"
+echo "Get BT5 Repositories script"
+echo "(c) Thom Hastings 2012-2013 New BSD License"
 echo
 echo "Getting GPG key..."
 wget http://all.repository.backtrack-linux.org/backtrack.gpg -O- | sudo apt-key add -

@@ -1,6 +1,6 @@
 #!/bin/sh
 echo -e "\e[31mBack|Track 5r3\e[0m Post-Install Script"
-echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
+echo -e "\e[37m(c) Thom Hastings 2012-2013 New BSD license\e[0m"
 SCRIPTPATH=`pwd`
 echo
 echo "Deleting that pesky install icon..."
@@ -26,7 +26,7 @@ echo -e "Getting \e[36mDropbox\e[0m..."
 sh get-dropbox.sh
 echo
 echo "Getting SRware Iron..."
-sh get-iron.sh
+sh get-iron-browser.sh
 echo
 echo -e "Getting \e[32mAudacious\e[0m..."
 sh get-audacious.sh

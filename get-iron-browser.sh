@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Get SRware Iron script"
+echo "Get SRware Iron Browser script"
 echo "(c) Thom Hastings 2013 New BSD license"
 echo
 echo "Downloading & installing SRware Iron..."

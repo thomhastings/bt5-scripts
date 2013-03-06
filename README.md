@@ -40,7 +40,7 @@ Here is each script and a short description:
 >    **WARNING: According to Offensive-Security, this can
 >    BREAK your non-BackTrack install. BE FOREWARNED**
 
-##### get-iron.sh
+##### get-iron-browser.sh
 >    This script downloads and installs a .deb for
 >    [SRware Iron](http://www.srware.net/en/software_srware_iron.php)
 >    browser. I am still trying to include in the script modifying
