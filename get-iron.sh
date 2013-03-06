@@ -6,7 +6,8 @@ echo "Downloading & installing SRware Iron..."
 cd ~
 MACHINE_TYPE=`uname -m`
 echo -e "Machine type is \e[37m$MACHINE_TYPE\e[0m"
-if [ ${MACHINE_TYPE} == 'x86_64' ]; then
+if [ ${MACHINE_TYPE} = 'x86_64' ]
+then
   echo "Downloading 64-bit..."
   URL="http://www.srware.net/downloads/iron64.deb"
 else
