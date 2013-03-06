@@ -75,6 +75,9 @@ svn checkout https://pentbox.svn.sourceforge.net/svnroot/pentbox/trunk pentbox
 echo
 echo -e "Getting \e[33mphillips321\e[0m's scripts..."
 svn checkout http://phillips321.googlecode.com/svn/trunk phillips321
+cd phillips321
+svn checkout http://bt5-fixit.googlecode.com/svn/trunk/ bt5
+cd ..
 echo
 echo -e "Getting \e[33mg0tmi1k\e[0m's scripts..."
 svn checkout http://g0tmi1k.googlecode.com/svn/trunk g0tmi1k
