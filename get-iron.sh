@@ -13,7 +13,7 @@ else
   echo "Downloading 32-bit..."
   URL="http://www.srware.net/downloads/iron.deb"
 fi
-FILE="iron.deb"
+FILE="iron-installer.deb"
 wget "$URL" -qO $FILE && echo "Installing..." && sudo dpkg -i $FILE
 echo "Cleaning up..."
 rm $FILE
