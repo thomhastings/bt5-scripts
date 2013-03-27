@@ -19,14 +19,14 @@ echo
 echo -e "Getting \e[32mTor\e[0m..."
 sh get-tor.sh
 echo
+echo "Getting SRware Iron..."
+sh get-iron-browser.sh
+echo
 echo -e "Getting \e[33mFiglet\e[0m..."
 sh get-figlet.sh
 echo
 echo -e "Getting \e[36mDropbox\e[0m..."
 sh get-dropbox.sh
-echo
-echo "Getting SRware Iron..."
-sh get-iron-browser.sh
 echo
 echo -e "Getting \e[32mAudacious\e[0m..."
 sh get-audacious.sh
