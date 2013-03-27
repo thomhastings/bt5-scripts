@@ -79,7 +79,7 @@ Here is each script and a short description:
 ##### get-wordlists.sh
 >    This script gets reusable.py[²⁰][20] for people who use the same
 >    pass for different sites, TAPE's wordlist-manipulator[²¹][21],
->    grabs couple good wordlists and then checks out the
+>    grabs couple of good wordlists and then checks out the
 >    SVN repository for InfoSec Daily's wordlists[²²][22]
 >    while wgetting every wordlist from SkullSecurity.org[²³][23]
 >    **WARNING: This is massive, and will _not_ fit on your HDD
@@ -97,7 +97,7 @@ Here is each script and a short description:
 [3]: http://configitnow.com/snippets "Snafu's scripts"
 [4]: http://dotdotpwn.blogspot.com "DotDotPwn Directory Traversal Fuzzer"
 [5]: https://www.owasp.org/index.php/OWASP_OWTF "OWASP OWTF"
-[6]: http://hooked-on-mnemonics.blogspot.jp/2012/04/extflowpy-hack-for-carving-files-from.html "extflow.py blog post"
+[6]: http://hooked-on-mnemonics.blogspot.com/2012/10/extflowpy-version-2.html "extflow.py blog post"
 [7]: http://www.pentbox.net "PenTBox"
 [8]: http://blog.gentilkiwi.com/mimikatz "Gentil Kiwi's Mimikatz"
 [9]: http://code.google.com/p/g0tmi1k "g0tmi1k's scripts"
