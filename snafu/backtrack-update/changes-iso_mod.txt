@@ -1,0 +1,32 @@
+Current Version: 1.1
+
+Changes:
+#1.1
+- The script has now been geared more towards all distros of Linux.  It is in the beta testing phase awaiting input from other users as to the scripts success
+
+#1.0
+- Changed text to show that it works with Back|Track 5 r1 and r2
+
+- Modifed created iso mod name, as this may work for other o/s other than bt.  Will be testing this on multiple Operating Systems in the near future
+
+#0.8
+- Removed the external update feature
+- Sanitization of variables
+
+#0.6
+- Moved placement of variable declaration for $current_ver to the proper place.  Prior to this it did not update properly due to incorrect placement of $current_ver
+
+- Reversal of changes on changes-iso_mod.txt to make reading go from top to bottom vs. the latter.
+
+#0.5
+- Implemented full syntax sanitization via tweaked getopts 
+
+#0.3
+- Added update option for script
+
+#0.1
+- Initial Beta Release
+
+
+
+
