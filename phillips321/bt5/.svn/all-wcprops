@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/58/trunk
+END
+bt5r2gnome32.sh
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/56/trunk/bt5r2gnome32.sh
+END
+bt5r3gnome32.sh
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/57/trunk/bt5r3gnome32.sh
+END
+bt5-fixit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/58/trunk/bt5-fixit.sh
+END
+nix-auditor.sh
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/31/trunk/nix-auditor.sh
+END
+bt5-nmap.sh
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/40/trunk/bt5-nmap.sh
+END
+bt5-nfsenum.sh
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/31/trunk/bt5-nfsenum.sh
+END
