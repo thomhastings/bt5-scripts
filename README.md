@@ -1,3 +1,7 @@
+"""
+http://turing.slu.edu/~hastint/AttackVector.htm
+"""
+
 bt5-scripts
 ===========
 
