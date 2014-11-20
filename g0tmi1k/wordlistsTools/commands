@@ -1,0 +1,28 @@
+# Combines 1, 2, and 3 into one file.
+cat 1.txt 2.txt 3.txt > aio.txt
+
+
+# Combines all files in the current directory into one file
+cat * > aio.txt
+
+
+# Updates a file with a new one
+cat new_wordlist.txt >> wordlist.txt
+
+
+# Combines everything, sorts (Alphabetize) and remove the duplicates
+cat * | sort | uniq > aio.txt
+
+
+# Sorts (Alphabetize) and remove the duplicates
+cat wordlist.txt | sort | uniq  > new_wordlist.txt
+
+
+# Combines everything and sorts (Duplicates at the top in frequency duplicated, alphabetize)
+cat * | sort | uniq -d -c | sort -r | sed -e 's/^ *//' | sed -E 's/^[0-9]+ // > /tmp/dups.txt
+cat * | sort | uniq -u >> /tmp/dups.txt
+mv /tmp/dups.txt "$(pwd)/aio".txt
+
+
+# Makes WPA/WPA2 compatiable by deleting words "less than 8 chars" and "more than 63"
+cat wordlist.txt | pw-inspector -m 8 -M 63 > wpa_wordlist.txt

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/42/trunk
+END
+quickset.sh
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/42/trunk/quickset.sh
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/41/trunk/changes.txt
+END

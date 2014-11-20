@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svnroot/pentbox/!svn/ver/30/trunk
+END
+COPYING.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/pentbox/!svn/ver/1/trunk/COPYING.txt
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/pentbox/!svn/ver/27/trunk/readme.txt
+END
+pentbox.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/pentbox/!svn/ver/28/trunk/pentbox.rb
+END
+todo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/pentbox/!svn/ver/27/trunk/todo.txt
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/pentbox/!svn/ver/27/trunk/changelog.txt
+END
+pb_update.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/pentbox/!svn/ver/10/trunk/pb_update.rb
+END

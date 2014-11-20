@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/55/trunk/onesixtyone-0.8
+END
+onesixtyone_x64
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/28/trunk/onesixtyone-0.8/onesixtyone_x64
+END
+onesixtyone.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/23/trunk/onesixtyone-0.8/onesixtyone.c
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/23/trunk/onesixtyone-0.8/INSTALL
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/23/trunk/onesixtyone-0.8/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/23/trunk/onesixtyone-0.8/COPYING
+END
+onesixtyone_x86
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/28/trunk/onesixtyone-0.8/onesixtyone_x86
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/23/trunk/onesixtyone-0.8/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/23/trunk/onesixtyone-0.8/Makefile
+END
+output.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/23/trunk/onesixtyone-0.8/output.txt
+END
+dict.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/55/trunk/onesixtyone-0.8/dict.txt
+END

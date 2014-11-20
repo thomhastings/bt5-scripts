@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 56
+wkv-x86.exe
+wkv-x64.exe
+winvnc.exe
+vnchooks.dll
+sbd.exe
+
+END

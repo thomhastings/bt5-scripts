@@ -1,6 +1,6 @@
 #!/bin/sh
 echo -e "\e[31mBack|Track 5r3\e[0m Post-Install Script"
-echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
+echo -e "\e[37m(c) Thom Hastings 2012-2013 New BSD license\e[0m"
 SCRIPTPATH=`pwd`
 echo
 echo "Deleting that pesky install icon..."
@@ -19,14 +19,14 @@ echo
 echo -e "Getting \e[32mTor\e[0m..."
 sh get-tor.sh
 echo
+echo "Getting SRware Iron..."
+sh get-iron-browser.sh
+echo
 echo -e "Getting \e[33mFiglet\e[0m..."
 sh get-figlet.sh
 echo
 echo -e "Getting \e[36mDropbox\e[0m..."
 sh get-dropbox.sh
-echo
-echo -e "Getting \e[34mG\e[31mo\e[33mo\e[34mg\e[32ml\e[31me\e[37m Chrome\e[0m..."
-sh get-chrome.sh
 echo
 echo -e "Getting \e[32mAudacious\e[0m..."
 sh get-audacious.sh
@@ -34,8 +34,10 @@ echo
 echo "Grabbing a few wallpapers..."
 cd /usr/share/wallpapers/backtrack/
 wget -N http://onlyhdwallpapers.com/wallpaper/abstract_blue_matrix_binary_digital_art_desktop_1920x1080_hd-wallpaper-747379.jpg
-wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/Fucking-ninja-is-Bad-ass.jpg
 wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/matrix_hacker_by_zahid4world-d3dyf5r2.jpg
+wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/Craptrack-5-r3_by-n1tr0g3n.jpg
+wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/Green_dragon_by_archstroke.png
+wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/Fucking-ninja-is-Bad-ass.jpg
 wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/miscellaneous-95767.jpeg
 wget -N http://www.n1tr0g3n.com/wp-content/uploads/2011/12/wallpaper-1000423.png
 wget -N http://pip.cat/bloc/wp-content/uploads/2012/05/hacker_manifesto_mentor.jpg

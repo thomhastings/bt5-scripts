@@ -1,6 +1,9 @@
 #!/bin/sh
 echo "Get my Favourite Scripts"
-echo -e "\e[37m(c) Thom Hastings 2012 New BSD license\e[0m"
+echo -e "\e[37m(c) Thom Hastings 2012-2013 New BSD license\e[0m"
+echo
+echo -e "Installing prerequisites: (\e[33mp7zip\e[0m and \e[33mmercurial\e[0m)..."
+apt-get install p7zip mercurial -y
 echo
 echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
 mkdir /pentest/scripts
@@ -8,6 +11,24 @@ cd /pentest/scripts
 echo
 echo -e "Cloning \e[33mmallory\e[0m..."
 hg clone https://bitbucket.org/IntrepidusGroup/mallory
+echo
+echo -e "Cloning \e[33mDotDotPwn\e[0m..."
+git clone git://github.com/wireghoul/dotdotpwn.git
+echo
+echo -e "Cloning \e[33mLORCON\e[0m..."
+git clone https://code.google.com/p/lorcon
+cd lorcon
+git clone git://github.com/tom5760/pylorcon2.git
+cd ..
+echo
+echo -e "Cloning \e[33mOWTF\e[0m..."
+git clone git://github.com/7a/owtf.git
+echo
+echo -e "Cloning \e[33momphalos\e[0m..."
+git clone git://github.com/dankamongmen/omphalos.git
+echo
+echo -e "Cloning \e[33mRecon-ng\e[0m..."
+git clone https://bitbucket.org/LaNMaSteR53/recon-ng.git
 echo
 echo -e "Cloning \e[33mschadcode\e[0m..."
 git clone git://github.com/emboss/schadcode.git
@@ -19,15 +40,25 @@ echo "Installing..."
 python setup.py install
 cd ..
 echo
-echo -e "Getting \e[33mmimikatz\e[0m..."
-mkdir mimikatz
-cd mimikatz
-echo "Installing prerequisites..."
-apt-get install p7zip -y
-echo "Downloading..."
-wget http://blog.gentilkiwi.com/downloads/mimikatz_trunk.7z
-echo "Decompressing..."
-p7zip -d mimikatz_trunk.7z
+echo -e "Creating directory for \e[33mSCADA\e[0m tools..."
+mkdir scada
+cd scada
+echo -e "Getting \e[33mSCADA\e[0m tools:"
+echo -e "1.) PLCscan"
+svn checkout http://plcscan.googlecode.com/svn/trunk/ plcscan
+cd plcscan
+chmod +x *.py
+cd ..
+echo -e "2.) WinCC harvester"
+git clone git://github.com/nxnrt/wincc_harvester.git
+cd wincc_harvester
+echo "Installing metasploit module"
+cp wincc_harvester.rb /opt/metasploit/msf3/modules/auxiliary/admin/scada/
+cd ..
+echo -e "3.) s7-brute-offline.py"
+wget http://pastebin.com/raw.php?i=0G9Q2k6y
+mv raw.php\?i\=0G9Q2k6y s7-brute-offline.py
+chmod +x s7-brute-offline.py
 cd ..
 echo
 echo -e "Getting \e[33mPenTBox\e[0m..."
@@ -35,6 +66,9 @@ svn checkout https://pentbox.svn.sourceforge.net/svnroot/pentbox/trunk pentbox
 echo
 echo -e "Getting \e[33mphillips321\e[0m's scripts..."
 svn checkout http://phillips321.googlecode.com/svn/trunk phillips321
+cd phillips321
+svn checkout http://bt5-fixit.googlecode.com/svn/trunk/ bt5
+cd ..
 echo
 echo -e "Getting \e[33mg0tmi1k\e[0m's scripts..."
 svn checkout http://g0tmi1k.googlecode.com/svn/trunk g0tmi1k
@@ -64,8 +98,12 @@ echo -e "\e[33mjigsaw\e[0m..."
 git clone git://github.com/pentestgeek/jigsaw.git
 cd ..
 echo
+echo -e "Getting \e[33mJosh Begleiter\e[0m's cgi-scanner.py:"
+wget http://josh.myhugesite.com/static/docs/cgi-scanner.py
+chmod +x cgi-scanner.py
+echo
 echo -e "Getting \e[33mAlexander Hanel\e[0m's extflow.py:"
-wget http://codepad.org/TfQst1Lu/raw.py
+wget http://codepad.org/BYdtDf9c/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
 #echo  # This whole section needs fixing or removal. Oh Rel1k
@@ -82,6 +120,11 @@ chmod +x extflow.py
 #cd ..
 #echo "Cleaning up..."
 #rm -rf artillery
+mkdir xerxes
+cd xerxes
+wget http://pastebin.com/raw.php?i=MLFs5m1K
+mv raw.php\?i\=MLFs5m1K xerxes.c
+gcc xerxes.c -o xerxes
 cd ..
 echo
 echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
