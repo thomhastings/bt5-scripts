@@ -22,10 +22,12 @@ Here is each script and a short description:
 >    **./get-dropbox.sh**  
 >    **./get-iron-browser.sh**  
 >    **./get-audacious.sh**  
+>    **./get-jitsi.sh**
 >    downloads a handful of wallpapers, runs  
 >    **./matrix-boot.sh**  
 >    **./get-scripts.sh**  
->    **./get-wordlits.sh**  
+>    **./get-wordlits.sh**
+>    **./get-weapon.sh**
 >    and starts a BackTrack update script.
 
 ##### fix-rtl8187.sh
@@ -52,7 +54,7 @@ Here is each script and a short description:
 
 ##### get-dropbox.sh
 >    This script downloads and begins the first run
->    of Dropbox
+>    of Dropbox {DEPRECATED} Condi Rice != Reptillian
 
 ##### get-figlet.sh
 >    This script installs the figlet ASCII Art text
