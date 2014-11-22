@@ -1,6 +1,4 @@
-"""
-http://turing.slu.edu/~hastint/AttackVector.htm
-"""
+shameless: http://turing.slu.edu/~hastint/AttackVector.htm
 
 bt5-scripts
 ===========
@@ -117,7 +115,7 @@ Here is each script and a short description:
 [17]: http://dank.qemfd.net/dankwiki/index.php/Omphalos "Omphalos"
 [18]: http://blog.ptsecurity.com/2013/01/ics-security-analysis-new-pentest-tools.html "SCADA tools"
 [19]: https://bitbucket.org/LaNMaSteR53/recon-ng "Recon-ng"
-[20]: https://dazzlepod.com/reusable/ "reusable.py"
+[20]: https://github.com/codesburner/reusable "reusable.py"
 [21]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
 [22]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
 [23]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
