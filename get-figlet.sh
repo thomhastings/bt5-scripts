@@ -3,7 +3,7 @@ echo "Get Figlet script"
 echo "(c) Thom Hastings 2011 New BSD license"
 echo
 echo "Installing Figlet..."
-sudo apt-get install figlet -y
+sudo zypper install figlet
 echo
 echo "Getting Figlet fonts..."
 cd /usr/share/figlet

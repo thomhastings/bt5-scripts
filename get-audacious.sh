@@ -4,7 +4,7 @@ echo "(c) Thom Hastings 2013 New BSD License"
 echo -e "Hint or two from \e[37mg0tmi1k\e[0m :)"
 echo
 echo "Installing Audacious..."
-sudo apt-get install -y audtty audacious audacious-plugins
+sudo zypper install audtty audacious audacious-plugins
 echo
 echo "Getting some skins..."
 cd /usr/share/audacious/Skins/

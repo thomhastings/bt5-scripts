@@ -1,13 +1,13 @@
 #!/bin/sh
-echo "Get my Favourite Scripts"
+echo "Get my Favourite Scripts -- openSUSE edition!"
 echo -e "\e[37m(c) Thom Hastings 2012-2013 New BSD license\e[0m"
 echo
 echo -e "Installing prerequisites: (\e[33mp7zip\e[0m and \e[33mmercurial\e[0m)..."
-apt-get install p7zip mercurial -y
+sudo zypper install p7zip mercurial git-core htop screen vim lynx
 echo
 echo -e "Creating directory \e[33m/pentest/scripts\e[0m and changing to it..."
-mkdir /pentest/scripts
-cd /pentest/scripts
+mkdir /tmp/pen/scripts
+cd /tmp/pen/scripts
 echo
 echo -e "Cloning \e[33mmallory\e[0m..."
 hg clone https://bitbucket.org/IntrepidusGroup/mallory
@@ -106,40 +106,6 @@ echo -e "Getting \e[33mAlexander Hanel\e[0m's extflow.py:"
 wget http://codepad.org/BYdtDf9c/raw.py
 mv raw.py extflow.py
 chmod +x extflow.py
-#echo  # This whole section needs fixing or removal. Oh Rel1k
-#echo -e "Getting tools from from \e[33mTrustedSec\e[0m..."
-#mkdir TrustedSec
-#cd TrustedSec
-#wget -r -l1 -H -t1 -nd -N -np -A.zip -erobots=off https://www.trustedsec.com/downloads/tools-download/ # -H argument is supposed to span hosts. why doesn't it?
-#unzip *.zip
-#echo -e "Checking out \e[33mTrustedSec\e[0m's \'Artillery\' honeypot..."
-#svn checkout http://svn.trustedsec.com/artillery artillery # this is unnecessary in this context
-#echo "Installing..."
-#cd artillery
-#python setup.py
-#cd ..
-#echo "Cleaning up..."
-#rm -rf artillery
-mkdir xerxes
-cd xerxes
-wget http://pastebin.com/raw.php?i=MLFs5m1K
-mv raw.php\?i\=MLFs5m1K xerxes.c
-gcc xerxes.c -o xerxes
-cd ..
-echo
-echo -e "Getting \e[33mBl4ck5w4n\e[0m's update script:"
-mkdir /pentest/bt5up/
-cd /pentest/bt5up/
-echo "Downloading..."
-wget http://bl4ck5w4n.tk/wp-content/uploads/2011/07/bt5up.tar
-echo "Decompressing..."
-tar -xvf bt5up.tar
-echo "Cleaning up..."
-rm bt5up.tar
-echo
-echo "Cleaning up more..."
-apt-get autoremove -y
-echo
-echo -e "\e[32mDONE\e[0m"
-echo -e "Run scripts from \e[33m/pentest/scripts\e[0m as:"
-echo -e "\e[33mphillips321/pentest.sh\e[0m (pentest)"
+mkdir hax
+cd hax
+git clone git://github.com/thomhastings/rice ice
