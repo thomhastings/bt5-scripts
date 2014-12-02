@@ -1,0 +1,1883 @@
+0trace							      <
+acccheck						      <
+accountsservice						      <
+ace-voip						      <
+acl							      <
+afflib-tools						      <
+alacarte						      |	alsa-base
+amap							      |	alsa-utils
+android-sdk						      |	anthy
+apache-users						      |	anthy-common
+apache2							      <
+apache2-mpm-prefork					      <
+apache2-utils						      <
+apache2.2-bin						      <
+apache2.2-common					      <
+apg							      <
+apktool							      <
+app-install-data					      <
+apt-listchanges						      <
+apt-xapian-index					      |	at-spi
+aptitude						      |	audacity
+aptitude-common						      |	audacity-data
+arachni							      |	autotools-dev
+arduino							      <
+arduino-core						      <
+armitage						      <
+arping							      <
+asleap							      <
+aspell							      <
+aspell-en						      <
+at							      <
+at-spi2-core						      <
+atftpd							      <
+atmel-firmware						      <
+automater						      <
+autopoint						      <
+autopsy							      <
+avahi-daemon						      <
+avr-libc						      <
+avrdude							      <
+baobab							      |	barry-util
+bbqsql							      <
+bed							      <
+beef-xss						      <
+beef-xss-bundle						      <
+binfmt-support						      <
+binutils-avr						      <
+binwalk							      <
+bison							      <
+bkhive							      <
+blindelephant						      <
+bluelog							      <
+bluemaho						      <
+bluepot							      <
+blueranger						      <
+bluez							      <
+bluez-firmware						      <
+bluez-hcidump						      <
+braa							      <
+bsd-mailx						      <
+							      >	bsdtar
+btscanner						      <
+build-essential						      <
+bulk-extractor						      <
+bully							      <
+bundler							      <
+burpsuite						      <
+cadaver							      |	capplets-data
+caribou							      |	claws-mail
+caribou-antler						      |	claws-mail-archiver-plugin
+casefile						      |	claws-mail-i18n
+cdpsnarf						      |	claws-mail-pgpinline
+cdrdao							      |	claws-mail-pgpmime
+cewl							      |	connect-proxy
+cgpt							      |	console-common
+cheese-common						      |	console-data
+chkrootkit						      <
+chntpw							      <
+cisco-auditing-tool					      <
+cisco-global-exploiter					      <
+cisco-ocs						      <
+cisco-torch						      <
+clang							      <
+cmospwd							      <
+colord							      <
+comerr-dev						      <
+console-tools						      <
+copy-router-config					      <
+cowpatty						      <
+cowsay							      <
+cpp-4.6							      |	cpp-4.4
+cpp-4.7							      <
+creddump						      <
+creepy							      <
+crunch							      |	cryptsetup
+cryptcat						      |	culmus
+cryptsetup-bin						      |	cups
+cups-bsd						      <
+cups-pk-helper						      |	cups-ppdc
+cutycapt						      <
+cymothoa						      <
+darkstat						      <
+davtest							      <
+db5.1-util						      <
+dbd							      <
+dbpwaudit						      <
+dc							      |	deb.torproject.org-keyring
+dc3dd							      <
+dcfldd							      <
+dconf-gsettings-backend:amd64				      <
+dconf-service						      <
+dconf-tools						      <
+ddrescue						      <
+debhelper						      <
+debian-faq						      <
+deblaze							      <
+debtags							      <
+default-jdk						      <
+							      >	defoma
+dex2jar							      <
+dff							      <
+dhcpig							      <
+dirb							      <
+dirbuster						      <
+dmitry							      <
+dnmap							      |	dmz-cursor-theme
+dns2tcp							      <
+dnschef							      <
+dnsenum							      <
+dnsmap							      <
+dnsmasq-base						      <
+dnsrecon						      <
+dnstracer						      <
+dnswalk							      |	docbook-xml
+doc-debian						      <
+docutils-common						      <
+docutils-doc						      <
+dos2unix						      <
+dpkg-dev						      |	dvd+rw-tools
+dradis							      |	e2fslibs
+driftnet						      <
+dsniff							      <
+e2fslibs:amd64						      <
+eapmd5pass						      |	eatmydata
+ed							      <
+edb-debugger						      <
+empathy							      |	ekeyd
+empathy-common						      <
+enchant							      <
+enumiax							      <
+eterm							      |	esound-common
+ethtool							      |	espeak-data
+ettercap-common						      <
+ettercap-graphical					      <
+ewf-tools						      |	exiv2
+exim4							      <
+exim4-base						      <
+exim4-config						      <
+exim4-daemon-light					      <
+exploitdb						      |	ferm
+extra-xdg-menus						      <
+extundelete						      <
+fakeroot						      <
+fcrackzip						      <
+fern-wifi-cracker					      <
+ferret-sidejack						      <
+fierce							      <
+fiked							      <
+fimap							      |	file-roller
+findmyhash						      <
+firebird2.5-common					      <
+firebird2.5-common-doc					      <
+firmware-adi						      <
+firmware-bnx2						      <
+firmware-bnx2x						      <
+firmware-intelwimax					      <
+firmware-ivtv						      <
+firmware-myricom					      <
+firmware-netxen						      <
+firmware-qlogic						      <
+flasm							      |	florence
+folks-common						      <
+fonts-cantarell						      |	foomatic-db
+fonts-droid						      |	foomatic-db-engine
+fonts-freefont-ttf					      |	foomatic-filters
+fonts-liberation					      |	foomatic-filters-ppds
+foremost						      |	fuse-utils
+fping							      <
+fragroute						      <
+fragrouter						      <
+framework2						      <
+freepats						      <
+freetds-common						      <
+ftester							      <
+ftp							      <
+funkload						      <
+fuse							      <
+g++							      <
+g++-4.6							      <
+g++-4.7							      <
+galleta							      <
+gcc							      |	gcc-4.4-base
+gcc-4.6							      <
+gcc-4.6-base:amd64					      <
+gcc-4.7							      <
+gcc-4.7-base:amd64					      <
+gcc-avr							      <
+gccxml							      <
+gconf-service						      <
+gcr							      |	gdisk
+gdb							      <
+gdbserver						      <
+geoclue							      |	gedit
+geoclue-hostip						      |	gedit-common
+geoclue-localnet					      |	genisoimage
+geoclue-manual						      <
+geoclue-yahoo						      <
+gir1.2-accountsservice-1.0				      |	ghostscript-cups
+gir1.2-atk-1.0						      |	gimp
+gir1.2-atspi-2.0					      |	gimp-data
+gir1.2-caribou-1.0					      |	gir1.0-freedesktop
+gir1.2-clutter-1.0					      |	gir1.0-glib-2.0
+gir1.2-clutter-gst-1.0					      |	gir1.0-gtk-2.0
+gir1.2-cogl-1.0						      <
+gir1.2-coglpango-1.0					      <
+gir1.2-evince-3.0					      <
+gir1.2-folks-0.6					      <
+gir1.2-freedesktop					      <
+gir1.2-gck-1						      <
+gir1.2-gconf-2.0					      <
+gir1.2-gcr-3						      <
+gir1.2-gdesktopenums-3.0				      <
+gir1.2-gdkpixbuf-2.0					      <
+gir1.2-gee-1.0						      <
+gir1.2-gkbd-3.0						      <
+gir1.2-glib-2.0						      <
+gir1.2-gmenu-3.0					      <
+gir1.2-gnomebluetooth-1.0				      <
+gir1.2-gst-plugins-base-0.10				      <
+gir1.2-gstreamer-0.10					      <
+gir1.2-gtk-2.0						      <
+gir1.2-gtk-3.0						      <
+gir1.2-gtkclutter-1.0					      <
+gir1.2-gtksource-3.0					      <
+gir1.2-gtop-2.0						      <
+gir1.2-javascriptcoregtk-1.0				      <
+gir1.2-json-1.0						      <
+gir1.2-mutter-3.0					      <
+gir1.2-networkmanager-1.0				      <
+gir1.2-panelapplet-4.0					      <
+gir1.2-pango-1.0					      <
+gir1.2-peas-1.0						      <
+gir1.2-polkit-1.0					      <
+gir1.2-soup-2.4						      <
+gir1.2-telepathyglib-0.12				      <
+gir1.2-telepathylogger-0.2				      <
+gir1.2-upowerglib-1.0					      <
+gir1.2-webkit-1.0					      <
+gir1.2-xkl-1.0						      <
+giskismet						      <
+git-man							      <
+gjs							      <
+gkbd-capplet						      <
+glib-networking:amd64					      |	gnome-about
+glib-networking-common					      <
+glib-networking-services				      <
+gnome-accessibility-themes				      <
+gnome-backgrounds					      <
+gnome-bluetooth						      <
+gnome-brave-icon-theme					      <
+gnome-colors-common					      <
+gnome-contacts						      <
+gnome-control-center-data				      |	gnome-desktop-data
+gnome-core						      <
+gnome-desktop3-data					      <
+gnome-dictionary					      <
+gnome-font-viewer					      |	gnome-doc-utils
+gnome-icon-theme-extras					      <
+gnome-icon-theme-symbolic				      <
+gnome-js-common						      <
+							      >	gnome-mag
+							      >	gnome-media-common
+gnome-online-accounts					      |	gnome-orca
+gnome-packagekit					      <
+gnome-packagekit-data					      <
+gnome-screensaver					      |	gnome-search-tool
+gnome-screenshot					      <
+gnome-session-fallback					      <
+gnome-shell						      <
+gnome-shell-common					      <
+gnome-shell-extensions					      <
+gnome-sushi						      <
+gnome-themes-standard					      |	gnome-theme-xpluna
+gnome-themes-standard-data				      |	gnome-themes
+gnome-user-guide					      |	gnome-utils-common
+gnome-user-share					      |	gnome-xp-icon-theme
+gnuplot							      |	gnupg-agent
+gnuplot-nox						      |	gnupg-curl
+golismero						      |	gnustep-base-common
+goofile							      |	gnustep-base-runtime
+gparted							      |	gnustep-common
+							      >	gobby
+							      >	gobby-0.5
+							      >	gobby-infinote
+							      >	gobi-loader
+grabber							      <
+graphviz						      <
+greenbone-security-assistant				      <
+groff							      <
+grub-common						      <
+grub-pc							      <
+grub-pc-bin						      <
+grub2-common						      <
+gsd							      <
+gsettings-desktop-schemas				      <
+gsfonts-x11						      |	gstreamer0.10-alsa
+gstreamer0.10-ffmpeg:amd64				      |	gstreamer0.10-ffmpeg
+gstreamer0.10-gconf:amd64				      |	gstreamer0.10-gnonlin
+gstreamer0.10-nice:amd64				      |	gstreamer0.10-nice
+gstreamer0.10-plugins-bad:amd64				      |	gstreamer0.10-plugins-bad
+gstreamer0.10-plugins-base:amd64			      |	gstreamer0.10-plugins-base
+gstreamer0.10-plugins-good:amd64			      |	gstreamer0.10-plugins-good
+gstreamer0.10-plugins-ugly:amd64			      |	gstreamer0.10-plugins-ugly
+gstreamer0.10-pulseaudio:amd64				      |	gstreamer0.10-x
+gstreamer0.10-x:amd64					      |	gtk2-engines
+gtk2-engines:amd64					      |	gtk2-engines-pixbuf
+gucharmap						      |	gvfs
+guymager						      <
+gvfs:amd64						      <
+gvfs-bin						      <
+gvfs-common						      <
+gvfs-daemons						      <
+gvfs-libs:amd64						      <
+hal							      |	haveged
+hal-info						      <
+hamster-sidejack					      <
+hash-identifier						      <
+hashcat							      <
+hashcat-utils						      <
+hexinject						      <
+hexorbase						      <
+hotpatch						      |	hpijs
+hping3							      |	hpijs-ppds
+html2text						      |	hplip
+							      >	hplip-cups
+							      >	hplip-data
+							      >	hunspell-ar
+							      >	hunspell-de-de
+hwdata							      |	hunspell-fr
+hydra							      |	hunspell-vi
+hydra-gtk						      |	i2p
+iaxflood						      |	i2p-router
+icedtea-6-jre-cacao:amd64				      <
+icedtea-6-jre-jamvm:amd64				      <
+icedtea-7-jre-cacao:amd64				      <
+icedtea-7-jre-jamvm:amd64				      <
+icedtea-netx:amd64					      <
+icedtea-netx-common					      <
+							      >	iceweasel-l10n-ach
+							      >	iceweasel-l10n-af
+							      >	iceweasel-l10n-ak
+							      >	iceweasel-l10n-all
+							      >	iceweasel-l10n-ar
+							      >	iceweasel-l10n-as
+							      >	iceweasel-l10n-ast
+							      >	iceweasel-l10n-be
+							      >	iceweasel-l10n-bg
+							      >	iceweasel-l10n-bn-bd
+							      >	iceweasel-l10n-bn-in
+							      >	iceweasel-l10n-br
+							      >	iceweasel-l10n-bs
+							      >	iceweasel-l10n-ca
+							      >	iceweasel-l10n-cs
+							      >	iceweasel-l10n-csb
+							      >	iceweasel-l10n-cy
+							      >	iceweasel-l10n-da
+							      >	iceweasel-l10n-de
+							      >	iceweasel-l10n-el
+							      >	iceweasel-l10n-en-gb
+							      >	iceweasel-l10n-en-za
+							      >	iceweasel-l10n-eo
+							      >	iceweasel-l10n-es-ar
+							      >	iceweasel-l10n-es-cl
+							      >	iceweasel-l10n-es-es
+							      >	iceweasel-l10n-es-mx
+							      >	iceweasel-l10n-et
+							      >	iceweasel-l10n-eu
+							      >	iceweasel-l10n-fa
+							      >	iceweasel-l10n-ff
+							      >	iceweasel-l10n-fi
+							      >	iceweasel-l10n-fr
+							      >	iceweasel-l10n-fy-nl
+							      >	iceweasel-l10n-ga-ie
+							      >	iceweasel-l10n-gd
+							      >	iceweasel-l10n-gl
+							      >	iceweasel-l10n-gu-in
+							      >	iceweasel-l10n-he
+							      >	iceweasel-l10n-hi-in
+							      >	iceweasel-l10n-hr
+							      >	iceweasel-l10n-hu
+							      >	iceweasel-l10n-hy-am
+							      >	iceweasel-l10n-id
+							      >	iceweasel-l10n-is
+							      >	iceweasel-l10n-it
+							      >	iceweasel-l10n-ja
+							      >	iceweasel-l10n-kk
+							      >	iceweasel-l10n-km
+							      >	iceweasel-l10n-kn
+							      >	iceweasel-l10n-ko
+							      >	iceweasel-l10n-ku
+							      >	iceweasel-l10n-lg
+							      >	iceweasel-l10n-lij
+							      >	iceweasel-l10n-lt
+							      >	iceweasel-l10n-lv
+							      >	iceweasel-l10n-mai
+							      >	iceweasel-l10n-mk
+							      >	iceweasel-l10n-ml
+							      >	iceweasel-l10n-mr
+							      >	iceweasel-l10n-nb-no
+							      >	iceweasel-l10n-nl
+							      >	iceweasel-l10n-nn-no
+							      >	iceweasel-l10n-nso
+							      >	iceweasel-l10n-or
+							      >	iceweasel-l10n-pa-in
+							      >	iceweasel-l10n-pl
+							      >	iceweasel-l10n-pt-br
+							      >	iceweasel-l10n-pt-pt
+							      >	iceweasel-l10n-rm
+							      >	iceweasel-l10n-ro
+							      >	iceweasel-l10n-ru
+							      >	iceweasel-l10n-si
+							      >	iceweasel-l10n-sk
+							      >	iceweasel-l10n-sl
+							      >	iceweasel-l10n-son
+							      >	iceweasel-l10n-sq
+							      >	iceweasel-l10n-sr
+							      >	iceweasel-l10n-sv-se
+							      >	iceweasel-l10n-ta
+							      >	iceweasel-l10n-ta-lk
+							      >	iceweasel-l10n-te
+							      >	iceweasel-l10n-th
+							      >	iceweasel-l10n-tr
+							      >	iceweasel-l10n-uk
+							      >	iceweasel-l10n-vi
+							      >	iceweasel-l10n-zh-cn
+							      >	iceweasel-l10n-zh-tw
+							      >	iceweasel-l10n-zu
+ikat							      |	im-switch
+ike-scan						      <
+imagemagick						      <
+imagemagick-common					      <
+							      >	inkscape
+							      >	inotify-tools
+intersect						      |	ipheth-utils
+intltool-debian						      <
+intrace							      <
+inundator						      <
+inviteflood						      <
+iodine							      <
+irpas							      <
+isr-evilgrade						      |	isomd5sum
+iucode-tool						      <
+jad							      <
+java-wrappers						      |	junit
+javascript-common					      |	junit4
+javasnoop						      <
+jboss-autopwn						      <
+jigsaw							      <
+john							      <
+john-data						      <
+johnny							      <
+joomscan						      <
+kali-archive-keyring					      <
+kali-debtags						      <
+kali-defaults						      <
+kali-linux						      <
+kali-linux-full						      <
+kali-menu						      <
+kali-root-login						      <
+keepnote						      |	keepassx
+keimpx							      |	kexec-tools
+killerbee						      <
+kismet							      <
+kmod							      |	laptop-mode-tools
+krb5-locales						      <
+krb5-multidev						      <
+laudanum						      <
+lbd							      <
+leafpad							      <
+lesstif2:amd64						      <
+libaa1:amd64						      |	libaa1
+libaacs0:amd64						      |	libaccess-bridge-java
+libaccountsservice0					      |	libaccess-bridge-java-jni
+libacl1:amd64						      |	libacl1
+libafflib0						      <
+libafpclient0:amd64					      <
+libaio1:amd64						      <
+libalgorithm-diff-perl					      |	libaliased-perl
+libalgorithm-diff-xs-perl				      |	libanthy0
+libalgorithm-merge-perl					      |	libany-moose-perl
+libao-common						      |	libarchive-tar-wrapper-perl
+libao4							      |	libarchive1
+libapache2-mod-dnssd					      |	libart-2.0-2
+libapache2-mod-php5					      |	libasound2
+libapr1							      <
+libaprutil1						      <
+libaprutil1-dbd-sqlite3					      <
+libaprutil1-ldap					      <
+libapt-inst1.5:amd64					      <
+libapt-pkg4.12:amd64					      <
+libarchive12:amd64					      <
+libasound2:amd64					      <
+libasound2-plugins:amd64				      <
+libasprintf0c2:amd64					      |	libass4
+libass4:amd64						      |	libasyncns0
+libast2							      |	libatasmart4
+libasyncns0:amd64					      |	libatk1.0-0
+libatasmart4:amd64					      |	libatspi1.0-0
+libatk-adaptor:amd64					      |	libattr1
+libatk-adaptor-data					      |	libaudio2
+libatk-bridge2.0-0:amd64				      |	libaudiofile0
+libatk-wrapper-java					      <
+libatk-wrapper-java-jni:amd64				      <
+libatk1.0-0:amd64					      <
+libatk1.0-data						      <
+libatk1.0-dev						      <
+libatkmm-1.6-1						      <
+libatspi2.0-0:amd64					      <
+libattr1:amd64						      <
+libaudio2:amd64						      <
+libavahi-client3:amd64					      |	libautobox-perl
+libavahi-common-data:amd64				      |	libavahi-client3
+libavahi-common3:amd64					      |	libavahi-common-data
+libavahi-core7:amd64					      |	libavahi-common3
+libavahi-glib1:amd64					      |	libavahi-compat-libdnssd1
+libavahi-gobject0:amd64					      |	libavahi-glib1
+libavahi-ui-gtk3-0:amd64				      |	libavahi-ui0
+libavc1394-0:amd64					      |	libavc1394-0
+libavcodec53:amd64					      |	libavcodec52
+libavformat53:amd64					      |	libavformat52
+libavutil51:amd64					      |	libavutil49
+libbind9-80						      |	libb-hooks-op-check-perl
+libbison-dev:amd64					      |	libbabl-0.0-0
+libblas3						      |	libbarry18
+libblkid1:amd64						      |	libbind9-60
+libbluetooth-dev					      |	libblas3gf
+libbluetooth3:amd64					      |	libblkid1
+libbluray1:amd64					      |	libbluetooth3
+libboost-filesystem1.49.0				      |	libbonoboui2-0
+libboost-iostreams1.49.0				      |	libbonoboui2-common
+libboost-python1.49.0					      |	libboost-iostreams1.42.0
+libboost-system1.49.0					      |	libboost-serialization1.42.0
+libboost-thread1.49.0					      |	libbrasero-media0
+libbrasero-media3-1					      |	libbrlapi0.5
+libbsd0:amd64						      |	libbsd0
+libbz2-1.0:amd64					      |	libbz2-1.0
+libc-ares2:amd64					      <
+libc-dev-bin						      |	libc6
+libc6:amd64						      |	libcaca0
+libc6-dev:amd64						      <
+libcaca0:amd64						      <
+libcairo-gobject2:amd64					      <
+libcairo-script-interpreter2:amd64			      |	libcairo2
+libcairo2:amd64						      <
+libcairo2-dev						      <
+libcamel-1.2-33						      |	libcamel1.2-14
+libcanberra-gtk-module:amd64				      |	libcanberra-gtk0
+libcanberra-gtk0:amd64					      |	libcanberra0
+libcanberra-gtk3-0:amd64				      |	libcap2
+libcanberra-gtk3-module:amd64				      |	libcarp-assert-more-perl
+libcanberra-pulse:amd64					      |	libcarp-assert-perl
+libcanberra0:amd64					      |	libcarp-clan-perl
+libcap-ng0						      <
+libcap2:amd64						      <
+libcap2-bin						      <
+libcaribou-common					      <
+libcaribou-gtk-module:amd64				      <
+libcaribou-gtk3-module:amd64				      <
+libcaribou0:amd64					      <
+libcddb2						      |	libcdio-cdda0
+libcdio-cdda1						      |	libcdio-paranoia0
+libcdio-paranoia1					      |	libcdio10
+libcdio13						      <
+libcdt4							      |	libcelt0-0
+libcgraph5						      |	libck-connector0
+libchamplain-0.12-0:amd64				      |	libclass-accessor-perl
+libchamplain-gtk-0.12-0:amd64				      <
+libcheese-gtk21:amd64					      <
+libcheese3:amd64					      <
+libck-connector0:amd64					      <
+libclang-common-dev					      <
+libclass-c3-xs-perl					      |	libclass-data-inheritable-perl
+libclass-isa-perl					      |	libclass-factory-util-perl
+libclass-load-perl					      |	libclass-mop-perl
+libclass-load-xs-perl					      |	libclass-singleton-perl
+libcli1.9:amd64						      |	libclone-perl
+libclutter-1.0-0:amd64					      |	libcolamd2.7.1
+libclutter-1.0-common					      |	libcolorblind0
+libclutter-gst-1.0-0:amd64				      |	libcomerr2
+libclutter-gtk-1.0-0:amd64				      |	libcompfaceg1
+libclutter-imcontext-0.1-0:amd64			      |	libconfig-general-perl
+libclutter-imcontext-0.1-bin				      |	libcontext-preserve-perl
+libcluttergesture-0.0.2-0:amd64				      |	libconvert-asn1-perl
+libcogl-common						      <
+libcogl-pango0:amd64					      <
+libcogl9:amd64						      <
+libcolord1:amd64					      <
+libcomerr2:amd64					      <
+libconfig9:amd64					      <
+libconsole						      <
+libcrafter						      |	libcroco3
+libcroco3:amd64						      |	libcrypt-openssl-bignum-perl
+libcrypt-ssleay-perl					      |	libcrypt-openssl-rsa-perl
+libcrypto++9						      |	libcrypt-x509-perl
+libcryptsetup4						      |	libcryptui0
+libcrystalhd3:amd64					      |	libcups2
+libcups2:amd64						      |	libcupscgi1
+libcupsimage2:amd64					      |	libcupsdriver1
+libcurl3:amd64						      |	libcupsimage2
+libcurl3-gnutls:amd64					      |	libcupsmime1
+libcurl4-gnutls-dev					      |	libcupsppdc1
+							      >	libcurl3
+							      >	libcurl3-gnutls
+libdaemon0						      <
+libdata-dump-perl					      <
+libdate-manip-perl					      |	libdatetime-format-builder-perl
+libdatrie1:amd64					      |	libdatetime-format-dateparse-perl
+libdb5.1:amd64						      |	libdatetime-format-iso8601-perl
+libdbd-mysql-perl					      |	libdatetime-format-strptime-perl
+libdbd-sqlite3-perl					      |	libdatetime-locale-perl
+libdbi-perl						      |	libdatetime-perl
+libdbus-1-3:amd64					      |	libdatetime-timezone-perl
+libdbus-glib-1-2:amd64					      |	libdatrie1
+libdc1394-22:amd64					      |	libdb4.6
+							      >	libdb4.7
+							      >	libdb4.8
+							      >	libdbus-1-3
+							      >	libdbus-glib-1-2
+							      >	libdc1394-22
+libdconf0:amd64						      |	libdesktop-notify-perl
+							      >	libdevel-declare-perl
+libdevmapper-event1.02.1:amd64				      |	libdevmapper1.02.1
+libdevmapper1.02.1:amd64				      |	libdigest-sha1-perl
+libdigest-crc-perl					      |	libdirac-encoder0
+libdigest-hmac-perl					      |	libdirectfb-1.2-9
+libdigest-md4-perl					      |	libdiscid0
+libdigest-md5-file-perl					      <
+libdirac-decoder0:amd64					      <
+libdirac-encoder0:amd64					      <
+libdirectfb-1.2-9:amd64					      <
+libdns88						      |	libdns69
+libdrm-intel1:amd64					      |	libdrm-intel1
+libdrm-nouveau1a:amd64					      |	libdrm-nouveau1
+libdrm-radeon1:amd64					      |	libdrm-nouveau1a
+libdrm2:amd64						      |	libdrm-radeon1
+libdumbnet1						      |	libdrm2
+libdv4:amd64						      |	libdv4
+libdvbpsi7						      <
+libebackend-1.2-2					      |	libebackend1.2-0
+libebml3:amd64						      |	libebook1.2-9
+libebook-1.2-13						      |	libecal1.2-7
+libecal-1.2-11						      |	libecj-java
+libedata-book-1.2-13					      |	libedata-book1.2-2
+libedata-cal-1.2-15					      |	libedata-cal1.2-7
+libedataserver-1.2-16					      |	libedataserver1.2-13
+libedataserverui-3.0-1					      |	libedataserverui1.2-8
+libedit2:amd64						      |	libedit2
+libelf1							      |	libeggdbus-1-0
+							      >	libegroupwise1.2-13
+libencode-locale-perl					      |	libencode-perl
+libept1.4.12						      |	libepc-1.0-2
+							      >	libepc-common
+							      >	libepc-ui-1.0-2
+							      >	libept1
+libeval-closure-perl					      |	libesd0
+libevdocument3-4					      |	libespeak1
+libevent-2.0-5:amd64					      |	libetpan13
+libevent-core-2.0-5:amd64				      |	libevent-1.4-2
+libevent-pthreads-2.0-5:amd64				      |	libevent-2.0-5
+libevview3-3						      |	libevince2
+libewf1							      |	libexempi3
+libexempi3:amd64					      |	libexif12
+libexif12:amd64						      |	libexiv2-9
+libexiv2-12						      |	libexpat1
+libexpat1:amd64						      |	libfaad2
+libexpat1-dev						      <
+libfaad2:amd64						      <
+libfarstream-0.1-0:amd64				      |	libffi5
+libfbclient2:amd64					      |	libfftw3-3
+libffi-dev:amd64					      <
+libffi5:amd64						      <
+libfftw3-3:amd64					      <
+libfile-basedir-perl					      <
+libfile-desktopentry-perl				      |	libfile-homedir-perl
+libfile-fcntllock-perl					      |	libfile-which-perl
+libfile-listing-perl					      |	libfilesys-df-perl
+libfile-mimeinfo-perl					      |	libflac++6
+libfilter-perl						      |	libflac8
+libfindrtp						      |	libflite1
+libflac8:amd64						      |	libfontconfig1
+libflite1:amd64						      |	libfontenc1
+libfolks-eds25						      |	libfreetype6
+libfolks-telepathy25					      |	libfribidi0
+libfolks25						      |	libfs6
+libfont-afm-perl					      |	libfuse2
+libfontconfig1:amd64					      |	libgail-common
+libfontconfig1-dev					      |	libgail-gnome-module
+libfontenc1:amd64					      |	libgail18
+libfreefare-bin						      |	libgalago3
+libfreefare0						      <
+libfreetype6:amd64					      <
+libfreetype6-dev					      <
+libfribidi0:amd64					      <
+libftdi1:amd64						      <
+libfuse2:amd64						      <
+libgail-3-0:amd64					      <
+libgail-common:amd64					      <
+libgail18:amd64						      <
+libgcc1:amd64						      |	libgcc1
+libgck-1-0						      |	libgconf2-4
+libgconf-2-4:amd64					      |	libgcr0
+libgconf2-4:amd64					      |	libgcroots0
+libgcr-3-1						      |	libgcrypt11
+libgcr-3-common						      <
+libgcrypt11:amd64					      <
+libgcrypt11-dev						      <
+libgd2-xpm:amd64					      <
+libgdata13						      |	libgdata-google1.2-1
+libgdbm3:amd64						      |	libgdata1.2-1
+libgdict-1.0-6						      |	libgdata7
+libgdict-common						      |	libgdbm3
+libgdk-pixbuf2.0-0:amd64				      <
+libgdk-pixbuf2.0-common					      <
+libgdk-pixbuf2.0-dev					      <
+libgee2:amd64						      |	libgegl-0.0-0
+libgeoclue0						      <
+libgeocode-glib0					      <
+libgettextpo0:amd64					      |	libgetopt-long-descriptive-perl
+libgfortran3:amd64					      |	libgfortran3
+							      >	libgfshare-bin
+							      >	libgfshare1
+libgirepository-1.0-1					      |	libgimp2.0
+libgjs0b						      |	libgirepository1.0-0
+libgl1-mesa-dri:amd64					      |	libgl1-mesa-dri
+libgl1-mesa-glx:amd64					      |	libgl1-mesa-glx
+libglapi-mesa:amd64					      <
+libglew1.7:amd64					      <
+libglib2.0-0:amd64					      |	libglib2.0-0
+libglib2.0-bin						      <
+libglib2.0-dev						      |	libglibmm-2.4-1c2a
+libglibmm-2.4-1c2a:amd64				      |	libglu1-mesa
+libglu1-mesa:amd64					      <
+libgmime-2.6-0						      |	libgmime-2.4-2
+libgmp10:amd64						      |	libgmp3c2
+libgnome-bluetooth10					      |	libgnome-bluetooth7
+libgnome-desktop-3-2					      |	libgnome-desktop-2-17
+libgnome-keyring-common					      |	libgnome-keyring0
+libgnome-keyring0:amd64					      |	libgnome-mag2
+libgnome-media-profiles-3.0-0				      |	libgnome-media0
+libgnome-menu-3-0					      |	libgnome-menu2
+							      >	libgnome-speech7
+							      >	libgnome-window-settings1
+							      >	libgnomecanvas2-0
+							      >	libgnomecanvas2-common
+libgnomekbd7						      |	libgnomekbd4
+							      >	libgnomeui-0
+							      >	libgnomeui-common
+libgnutls-dev						      |	libgnupg-interface-perl
+libgnutls-openssl27:amd64				      |	libgnustep-base1.20
+libgnutls26:amd64					      |	libgnutls26
+libgnutls28:amd64					      |	libgomp1
+libgnutlsxx27:amd64					      |	libgoocanvas-common
+libgoa-1.0-0:amd64					      |	libgoocanvas3
+libgoa-1.0-common					      |	libgp11-0
+libgomp1:amd64						      |	libgpg-error0
+libgpg-error-dev					      <
+libgpg-error0:amd64					      <
+libgphoto2-2:amd64					      |	libgphoto2-2
+libgphoto2-l10n						      |	libgphoto2-port0
+libgphoto2-port0:amd64					      |	libgpm2
+libgpm2:amd64						      <
+libgraph4						      <
+libgs9							      |	libgs8
+libgs9-common						      |	libgsasl7
+							      >	libgsecuredelete0
+libgsm1:amd64						      |	libgsl0ldbl
+libgssapi-krb5-2:amd64					      |	libgsm1
+libgssdp-1.0-3						      |	libgssapi-krb5-2
+libgssglue1:amd64					      |	libgssdp-1.0-2
+libgssrpc4:amd64					      |	libgssglue1
+libgstreamer-plugins-bad0.10-0:amd64			      |	libgssrpc4
+libgstreamer-plugins-base0.10-0:amd64			      |	libgstfarsight0.10-0
+libgstreamer0.10-0:amd64				      |	libgstreamer-plugins-base0.10-0
+libgtk-3-0:amd64					      |	libgstreamer0.10-0
+libgtk-3-bin						      <
+libgtk-3-common						      <
+libgtk2.0-0:amd64					      |	libgtk2.0-0
+libgtk2.0-dev						      <
+libgtkmm-3.0-1:amd64					      <
+libgtksourceview-3.0-0:amd64				      <
+libgtksourceview-3.0-common				      <
+libgucharmap-2-90-7					      |	libgucharmap7
+libgudev-1.0-0:amd64					      |	libgudev-1.0-0
+libgupnp-1.0-4						      |	libgupnp-1.0-3
+libgupnp-igd-1.0-4:amd64				      |	libgupnp-igd-1.0-3
+libgusb2						      <
+libguytools2						      <
+libgvc5							      <
+libgvpr1						      <
+libgweather-3-0						      <
+libgxps2:amd64						      |	libgweather1
+libhogweed2:amd64					      |	libhamcrest-java
+libhtml-form-perl					      |	libhangul0
+libhtml-format-perl					      |	libhangul0-data
+libhtml-linkextractor-perl				      |	libhpmud0
+libhtml-template-perl					      <
+libhttp-cookies-perl					      <
+libhttp-daemon-perl					      <
+libhttp-date-perl					      <
+libhttp-dav-perl					      <
+libhttp-message-perl					      <
+libhttp-negotiate-perl					      <
+libhunspell-1.3-0:amd64					      |	libhunspell-1.2-0
+							      >	libhyphen0
+libice-dev:amd64					      |	libice6
+libice6:amd64						      |	libicu44
+libicu48:amd64						      <
+libidn11:amd64						      |	libidn11
+libidn11-dev						      <
+libieee1284-3:amd64					      |	libieee1284-3
+libimlib2						      |	libimobiledevice1
+libimobiledevice2					      |	libinfgtk-0.4-0
+libio-all-lwp-perl					      |	libinfinity-0.4-0
+libio-all-perl						      |	libinotifytools0
+libio-socket-inet6-perl					      |	libio-multiplex-perl
+libio-socket-ip-perl					      |	libio-pty-perl
+							      >	libio-string-perl
+							      >	libio-stringy-perl
+							      >	libipc-run-perl
+							      >	libipc-run-safehandles-perl
+							      >	libipc-system-simple-perl
+libisc84						      |	libisc62
+libisccc80						      |	libisccc60
+libisccfg82						      |	libisccfg62
+libiso9660-8						      <
+libitm1:amd64						      |	libiw30
+libiw30:amd64						      |	libjack-jackd2-0
+libjack-jackd2-0:amd64					      |	libjasper1
+libjasper1:amd64					      <
+libjavascriptcoregtk-1.0-0				      <
+libjavascriptcoregtk-1.0-dev				      <
+libjavascriptcoregtk-3.0-0				      <
+libjbig0:amd64						      <
+libjim0debian2:amd64					      |	libjbigi-jni
+libjna-java						      |	libjpeg62
+libjpeg-progs						      |	libjson-perl
+libjpeg8:amd64						      |	libk5crypto3
+libjs-jquery						      |	libkadm5clnt-mit7
+libjs-underscore					      |	libkadm5srv-mit7
+libjson-glib-1.0-0:amd64				      <
+libjson0:amd64						      <
+libjte1							      <
+libjudydebian1						      <
+libk5crypto3:amd64					      <
+libkadm5clnt-mit8:amd64					      <
+libkadm5srv-mit8:amd64					      <
+libkdb5-6:amd64						      |	libkdb5-4
+libkeyutils1:amd64					      |	libkeyutils1
+libkmod2:amd64						      |	libkpathsea5
+libkpathsea6						      |	libkrb5-3
+libkrb5-3:amd64						      |	libkrb5support0
+libkrb5-dev						      |	liblapack3gf
+libkrb5support0:amd64					      |	liblcms1
+liblapack3						      |	libldap-2.4-2
+liblcms1:amd64						      <
+liblcms2-2:amd64					      <
+libldap-2.4-2:amd64					      <
+libldap2-dev:amd64					      <
+liblensfun-data						      <
+liblensfun0						      <
+libllvm3.0:amd64					      <
+liblockfile-bin						      |	liblockfile1
+liblockfile1:amd64					      |	liblog-log4perl-perl
+liblog4cpp5						      |	liblouis-data
+liblqr-1-0:amd64					      |	liblouis2
+libltdl7:amd64						      |	liblqr-1-0
+liblua5.1-0:amd64					      |	libltdl7
+liblvm2app2.2:amd64					      |	liblua5.1-0
+liblwp-mediatypes-perl					      |	liblua5.1-socket2
+liblwp-protocol-https-perl				      |	liblwp-authen-wsse-perl
+liblwres80						      |	liblwres60
+liblzma5:amd64						      |	liblzma2
+liblzo2-2:amd64						      <
+libmagic-dev:amd64					      |	libmagic1
+libmagic1:amd64						      |	libmagick++3
+libmagickcore5:amd64					      |	libmagickcore3
+libmagickcore5-extra:amd64				      |	libmagickwand3
+libmagickwand5:amd64					      <
+libmail-sendmail-perl					      <
+libmailtools-perl					      <
+libmatroska5:amd64					      <
+libmdb2:amd64						      <
+libmdbsql2:amd64					      <
+libmetacity-private0a					      |	libmetacity-private0
+libmhash2						      |	libmethod-signatures-simple-perl
+libmicrohttpd10						      <
+libmission-control-plugins0				      |	libmms0
+libmms0:amd64						      |	libmng1
+libmng1:amd64						      <
+libmodule-implementation-perl				      |	libmoose-autobox-perl
+libmodule-runtime-perl					      <
+libmount1						      |	libmoosex-getopt-perl
+libmozjs10d						      |	libmoosex-has-sugar-perl
+libmozjs185-1.0						      |	libmoosex-lazyrequire-perl
+libmozjs18d						      |	libmoosex-meta-typeconstraint-forcecoercion-perl
+libmp3lame0:amd64					      |	libmoosex-method-signatures-perl
+libmpc2:amd64						      |	libmoosex-traits-perl
+libmpcdec6:amd64					      |	libmoosex-types-path-class-perl
+							      >	libmoosex-types-perl
+							      >	libmoosex-types-structured-perl
+							      >	libmouse-perl
+							      >	libmozjs17d
+							      >	libmpcdec6
+libmpfr4:amd64						      |	libmpfr4
+libmtdev1:amd64						      |	libmusicbrainz3-6
+libmtp-common						      |	libmusicbrainz4c2a
+libmtp-runtime						      |	libmythes-1.2-0
+libmtp9:amd64						      |	libnamespace-autoclean-perl
+libmusicbrainz5-0:amd64					      <
+libmutter0						      <
+libmx-1.0-2:amd64					      <
+libmx-bin						      <
+libmx-common						      <
+libmysqlclient18:amd64					      <
+libnautilus-extension1a					      |	libnautilus-extension1
+libncp							      |	libncurses5
+libncurses5:amd64					      |	libncursesw5
+libncursesw5:amd64					      <
+libnet-daemon-perl					      |	libnet-dbus-glib-perl
+libnet-dns-perl						      |	libnet-server-perl
+libnet-http-perl					      <
+libnet-ip-perl						      <
+libnet-netmask-perl					      <
+libnet-pcap-perl					      <
+libnet-rawip-perl					      <
+libnet-snmp-perl					      <
+libnet-socks-perl					      <
+libnet-ssh2-perl					      <
+libnet-telnet-perl					      |	libnet6-1.3-0
+libnet1							      <
+libnetfilter-conntrack3:amd64				      <
+libnetpacket-perl					      <
+libnetpbm10						      <
+libnettle4:amd64					      <
+libnfc-bin						      <
+libnfc3							      <
+libnfc4:amd64						      <
+libnfsidmap2:amd64					      |	libnfsidmap2
+libnice10:amd64						      |	libnice0
+libnids1.21						      |	libnl1
+libnl-3-200:amd64					      |	libnl2
+libnl-genl-3-200:amd64					      <
+libnl-route-3-200:amd64					      <
+libnl1:amd64						      <
+libnm-glib4						      |	libnm-glib2
+libnm-gtk-common					      |	libnm-util1
+libnm-gtk0						      |	libnotify-bin
+libnm-util2						      |	libnotify1
+libnotify4:amd64					      |	libnspr4
+libnspr4:amd64						      |	libnspr4-0d
+libnss-mdns						      |	libnss3
+libnss3:amd64						      |	libnss3-1d
+libnss3-1d:amd64					      |	libntfs-3g75
+libnumber-bytes-human-perl				      |	libntfs10
+liboauth0:amd64						      |	libntlm0
+							      >	libnumber-format-perl
+							      >	libobby-0.4-1
+							      >	libobjc2
+libogg0:amd64						      |	libogg0
+libonig2						      |	liboil0.3
+libopenal-data						      |	liboobs-1-4
+libopenal1:amd64					      |	libopencore-amrnb0
+libopencore-amrnb0:amd64				      |	libopencore-amrwb0
+libopencore-amrwb0:amd64				      <
+libopenjpeg2:amd64					      |	libopenjpeg2
+libopenobex1						      |	libopenraw1
+libopenobex1-dev					      |	libopenspc0
+libopenvas5						      <
+libopts25						      <
+libopus0						      <
+liborc-0.4-0:amd64					      |	liborc-0.4-0
+libosmgpsmap2:amd64					      |	libotr2
+libp11-kit-dev						      <
+libp11-kit0:amd64					      <
+libpackage-stash-xs-perl				      |	libpam-modules
+libpackagekit-glib2-14:amd64				      <
+libpam-cap:amd64					      <
+libpam-ck-connector:amd64				      <
+libpam-gnome-keyring					      <
+libpam-modules:amd64					      <
+libpam-modules-bin					      <
+libpam0g:amd64						      |	libpam0g
+libpanel-applet-4-0					      |	libpanel-applet2-0
+libpango1.0-0:amd64					      |	libpango1.0-0
+libpango1.0-dev						      |	libpango1.0-common
+libpaper-utils						      |	libpaper1
+libpaper1:amd64						      <
+libparallel-forkmanager-perl				      <
+libparams-classify-perl					      <
+libparted0						      |	libparams-validate-perl
+libparted0debian1:amd64					      |	libparse-method-signatures-perl
+libpathplan4						      |	libparted0debian1
+libpcap0.8:amd64					      |	libpath-class-perl
+libpci3:amd64						      |	libpcap0.8
+libpciaccess0:amd64					      |	libpci3
+libpcre3:amd64						      |	libpciaccess0
+libpcre3-dev						      |	libpcre3
+libpcrecpp0:amd64					      |	libpcsclite1
+libpcsc-perl						      |	libperl5.10
+libpcsclite1:amd64					      |	libperl6-junction-perl
+libpeas-1.0-0						      |	libphonon4
+libpeas-common						      |	libpisock9
+libperl5.14						      |	libpixman-1-0
+libphonon4:amd64					      <
+libpipeline1:amd64					      <
+libpixman-1-0:amd64					      <
+libpixman-1-dev						      <
+libpkcs11-helper1:amd64					      <
+libplrpc-perl						      |	libpng12-0
+libpng12-0:amd64					      |	libpolkit-agent-1-0
+libpng12-dev						      |	libpolkit-backend-1-0
+libpolkit-agent-1-0:amd64				      |	libpolkit-gobject-1-0
+libpolkit-backend-1-0:amd64				      |	libpolkit-gtk-1-0
+libpolkit-gobject-1-0:amd64				      |	libpoppler-glib4
+libpoppler-glib8:amd64					      |	libpoppler5
+libpoppler19:amd64					      |	libpopt0
+libpopt0:amd64						      |	libportaudio2
+libportaudio2:amd64					      |	libpostproc51
+libpostproc52:amd64					      |	libppi-perl
+libpq5							      |	libproxy0
+libprocps0:amd64					      <
+libproxy0:amd64						      <
+libproxychains3						      <
+libpst4:amd64						      <
+libptexenc1						      <
+libpthread-stubs0:amd64					      |	libpulse-mainloop-glib0
+libpthread-stubs0-dev:amd64				      |	libpulse0
+libpulse-mainloop-glib0:amd64				      <
+libpulse0:amd64						      <
+libpurple-bin						      <
+libpython2.7						      |	libqt4-assistant
+libqdbm14						      |	libqt4-dbus
+libqscintilla2-8					      |	libqt4-designer
+libqt4-dbus:amd64					      |	libqt4-help
+libqt4-declarative:amd64				      |	libqt4-network
+libqt4-designer:amd64					      |	libqt4-script
+libqt4-help:amd64					      |	libqt4-scripttools
+libqt4-network:amd64					      |	libqt4-sql
+libqt4-script:amd64					      |	libqt4-svg
+libqt4-scripttools:amd64				      |	libqt4-test
+libqt4-sql:amd64					      |	libqt4-webkit
+libqt4-sql-mysql:amd64					      |	libqt4-xml
+libqt4-sql-sqlite:amd64					      |	libqt4-xmlpatterns
+libqt4-svg:amd64					      |	libqtcore4
+libqt4-test:amd64					      |	libqtgui4
+libqt4-xml:amd64					      |	libraptor1
+libqt4-xmlpatterns:amd64				      |	librarian0
+libqtassistantclient4:amd64				      |	librasqal2
+libqtcore4:amd64					      |	libraw1394-11
+libqtdbus4:amd64					      <
+libqtgui4:amd64						      <
+libqtwebkit4:amd64					      <
+libquadmath0:amd64					      <
+libquvi-scripts						      <
+libquvi7:amd64						      <
+libqwt5-qt4						      <
+libradare2-0.9:amd64					      <
+libradare2-dev						      <
+libraptor2-0						      <
+librasqal3						      <
+libraw1394-11:amd64					      <
+libreadline-dev:amd64					      |	libreadline5
+libreadline5:amd64					      |	libreadline6
+libreadline6:amd64					      |	libregexp-common-perl
+libreadline6-dev:amd64					      |	librpcsecgss3
+libresid-builder0c2a					      |	librsvg2-2
+librest-0.7-0:amd64					      |	librsvg2-common
+librest-extras-0.7-0:amd64				      <
+librpcsecgss3:amd64					      <
+librsvg2-2:amd64					      <
+librsvg2-common:amd64					      <
+librtmp-dev						      <
+librtmp0:amd64						      <
+libruby							      <
+libruby1.9.1						      |	libsamplerate0
+librxtx-java						      |	libsane
+libsamplerate0:amd64					      |	libsane-extras
+libsane:amd64						      |	libsane-hpaio
+libsane-common						      |	libsasl2-2
+libsane-extras:amd64					      |	libsasl2-modules
+libsane-extras-common					      |	libschroedinger-1.0-0
+libsasl2-2:amd64					      |	libscim8c2a
+libsasl2-modules:amd64					      |	libscope-guard-perl
+libschroedinger-1.0-0:amd64				      |	libsdl1.2debian
+libsdl-image1.2:amd64					      |	libsdl1.2debian-alsa
+libsdl1.2debian:amd64					      |	libselinux1
+libseed-gtk3-0						      |	libsensors4
+libselinux1:amd64					      |	libsepol1
+libsemanage-common					      |	libservice-wrapper-java
+libsemanage1:amd64					      |	libservice-wrapper-jni
+libsensors4:amd64					      <
+libsepol1:amd64						      <
+libshout3:amd64						      |	libshout3
+libsidplay2						      |	libsigc++-2.0-0c2a
+libsigc++-2.0-0c2a:amd64				      |	libsilc-1.1-2
+libslang2:amd64						      |	libsilcclient-1.1-3
+							      >	libslab0a
+							      >	libslang2
+							      >	libslp1
+libsm-dev:amd64						      |	libsm6
+libsm6:amd64						      |	libsmbclient
+libsmbclient:amd64					      |	libsndfile1
+libsmi2-common						      <
+libsmi2ldbl:amd64					      <
+libsndfile1:amd64					      <
+libsnmp-perl						      <
+libsocialweb-client2:amd64				      |	libsoundtouch1c2
+libsocialweb-common					      |	libsoup-gnome2.4-1
+libsocialweb-service					      |	libsoup2.4-1
+libsocialweb0:amd64					      |	libspectre1
+libsocket-perl						      |	libspeex1
+libsocket6-perl						      |	libsqlite3-0
+libsoundtouch0:amd64					      |	libss2
+libsoup-gnome2.4-1:amd64				      |	libssh2-1
+libsoup2.4-1:amd64					      |	libssl0.9.8
+libsoup2.4-dev						      <
+libspandsp2						      <
+libspectre1:amd64					      <
+libspeex1:amd64						      <
+libspeexdsp1:amd64					      <
+libspiffy-perl						      <
+libsqlite3-0:amd64					      <
+libss2:amd64						      <
+libssh-4:amd64						      <
+libssh2-1:amd64						      <
+libssh2-1-dev						      <
+libssl1.0.0:amd64					      <
+libstdc++6:amd64					      |	libstdc++6
+libstdc++6-4.6-dev					      |	libstlport4.6ldbl
+libstdc++6-4.7-dev					      |	libstring-errf-perl
+							      >	libstring-formatter-perl
+libsvn1:amd64						      |	libsvga1
+libswitch-perl						      |	libswscale0
+libswscale2:amd64					      |	libsysfs2
+libsybdb5:amd64						      <
+libsys-hostname-long-perl				      <
+libsystemd-daemon0:amd64				      <
+libsystemd-login0:amd64					      <
+libtag1-vanilla:amd64					      |	libtag1-vanilla
+libtag1c2a:amd64					      |	libtag1c2a
+libtalloc2:amd64					      |	libtalloc2
+libtar0							      |	libtar
+libtasn1-3:amd64					      |	libtasn1-3
+libtasn1-3-dev						      |	libtdb1
+libtdb1:amd64						      <
+libtelepathy-farstream2:amd64				      <
+libtelepathy-glib0:amd64				      <
+libtelepathy-logger2:amd64				      <
+libterm-readline-gnu-perl				      <
+libthai0:amd64						      |	libthai0
+libtheora0:amd64					      |	libtheora0
+libtidy-0.99-0						      |	libtiff4
+libtie-ixhash-perl					      <
+libtiff4:amd64						      <
+libtinfo-dev:amd64					      |	libtirpc1
+libtinfo5:amd64						      |	libtokyocabinet8
+libtirpc1:amd64						      <
+libtokyocabinet9:amd64					      <
+libtracker-extract-0.14-0				      |	libtracker-client-0.8-0
+libtracker-miner-0.14-0					      <
+libtracker-sparql-0.14-0				      <
+libts-0.0-0:amd64					      |	libts-0.0-0
+libtsk3-3						      <
+libucl1							      |	libudev0
+libudev0:amd64						      |	libuim-data
+libunique-3.0-0						      |	libuim6
+libunistring0:amd64					      |	libunique-1.0-0
+libupnp6						      |	libunistring0
+							      >	libunix-mknod-perl
+liburcu1						      <
+libusb-0.1-4:amd64					      |	libusb-0.1-4
+libusb-1.0-0:amd64					      |	libusb-1.0-0
+libusb-dev						      <
+libustr-1.0-1:amd64					      <
+libutempter0						      <
+libuuid1:amd64						      |	libuuid1
+libv4l-0:amd64						      |	libv4l-0
+libv4lconvert0:amd64					      |	libvamp-hostsdk3
+libva-x11-1:amd64					      <
+libva1:amd64						      <
+libvcdinfo0						      |	libvisual-0.4-0
+libvisual-0.4-0:amd64					      |	libvorbis0a
+libvisual-0.4-plugins:amd64				      |	libvorbisenc2
+libvlc5							      |	libvorbisfile3
+libvlccore5						      |	libvpx0
+libvo-aacenc0:amd64					      |	libvpx1
+libvo-amrwbenc0:amd64					      |	libvte-common
+libvorbis0a:amd64					      |	libvte9
+libvorbisenc2:amd64					      |	libwavpack1
+libvorbisfile3:amd64					      |	libwbclient0
+libvpx1:amd64						      |	libwebkit-1.0-2
+libvte-2.90-9						      |	libwebkit-1.0-common
+libvte-2.90-common					      |	libwildmidi1
+libwacom-common						      |	libwmf0.2-7
+libwacom2:amd64						      |	libwnck-common
+libwavpack1:amd64					      |	libwnck22
+libwbclient0:amd64					      |	libwpd8c2a
+libwebkit-dev						      |	libwpg-0.1-1
+libwebkitgtk-1.0-0					      |	libwps-0.1-1
+libwebkitgtk-1.0-common					      |	libwrap0
+libwebkitgtk-3.0-0					      <
+libwebkitgtk-3.0-common					      <
+libwebkitgtk-dev					      <
+libwebp2:amd64						      <
+libwebrtc-audio-processing-0:amd64			      <
+libwhisker2-perl					      <
+libwildmidi-config					      <
+libwildmidi1:amd64					      <
+libwireshark-data					      <
+libwireshark2						      <
+libwiretap2						      <
+libwmf0.2-7:amd64					      <
+libwnck-3-0						      <
+libwnck-3-common					      <
+libwrap0:amd64						      <
+libwsutil2						      <
+libwww-mechanize-perl					      <
+libwww-robotrules-perl					      |	libwxbase2.8-0
+libwxbase2.8-0:amd64					      |	libwxgtk2.8-0
+libwxgtk2.8-0:amd64					      |	libx11-6
+libx11-6:amd64						      <
+libx11-dev:amd64					      |	libx11-xcb1
+libx11-doc						      |	libx86-1
+libx11-protocol-perl					      <
+libx11-xcb1:amd64					      <
+libx264-123:amd64					      <
+libx86-1:amd64						      <
+libxau-dev:amd64					      |	libxau6
+libxau6:amd64						      |	libxaw7
+libxaw7:amd64						      |	libxcb-atom1
+libxcb-composite0:amd64					      |	libxcb-aux0
+libxcb-dri2-0:amd64					      |	libxcb-dri2-0
+libxcb-glx0:amd64					      |	libxcb-event1
+libxcb-keysyms1:amd64					      |	libxcb-render0
+libxcb-randr0:amd64					      |	libxcb-shm0
+libxcb-render0:amd64					      |	libxcb1
+libxcb-render0-dev:amd64				      |	libxcomposite1
+libxcb-shape0:amd64					      |	libxcursor1
+libxcb-shm0:amd64					      |	libxdamage1
+libxcb-shm0-dev:amd64					      |	libxdmcp6
+libxcb-util0:amd64					      |	libxext6
+libxcb-xfixes0:amd64					      |	libxfixes3
+libxcb-xv0:amd64					      <
+libxcb1:amd64						      <
+libxcb1-dev:amd64					      <
+libxcomposite-dev					      <
+libxcomposite1:amd64					      <
+libxcursor-dev:amd64					      <
+libxcursor1:amd64					      <
+libxdamage-dev						      <
+libxdamage1:amd64					      <
+libxdmcp-dev:amd64					      <
+libxdmcp6:amd64						      <
+libxdot4						      <
+libxext-dev:amd64					      <
+libxext6:amd64						      <
+libxfixes-dev						      <
+libxfixes3:amd64					      <
+libxft-dev						      |	libxft2
+libxft2:amd64						      |	libxi6
+libxi-dev						      |	libxinerama1
+libxi6:amd64						      |	libxkbfile1
+libxinerama-dev:amd64					      <
+libxinerama1:amd64					      <
+libxkbfile1:amd64					      <
+libxml-dom-perl						      |	libxml++2.6-2
+							      >	libxml-atom-perl
+							      >	libxml-libxslt-perl
+libxml-perl						      <
+libxml-regexp-perl					      <
+libxml-sax-base-perl					      <
+libxml-sax-expat-perl					      <
+libxml-writer-perl					      |	libxml-xpath-perl
+libxml-xpathengine-perl					      |	libxml2
+libxml2:amd64						      <
+libxml2-dev:amd64					      <
+libxmu6:amd64						      |	libxmu6
+libxmuu1:amd64						      |	libxmuu1
+libxp6:amd64						      |	libxpm4
+libxpm4:amd64						      |	libxrandr2
+libxrandr-dev						      |	libxrender1
+libxrandr2:amd64					      |	libxres1
+libxrender-dev:amd64					      |	libxslt1.1
+libxrender1:amd64					      |	libxss1
+libxres1:amd64						      |	libxt6
+libxslt1.1:amd64					      |	libxtst6
+libxss1:amd64						      |	libxv1
+libxt-dev:amd64						      <
+libxt6:amd64						      <
+libxtst6:amd64						      <
+libxv1:amd64						      <
+libxvidcore4:amd64					      <
+libxxf86dga1:amd64					      |	libxxf86dga1
+libxxf86vm1:amd64					      |	libxxf86vm1
+libyajl2						      |	libyaml-libyaml-perl
+libyaml-0-2:amd64					      |	libyaml-perl
+libyaml-syck-perl					      <
+libyelp0						      <
+libzip-ruby1.8						      |	liferea
+libzvbi-common						      |	liferea-data
+libzvbi0:amd64						      <
+linux-image-3.7-trunk-amd64				      |	linux-image-3.2.0-4-486
+linux-image-amd64					      |	linux-image-3.2.0-4-686-pae
+linux-libc-dev:amd64					      |	linux-sound-base
+live-tools						      |	live-boot
+llvm-3.0						      |	live-boot-initramfs-tools
+llvm-3.0-dev						      |	live-config
+llvm-3.0-runtime					      |	live-config-sysvinit
+lmodern							      |	liveusb-creator
+locales							      <
+							      >	lockfile-progs
+							      >	lp-solve
+lsb-release						      <
+luatex							      |	lua5.1
+lynis							      |	lvm2
+m4							      |	lzma
+magicrescue						      <
+magictree						      <
+make							      <
+maltego							      <
+manpages-dev						      |	mat
+maskprocessor						      <
+md5deep							      |	memlockd
+mdbtools						      <
+mdk3							      <
+medusa							      <
+mesa-utils						      |	menu-xdg
+metagoofil						      <
+metasploit						      <
+metasploit-framework					      <
+mfcuk							      <
+mfoc							      <
+miranda							      <
+miredo							      <
+missidentify						      <
+mitmproxy						      <
+mlocate							      <
+							      >	monkeysphere
+							      >	moreutils
+multiarch-support					      |	msmtp
+multiforcer						      |	msn-pecan
+multimac						      |	msva-perl
+							      >	mtools
+mutter-common						      |	myspell-es
+mysql-client-5.5					      |	myspell-fa
+mysql-common						      |	myspell-it
+mysql-server						      |	myspell-pt
+mysql-server-5.5					      |	myspell-pt-br
+mysql-server-core-5.5					      |	myspell-pt-pt
+							      >	myspell-ru
+nasm							      <
+nautilus-sendto						      |	nautilus-wipe
+nautilus-sendto-empathy					      <
+nbtscan							      <
+ncrack							      <
+ncurses-hexedit						      <
+ncurses-term						      <
+netdiscover						      <
+netmask							      <
+netpbm							      <
+netsniff-ng						      <
+nfs-common						      <
+nikto							      <
+nmap							      <
+ntp							      |	ntfsprogs
+obex-data-server					      |	obfsproxy
+obexd-client						      |	open-vm-tools
+oclhashcat-lite						      |	openjdk-6-jre
+oclhashcat-plus						      |	openjdk-6-jre-headless
+ohrwurm							      <
+ollydbg							      <
+onesixtyone						      <
+openjdk-6-jdk:amd64					      <
+openjdk-6-jre:amd64					      <
+openjdk-6-jre-headless:amd64				      <
+openjdk-7-jdk:amd64					      |	openoffice.org-base-core
+openjdk-7-jre:amd64					      |	openoffice.org-calc
+openjdk-7-jre-headless:amd64				      |	openoffice.org-common
+openjdk-7-jre-lib					      |	openoffice.org-core
+openssh-blacklist					      |	openoffice.org-draw
+openssh-blacklist-extra					      |	openoffice.org-gnome
+							      >	openoffice.org-gtk
+							      >	openoffice.org-impress
+							      >	openoffice.org-l10n-ar
+							      >	openoffice.org-l10n-de
+							      >	openoffice.org-l10n-es
+							      >	openoffice.org-l10n-fa
+							      >	openoffice.org-l10n-fr
+							      >	openoffice.org-l10n-it
+							      >	openoffice.org-l10n-pt
+							      >	openoffice.org-l10n-ru
+							      >	openoffice.org-l10n-vi
+							      >	openoffice.org-l10n-zh-cn
+							      >	openoffice.org-math
+							      >	openoffice.org-style-galaxy
+							      >	openoffice.org-writer
+openssh-server						      <
+openvas							      <
+openvas-administrator					      <
+openvas-cli						      <
+openvas-manager						      <
+openvas-scanner						      <
+openvpn							      <
+ophcrack						      <
+ophcrack-cli						      <
+os-prober						      <
+oscanner						      <
+p0f							      <
+pack							      <
+packagekit						      <
+packagekit-backend-aptcc				      <
+packagekit-tools					      <
+padbuster						      <
+paros							      <
+pasco							      <
+patator							      <
+pcsc-tools						      <
+pdf-parser						      <
+pdfid							      <
+pdgmail							      <
+peepdf							      <
+perl-cisco-copyconfig					      <
+perl-tk							      |	pidgin
+pev							      <
+phonon:amd64						      <
+phonon-backend-vlc					      <
+php5							      <
+php5-cli						      <
+php5-common						      <
+php5-mysql						      <
+phrasendrescher						      <
+pipal							      |	pidgin-otr
+pjproject						      |	pinentry-gtk2
+pkg-config						      |	pitivi
+plecost							      |	plymouth
+pm-utils						      |	poedit
+po-debconf						      <
+poppler-data						      |	polipo
+postgresql						      <
+postgresql-9.1						      <
+postgresql-client-9.1					      <
+postgresql-client-common				      <
+postgresql-common					      <
+powerfuzzer						      <
+powermgmt-base						      <
+powersploit						      <
+prism2-usb-firmware-installer				      <
+procmail						      <
+protos-sip						      <
+proxychains						      <
+proxystrike						      <
+proxytunnel						      <
+pst-utils						      |	pv
+psutils							      |	pwgen
+ptunnel							      <
+pulseaudio						      <
+pulseaudio-module-x11					      <
+pulseaudio-utils					      <
+pwnat							      <
+pyrit							      <
+python-apsw						      <
+python-apt						      <
+python-apt-common					      <
+							      >	python-brlapi
+python-chardet						      <
+python-colorama						      <
+python-crypto						      |	python-cups
+python-ctypeslib					      |	python-cupshelpers
+python-dbus-dev						      |	python-feedparser
+python-debian						      |	python-gconf
+python-debianbts					      |	python-gdata
+python-dns						      |	python-gdbm
+python-dnspython					      |	python-geoip
+python-docutils						      <
+python-egenix-mxdatetime				      <
+python-egenix-mxtools					      <
+python-flickrapi					      <
+python-fpconst						      <
+python-gevent						      <
+python-gi						      <
+							      >	python-gmenu
+							      >	python-gnome2
+							      >	python-gnomeapplet
+							      >	python-gnupginterface
+							      >	python-gnutls
+python-gobject-2					      |	python-gst0.10
+python-greenlet						      <
+python-gtkspell						      |	python-hachoir-core
+							      >	python-hachoir-parser
+python-imaging-tk					      <
+python-impacket						      <
+python-impacket-doc					      <
+python-ipy						      <
+python-jsonpickle					      <
+python-lightblue					      |	python-louis
+python-m2crypto						      <
+python-magic						      <
+python-mysqldb						      |	python-mutagen
+python-netaddr						      |	python-notify
+python-oauth						      |	python-pdfrw
+python-oauthlib						      <
+python-openssl						      <
+python-osmgpsmap					      <
+python-packagekit					      <
+python-pam						      <
+python-paramiko						      <
+python-pcapy						      <
+python-psycopg2						      |	python-poppler
+python-pyasn1						      <
+python-pyatspi2						      |	python-pycountry
+python-pycryptopp					      <
+python-pyexiv2						      |	python-pygoocanvas
+python-pyexiv2-doc					      |	python-pyicu
+python-pygments						      |	python-pyinotify
+python-pymssql						      |	python-pyme
+python-pypdf						      |	python-pyorbit
+python-pyscard						      <
+python-pysnmp4						      <
+python-pysnmp4-apps					      <
+python-pysnmp4-mibs					      <
+python-pysqlite2					      <
+python-pyx						      <
+python-qscintilla2					      <
+python-qt4-phonon					      |	python-qt4-dbus
+python-reportbug					      |	python-rdflib
+python-requests						      |	python-reportlab
+python-rfidiot						      <
+python-roman						      <
+python-scapy						      <
+python-simplejson					      <
+python-six						      |	python-socksipy
+python-soappy						      <
+python-sqlalchemy					      <
+python-sqlalchemy-ext					      <
+python-svn						      <
+python-tidylib						      <
+python-tweepy						      |	python-torctl
+python-twisted						      |	python-urlgrabber
+python-twisted-bin					      <
+python-twisted-conch					      <
+python-twisted-core					      <
+python-twisted-lore					      <
+python-twisted-mail					      <
+python-twisted-names					      <
+python-twisted-news					      <
+python-twisted-runner					      <
+python-twisted-web					      <
+python-twisted-words					      <
+python-urwid						      <
+python-usb						      <
+python-utidylib						      <
+python-webunit						      <
+python-wxgtk2.8						      <
+python-wxtools						      <
+python-wxversion					      <
+python-xapian						      <
+							      >	python-xklavier
+python2.7						      <
+python2.7-minimal					      <
+qdbus							      <
+radare2							      <
+rainbowcrack						      <
+rcracki-mt						      <
+rdesktop						      <
+readpst							      |	resolvconf
+reaver							      |	rfkill
+rebind							      <
+recordmydesktop						      <
+recoverjpeg						      <
+redfang							      <
+reglookup						      <
+reportbug						      <
+responder						      <
+rifiuti							      <
+rifiuti2						      <
+rlinetd							      <
+rpcbind							      <
+rsmangler						      <
+rtkit							      <
+rtpbreak						      <
+rtpflood						      <
+rtpinsertsound						      <
+rtpmixsound						      <
+ruby							      <
+ruby-addressable					      <
+ruby-crack						      <
+ruby-daemons						      <
+ruby-dev						      <
+ruby-diff-lcs						      <
+ruby-erubis						      <
+ruby-ethon						      <
+ruby-eventmachine					      <
+ruby-fast-xs						      <
+ruby-ffi						      <
+ruby-hpricot						      <
+ruby-http-configuration					      <
+ruby-httpclient						      <
+ruby-json						      <
+ruby-mime-types						      <
+ruby-mini-exiftool					      <
+ruby-msgpack						      <
+ruby-multi-json						      <
+ruby-nokogiri						      <
+ruby-rack						      <
+ruby-rack-protection					      <
+ruby-rchardet						      <
+ruby-rspec						      <
+ruby-rspec-core						      <
+ruby-rspec-expectations					      <
+ruby-rspec-mocks					      <
+ruby-simplecov-html					      <
+ruby-sinatra						      <
+ruby-spider						      <
+ruby-sqlite3						      <
+ruby-term-ansicolor					      <
+ruby-tilt						      <
+ruby-typhoeus						      <
+ruby1.8							      <
+ruby1.8-dev						      <
+ruby1.9.1						      <
+ruby1.9.1-dev						      <
+rubygems						      <
+rubygems-integration					      <
+safecopy						      <
+sakis3g							      <
+samba							      <
+samba-common						      <
+samba-common-bin					      <
+samdump2						      <
+sbd							      |	scim
+scalpel							      |	scim-anthy
+screen							      |	scim-hangul
+scrounge-ntfs						      |	scim-modules-table
+sctpscan						      |	scim-pinyin
+							      >	scim-tables-zh
+							      >	scim-uim
+							      >	scribus-ng
+							      >	seahorse
+							      >	seahorse-plugins
+							      >	secure-delete
+sendemail						      <
+set							      |	service-wrapper
+sfuzz							      <
+							      >	sgml-data
+sidguesser						      |	simple-scan
+siege							      |	sound-juicer
+siparmyknife						      |	spice-vdagent
+sipcrack						      |	sshfs
+sipp							      <
+sipvicious						      <
+skipfish						      <
+sleuthkit						      <
+smali							      <
+smartmontools						      <
+smbclient						      <
+smtp-user-enum						      <
+sniffjoke						      <
+snmp							      <
+snmpcheck						      <
+snmpd							      <
+socat							      <
+sound-theme-freedesktop					      <
+spike							      <
+spooftooph						      <
+sqldict							      <
+sqlite3							      <
+sqlmap							      <
+sqlninja						      <
+sqlsus							      <
+sslcaudit						      |	ssss
+ssldump							      <
+sslh							      <
+sslscan							      <
+sslsniff						      <
+sslstrip						      <
+sslyze							      <
+statsprocessor						      <
+stunnel4						      <
+subversion						      <
+suckless-tools						      <
+sucrack							      <
+swaks							      |	synaptic
+							      >	syslinux
+							      >	syslinux-common
+							      >	system-config-printer
+							      >	system-tools-backends
+t50							      |	tails-greeter
+							      >	tails-iuk
+							      >	tails-persistence-setup
+tasksel							      <
+tasksel-data						      <
+tcpreplay						      <
+tcpwatch-httpproxy					      <
+tdb-tools						      <
+telepathy-gabble					      <
+telepathy-haze						      <
+telepathy-logger					      <
+telepathy-mission-control-5				      <
+telepathy-salut						      <
+telnet							      <
+termineter						      <
+tex-common						      <
+texinfo							      <
+texlive-base						      <
+texlive-binaries					      <
+texlive-common						      <
+texlive-doc-base					      <
+texlive-latex-base					      <
+texlive-latex-base-doc					      <
+texlive-luatex						      <
+tftp							      <
+tftpd32							      <
+thc-ipv6						      <
+thc-pptp-bruter						      <
+thc-ssl-dos						      <
+theharvester						      <
+thin							      <
+tightvncserver						      <
+time							      <
+tlssled							      |	tor
+tmux							      |	tor-arm
+tnscmd10g						      |	tor-geoipdb
+							      >	torsocks
+							      >	totem
+							      >	totem-common
+							      >	totem-gstreamer
+							      >	totem-plugins
+tracker							      |	traverso
+tracker-extract						      <
+tracker-gui						      <
+tracker-miner-fs					      <
+tracker-utils						      <
+truecrack						      <
+truecrypt						      <
+tshark							      |	tsocks
+							      >	ttdnsd
+							      >	ttf-arphic-ukai
+							      >	ttf-arphic-uming
+							      >	ttf-bengali-fonts
+							      >	ttf-devanagari-fonts
+							      >	ttf-farsiweb
+							      >	ttf-freefont
+							      >	ttf-gujarati-fonts
+							      >	ttf-indic-fonts
+							      >	ttf-kacst
+							      >	ttf-kannada-fonts
+							      >	ttf-khmeros
+							      >	ttf-lao
+twofi							      |	ttf-malayalam-fonts
+							      >	ttf-opensymbol
+							      >	ttf-oriya-fonts
+							      >	ttf-punjabi-fonts
+							      >	ttf-sinhala-lklug
+							      >	ttf-tamil-fonts
+							      >	ttf-telugu-fonts
+							      >	ttf-thai-tlwg
+							      >	ttf-unfonts-core
+							      >	ttf-unifont
+u3-pwn							      <
+u3-tool							      <
+ua-tester						      <
+udptunnel						      |	uim-common
+ufraw-batch						      |	unar
+uniscan							      |	uno-libs3
+unix-privesc-check					      |	unrar-free
+unrar							      <
+unzip							      <
+upx-ucl							      |	ure
+urlcrazy						      <
+uuid-runtime						      |	vidalia
+vbetool							      <
+vboot-kernel-utils					      <
+vboot-utils						      <
+vega							      <
+vim-gtk							      |	vim-nox
+vim-gui-common						      <
+vinetto							      |	virt-what
+vino							      |	virtualbox-guest-utils
+vlc							      |	virtualbox-guest-x11
+vlc-data						      <
+vlc-nox							      <
+vlc-plugin-notify					      <
+vlc-plugin-pulse					      <
+voiphopper						      <
+volafox							      <
+volatility						      <
+w3af							      <
+w3af-console						      <
+w3m							      <
+waffit							      <
+wamerican						      <
+wapiti							      <
+wce							      <
+webacoo							      <
+webscarab						      <
+webshag							      <
+webshells						      <
+webslayer						      <
+websploit						      <
+weevely							      <
+wfuzz							      <
+whatweb							      <
+							      >	whisperback
+wifi-honey						      <
+wifitap							      <
+wifite							      <
+windows-binaries					      <
+wine							      <
+wine64-bin						      <
+wireshark						      <
+wireshark-common					      <
+wol-e							      <
+wordlists						      <
+wpscan							      |	x11-apps
+wwwconfig-common					      <
+							      >	x11-session-utils
+							      >	x11-xfs-utils
+x11proto-composite-dev					      <
+x11proto-core-dev					      <
+x11proto-damage-dev					      <
+x11proto-fixes-dev					      <
+x11proto-input-dev					      <
+x11proto-kb-dev						      <
+x11proto-randr-dev					      <
+x11proto-render-dev					      <
+x11proto-xext-dev					      <
+x11proto-xinerama-dev					      <
+xbitmaps						      |	xclip
+							      >	xfonts-100dpi
+							      >	xfonts-75dpi
+							      >	xfonts-bolkhov-koi8r-75dpi
+							      >	xfonts-bolkhov-koi8r-misc
+							      >	xfonts-cronyx-koi8r-100dpi
+							      >	xfonts-intl-chinese
+							      >	xfonts-scalable
+							      >	xfonts-wqy
+							      >	xinit
+xorg-sgml-doctools					      |	xorg
+xpdf							      |	xorg-docs-core
+xprobe							      |	xp-cursor-theme
+xserver-xephyr						      <
+							      >	xserver-xorg-input-mouse
+							      >	xserver-xorg-input-vmmouse
+xserver-xorg-video-all					      <
+							      >	xserver-xorg-video-geode
+							      >	xserver-xorg-video-i740
+							      >	xserver-xorg-video-qxl
+xserver-xorg-video-rendition				      <
+xspy							      |	xul-ext-adblock-plus
+xsser							      |	xul-ext-cookie-monster
+xterm							      |	xul-ext-foxyproxy-standard
+xtightvncviewer						      |	xul-ext-https-everywhere
+xtrans-dev						      |	xul-ext-noscript
+xulrunner-18.0						      |	xul-ext-torbutton
+xvfb							      |	xulrunner-17.0
+yelp-xsl						      <
+yersinia						      <
+zaproxy							      <
+zenity-common						      |	zlib1g
+zenmap							      <
+zim							      <
+zlib1g:amd64						      <
+zlib1g-dev:amd64					      <

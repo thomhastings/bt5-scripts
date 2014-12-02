@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+.dot
+.dotfiles
+=======
+*.iso
+*.swp
+*.pack
+*.tar.gz
+*.zip
+*.swo
+>>>>>>> 7b36f22cb115cda0086b5837725b7005db0986ca

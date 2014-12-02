@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Vidalia
+Exec=vidalia
+X-GNOME-Autostart-enabled=true
+X-GNOME-AutoRestart=true
+OnlyShowIn=GNOME;Unity;
+

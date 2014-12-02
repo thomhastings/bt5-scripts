@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Sync our time first, tor doesn't like it when the time isn't synced correctly
+/etc/init.d/ntp restart
+
+# Start by changing the tor user to root (this is dumb, let's find a way to change this in the near future)
+
+sed -i "s/debian-tor/root/g" /etc/init.d/tor
+sed -i "s/debian-tor/root/g" /usr/share/tor/tor-service-defaults-torrc
+
+# Now turn off tor as a service and turn vidalia on at gnome start for root
+chkconfig tor off
+
+# Look at includes.chroot/etc/xdg/autostart/vidalia-autostart.desktop
+# Maybe this should go in includes.chroot/root/.config/autostart/vidalia-autostart.desktop
+
+# Turn our vidalia checker on to ensure good directory and such
+chkconfig -a vidalia_check
+chkconfig vidalia_check on

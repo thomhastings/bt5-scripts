@@ -1,0 +1,22 @@
+#! /bin/bash
+#
+# Author: kaneda
+# Date: May 27th, 2013
+# Description: Download and install the newest version of hashkill
+
+# Download the package into tmp
+cd /tmp
+wget "https://github.com/gat3way/hashkill/archive/master.zip"
+
+if [ $? -ne 0 ]
+then
+	echo "Error: failed to fetch hashkill"
+else
+	# Unpack
+	unzip master.zip
+
+	# Install
+	cd hashkill-master && ./configure --disable-amd-ocl && make && make install
+fi
+
+exit 0

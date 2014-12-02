@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+# Author: kaneda
+# Date: May 25th 2013
+# Description: Download and "install" fakeap
+
+# Download
+wget "http://www.blackalchemy.to/project/fakeap/download.php?name=fakeap-0.3.2.tar.gz"
+
+if [ $? -ne 0 ]
+then
+	echo "Error downloading FakeAP"
+else
+	# Unpack and clean up
+	tar -xzf download.php\?name\=fakeap-0.3.2.tar.gz && rm download.php\?name\=fakeap-0.3.2.tar.gz && cd fakeap-0.3.2/
+
+	# Move into place
+	ln -s `pwd`/fakeap.pl /usr/bin/fakeap.pl 
+fi
+
+exit 0

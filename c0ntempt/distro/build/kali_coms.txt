@@ -1,0 +1,9 @@
+apt-get install git live-build cdebootstrap kali-archive-keyring
+git clone git://git.kali.org/live-build-config.git
+apt-get remove libdebian-installer4
+apt-get install libdebian-installer4
+
+lb clean --purge
+dpkg --add-architecture amd64
+lb config --architecture amd64 --mirror-binary http://http.kali.org/kali --mirror-binary-security http://security.kali.org/kali-security --apt-options "--force-yes --yes"
+lb build

@@ -1,0 +1,5 @@
+#! /bin/bash
+# For aptitude
+
+echo 'Acquire::http::Proxy "http://127.0.0.1:8118/";' >> /etc/apt/apt.conf.d/0000runtime-proxy
+

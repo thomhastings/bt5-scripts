@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# Author: kaneda
+# Date: May 25th 2013
+# Description: Install quicksnap, a nice customization for nmap
+# Commented until further notice, as his site is down
+
+# Download
+wget "https://www.soldierx.com/system/files/sxlabs/projects/scryptz0/quicksnap.py_.tar.gz"
+
+if [ $? -ne 0 ]
+then
+	echo "Failed to download quicksnap"
+	exit 1
+fi
+
+tar -zxf quicksnap.py_.tar.gz
+mv quicksnap.py /usr/bin/
+
+exit 0

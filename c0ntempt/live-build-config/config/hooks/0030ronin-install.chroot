@@ -1,0 +1,25 @@
+#! /bin/bash
+#
+# Author: kaneda
+# Date: May 27th, 2013
+# Description: Install the ronin gems
+
+which gem
+if [ $? -ne 0 ]
+then
+	echo "Error: No 'gem' found on path"
+else
+	gem install ronin
+	gem install ronin-asm
+	gem install ronin-dorks
+	gem install ronin-exploits
+	gem install ronin-gen
+	gem install ronin-grid
+	gem install ronin-php
+	gem install ronin-scanners
+	gem install ronin-sql
+	gem install ronin-support
+	gem install ronin-web
+fi
+
+exit 0

@@ -1,0 +1,92 @@
+#!/bin/sh
+
+# You can put local mirrors here if you want
+kali_mirror=http://archive.kali.org/kali
+kalisec_mirror=http://archive.kali.org/kali-security
+
+### DO NOT EDIT THE REST OF THIS FILE ###
+
+# live-build doesn't work if --parent-debian-distribution is unknown of
+# debian-cd => we have to put a symlink so that it deals with kali like wheezy
+
+if [ ! -e /usr/share/live/build/data/debian-cd/kali ]; then
+       echo "ERROR: Run this first"
+       echo "ln -sf wheezy /usr/share/live/build/data/debian-cd/kali"
+       exit 1
+fi
+
+public_kali_mirror=http://http.kali.org/kali
+public_kalisec_mirror=http://security.kali.org/kali-security
+
+# Detect target architecture and filter args
+temp=""
+arch=$(dpkg --print-architecture)
+while [ $# -gt 0 ]; do
+   	arg="$1"
+	case "$arg" in
+        -a|--arch|--architecture|--architectures)
+		arch="$2"
+		temp="$temp "'"'"$arg"'"'
+		temp="$temp "'"'"$2"'"'
+		shift
+		;;
+	--proposed-updates)
+		enable_pu="1"
+		;;
+	*)
+		temp="$temp "'"'"$arg"'"'
+		;;
+	esac
+	shift
+done
+eval set -- "$temp"
+
+case "$arch" in
+    amd64)
+	lb_opts="--debian-installer live"
+    ;;
+    i386)
+	lb_opts="--debian-installer live --linux-flavours 686-pae"
+    ;;
+    armel|armhf)
+	lb_opts="--binary-images hdd --binary-filesystem ext4 --chroot-filesystem none"
+    ;;
+    *)
+	echo "WARNING: configuration not tested on arch $arch" >&2
+	lb_opts=""
+    ;;
+esac
+
+rm -f config/archives/kali-proposed-updates.list.*
+if [ -n "$enable_pu" ]; then
+	mkdir -p config/archives
+	echo "deb $kali_mirror kali-proposed-updates main contrib non-free" \
+		> config/archives/kali-proposed-updates.list.chroot
+	echo "deb $public_kali_mirror kali-proposed-updates main contrib non-free" \
+		> config/archives/kali-proposed-updates.list.binary
+fi
+
+lb config noauto \
+	--distribution "kali" \
+	--debian-installer-distribution "kali" \
+	--archive-areas "main contrib non-free" \
+	--bootstrap cdebootstrap \
+	--cdebootstrap-options "--keyring=/usr/share/keyrings/kali-archive-keyring.gpg --suite-config=wheezy" \
+	--keyring-packages kali-archive-keyring \
+	--updates false \
+	--backports false \
+	--source false \
+	--firmware-binary true \
+	--firmware-chroot true \
+	--mirror-bootstrap $kali_mirror \
+	--mirror-debian-installer $kali_mirror \
+	--mirror-chroot-security $kalisec_mirror \
+	--mirror-binary $public_kali_mirror \
+	--mirror-binary-security $public_kalisec_mirror \
+	--iso-application "Kali Linux" \
+	--iso-publisher "Kali" \
+	--iso-volume "Kali Live" \
+	--linux-packages linux-image \
+	--bootappend-live "boot=live noconfig=sudo username=root hostname=kali" \
+	$lb_opts \
+	"$@"

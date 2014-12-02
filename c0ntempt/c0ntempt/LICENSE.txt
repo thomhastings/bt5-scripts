@@ -1,0 +1,2 @@
+(C) Hastinger 2015
+The MIT License (MIT)

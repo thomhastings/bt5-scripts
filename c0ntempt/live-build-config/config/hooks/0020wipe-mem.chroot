@@ -1,0 +1,21 @@
+#! /bin/bash
+#
+# Author: kaneda
+# Date: May 27th, 2013
+# Description: Enable our special sdmem shutdown/reboot script
+
+if [ -x /etc/rc0.d/K01sdmem ]
+then
+	echo "rc0 link exists"
+else
+	ln -s /etc/init.d/sdmem /etc/rc0.d/K01sdmem
+fi
+
+if [ -x /etc/rc6.d/K01sdmem ]
+then
+	echo "rc6 link exists"
+else
+	ln -s /etc/init.d/sdmem /etc/rc6.d/K01sdmem
+fi
+
+exit 0

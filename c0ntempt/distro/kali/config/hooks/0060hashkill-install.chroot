@@ -1,0 +1,13 @@
+#! /bin/bash
+#
+# Download and install the newest version of hashkill
+
+# Download the package into tmp
+cd /tmp
+wget "https://github.com/gat3way/hashkill/archive/master.zip"
+
+# Unpack
+unzip master.zip
+
+# Install
+cd hashkill-master && ./configure --disable-amd-ocl && make && make install

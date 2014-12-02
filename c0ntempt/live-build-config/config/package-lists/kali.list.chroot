@@ -1,0 +1,253 @@
+# kali meta-package depends on everything we want
+kali-linux
+kali-linux-full
+kali-root-login
+kali-defaults
+kali-menu
+kali-debtags
+kali-archive-keyring
+debian-installer-launcher
+
+# provide l10n for everybody
+locales-all
+
+# Updates tools which have yet to be added to kali-linux meta
+lbd
+arachni
+bully
+uniscan
+automater
+
+# Packages for service wrapper, supports i2p
+libservice-wrapper-java
+libservice-wrapper-jni
+service-wrapper
+
+# Package for hashkill
+libssl-dev
+libjson0-dev
+amd-opencl-dev
+nvidia-opencl-dev
+
+# some tools that we always want
+adduser
+apache2
+atftpd
+binutils
+bluez
+bluez-hcidump
+bsdutils
+#if ARCHITECTURES armel armhf
+cgpt
+#endif
+chkconfig
+clang
+coreutils
+cowsay
+cryptsetup
+curl
+deb.torproject.org-keyring
+debtags
+desktop-base
+diffutils
+dnsutils
+dsniff
+ethtool
+expect
+findutils
+#if ARCHITECTURES i386 amd64
+firmware-b43legacy-installer 
+firmware-b43-installer
+#endif
+florence
+fuse-utils
+gdb
+git
+gnupg
+gnupg-agent
+gnupg-curl
+gnutls-bin
+gparted
+grep
+guake
+#if ARCHITECTURES i386 amd64
+guymager
+#endif
+gzip
+haveged
+i2p
+i2p-router
+ipheth-utils
+iproute
+iptstate
+iputils-ping
+iputils-tracepath
+iw
+john
+john-data
+keepassx
+laptop-mode-tools
+leafpad
+libsqlite3-dev
+libsqlite3-ruby1.9.1
+liferea
+liferea-data
+lockfile-progs
+lua5.1
+lvm2
+lzma
+moreutils
+mtools
+mysql-server
+ncurses-base
+ncurses-bin
+ncurses-hexedit
+net-tools
+netcat-traditional
+nmap
+openssl
+openvpn
+p7zip-full
+parted
+php5
+php5-mysql
+pidgin
+pidgin-data
+pidgin-otr
+polipo
+poppler-utils
+pwgen
+python-impacket
+python-impacket-doc
+paros
+radare2
+rdesktop
+rfkill
+ruby1.9.1
+ruby1.9.1-dev
+rubygems
+screen
+seahorse
+seahorse-nautilus
+secure-delete
+sendemail
+snmpd
+sqlite3
+sshfs
+ssss
+suckless-tools
+sudo
+tcpdump
+tftp
+tightvncserver
+tilda
+tmux
+tor
+deb.torproject.org-keyring
+#if ARCHITECTURES armel armhf
+tor-arm
+#endif
+tree
+tor-geoipdb
+torsocks
+tsocks
+unar
+unrar
+unzip
+upx-ucl
+#if ARCHITECTURES armel armhf
+vboot-utils
+vboot-kernel-utils
+#endif
+vidalia
+vim
+vim-common
+vim-gtk
+vim-nox
+vim-runtime
+vim-tiny
+wget
+whois
+xpdf
+xtightvncviewer
+xul-ext-adblock-plus
+xul-ext-cookie-monster
+xul-ext-foxyproxy-standard
+xul-ext-https-everywhere
+xul-ext-noscript
+xul-ext-torbutton
+zenmap
+zsh
+
+# Graphical desktops depending on the architecture
+#
+# You can replace all the remaining lines with a list of the
+# packages required to install your preferred graphical desktop
+# or you can just comment everything except the package of your
+# preferred desktop.
+
+gnome-core
+kali-defaults
+kali-root-login
+desktop-base
+
+#if ARCHITECTURES i386 amd64
+# *** GNOME DESKTOP ***
+empathy
+gnome-control-center
+apache2.2-bin
+gnome-user-share
+#gnome-core
+gnome-brave-icon-theme
+gnome-shell-extensions
+gnome-orca
+# *** For XP Theme *** Could not get this working, still have custom talika deb, win7 theme installer if anyone wants to have a shot at it
+#libc6-i386
+#ia32-libs
+#mc
+#nfs-common
+#emerald
+#ntp
+#python
+#python-software-properties
+#python-xdg
+#python-cairo
+#python-gconf
+#python-xlib
+#thunderbird
+#cups-pdf
+#samba
+#gnomenu
+#libpanel-applet-4-dev
+#libwnck-dev
+#endif
+
+#if ARCHITECTURES armel armhf
+# *** XFCE DESKTOP ***
+#xfce4
+network-manager-gnome
+network-manager
+#endif
+
+# *** KDE DESKTOP ***
+# kde-plasma-desktop
+# kdm
+
+# *** LXDE DESKTOP ***
+lxde
+
+# *** Enlightenment DR17 DESKTOP ***
+# e17
+
+# *** MATE DESKTOP
+# | NOTE: The mate desktop requires other changes to the live config.
+# | See http://docs.kali.org/live-build/customize-the-kali-desktop-environment
+# | for details
+xorg
+mate-archive-keyring
+mate-core
+mate-desktop-environment
+
+# complements of ubuntu satanic
+satanic-icon-themes
+buuf-icon-theme

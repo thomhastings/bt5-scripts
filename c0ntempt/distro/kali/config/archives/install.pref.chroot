@@ -1,0 +1,31 @@
+Package: xul-ext-cookie-monster
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999
+
+Package: xul-ext-foxyproxy-standard
+Pin: release o=Debian,a=experimental
+Pin-Priority: 999
+
+Package: xul-ext-https-everywhere
+Pin: release o-Debian,a=experimental
+Pin-Priority: 999
+
+Package: xul-ext-noscript
+Pin: release o=Debian,a=experimental
+Pin-Priority: 999
+
+Package: service-wrapper
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999
+
+Package: libservice-wrapper-java
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999
+
+Package: libservice-wrapper-jni
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999
+
+Package: sqlite3
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999

@@ -1,0 +1,16 @@
+binary.*
+prepare.log
+binary
+images
+cache
+chroot
+chroot.packages.install
+chroot.packages.live
+.stage
+.lock
+.build/
+config/archives/config
+config/binary
+config/bootstrap
+config/common
+config/source

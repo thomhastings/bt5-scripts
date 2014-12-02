@@ -1,0 +1,23 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides:          vidalia_check
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     
+# Default-Start:     2 3 4 5
+# Default-Stop:      
+# Short-Description: Check all the vidalia stuff pre-gnome.
+# Description: 
+### END INIT INFO
+#
+# Author: kaneda (kanedasan@gmail.com)
+# Date: April 27th 2013
+
+# Check that the tor folder exists in /var/run
+if [ ! -d /var/run/tor ]
+then
+	mkdir -p /var/run/tor
+	chmod 700 /var/run/tor
+fi
+
+# Restart the time server
+/etc/init.d/ntp restart

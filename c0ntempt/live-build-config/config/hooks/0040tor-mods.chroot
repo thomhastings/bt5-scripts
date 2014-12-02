@@ -1,0 +1,37 @@
+#!/bin/bash
+#
+# Author: kaneda
+# Date: May 27th: 2013
+# Description: Fix tor settings to run as root, start at startup
+
+# Sync our time first, tor doesn't like it when the time isn't synced correctly
+/etc/init.d/ntp restart
+
+# Start by changing the tor user to root (this is dumb, let's find a way to change this in the near future)
+
+if [ -x /etc/init.d/tor ] && [ -x /usr/share/tor/tor-service-defaults-torrc ]
+then
+	sed -i "s/debian-tor/root/g" /etc/init.d/tor
+	sed -i "s/debian-tor/root/g" /usr/share/tor/tor-service-defaults-torrc
+else
+	echo "Error: didn't find tor or torrc files"
+	exit 0
+fi
+
+# Now turn off tor as a service and turn vidalia on at gnome start for root
+# chkconfig tor off # chkconfig is not to be trusted
+rm /etc/rc2.d/*tor
+rm /etc/rc3.d/*tor
+rm /etc/rc4.d/*tor
+rm /etc/rc5.d/*tor
+
+# Now turn our vidalia checker on
+ln -s /etc/init.d/vidalia_check /etc/rc2.d/S18vidalia_check
+ln -s /etc/init.d/vidalia_check /etc/rc3.d/S18vidalia_check
+ln -s /etc/init.d/vidalia_check /etc/rc4.d/S18vidalia_check
+ln -s /etc/init.d/vidalia_check /etc/rc5.d/S18vidalia_check
+
+# Look at includes.chroot/etc/xdg/autostart/vidalia-autostart.desktop
+# Maybe this should go in includes.chroot/root/.config/autostart/vidalia-autostart.desktop
+
+exit 0

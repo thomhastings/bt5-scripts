@@ -1,0 +1,16 @@
+#! /bin/bash
+#
+# Install the ronin gems
+
+gem install ronin
+gem install ronin-asm
+gem install ronin-dorks
+gem install ronin-exploits
+gem install ronin-gen
+gem install ronin-grid
+gem install ronin-php
+gem install ronin-scanners
+gem install ronin-sql
+gem install ronin-support
+gem install ronin-web
+
