@@ -92,20 +92,20 @@ rm -rf /lib/plymouth/themes/simple/miscellaneous-95767.jpeg
 
 #--- Wallpaper (Might need to restart 'xserver' for it to take effect)
 echo -e "Customizing \e[33mWallpaper\e[0m ..."
-cd /usr/share/wallpapers/backtrack/
+cd /usr/share/wallpapers/
 
 echo -e "Downloading..."
-if [ ! -e /usr/share/wallpapers/backtrack/hacker_manifesto_mentor.jpg ]; then wget http://pip.cat/bloc/wp-content/uploads/2012/05/hacker_manifesto_mentor.jpg; fi
+if [ ! -e /usr/share/wallpapers/hacker_manifesto_mentor.jpg ]; then wget http://pip.cat/bloc/wp-content/uploads/2012/05/hacker_manifesto_mentor.jpg; fi
 
 echo "Applying..."
 convert hacker_manifesto_mentor.jpg -background "black" -brightness-contrast -33x13 \( +clone -blur 0x3 \) -compose Darken -composite hacker_manifesto_mentor_darkglow.jpg
-gconftool-2 --type string --set /desktop/gnome/background/picture_filename /usr/share/wallpapers/backtrack/hacker_manifesto_mentor_darkglow.jpg
+gconftool-2 --type string --set /desktop/gnome/background/picture_filename /usr/share/wallpapers/hacker_manifesto_mentor_darkglow.jpg
 
 
 #--- cmatrix
-echo -e "Installing \e[32mcmatrix\e[0m (just for fun!)"
-apt-get -y install cmatrix
-echo
+#echo -e "Installing \e[32mcmatrix\e[0m (just for fun!)"
+#apt-get -y install cmatrix
+#echo
 
 
 #--- DONE!
