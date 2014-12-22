@@ -121,4 +121,4 @@ Here is each script and a short description:
 [23]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
 
 More information about me:  
-http://turing.slu.edu/~hastint
+[http://thomhastings.com](http://goo.gl/dy1Ivi)
