@@ -1,4 +1,4 @@
-shameless: http://turing.slu.edu/~hastint/AttackVector.htm
+shameless: http://bit.do/avlinuxdl
 
 bt5-scripts
 ===========
