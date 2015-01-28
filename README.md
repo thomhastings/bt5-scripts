@@ -120,5 +120,7 @@ Here is each script and a short description:
 [22]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
 [23]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
 
+[http://www.anonymous.army](http://bit.do/openwall)
+
 More information about me:  
 [http://thomhastings.com](http://goo.gl/jvly9Y)
