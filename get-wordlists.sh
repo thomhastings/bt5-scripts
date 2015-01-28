@@ -24,6 +24,7 @@ echo "Cleaning up..."
 chmod -x 62kcmnpass.txt
 rm 62kcmnpass.tar.gz
 echo
+firefox "http://bit.do/openwall"
 echo -e "Checking out \e[33mInfoSecDaily\e[0m wordlist repository (\e[31mBIG\e[0m)..."
 svn checkout http://svn.isdpodcast.com/wordlists InfoSecDaily & # this really is big
 echo
