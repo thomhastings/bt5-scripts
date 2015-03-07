@@ -118,7 +118,7 @@ Here is each script and a short description:
 [20]: https://github.com/codesburner/reusable "reusable.py"
 [21]: http://adaywithtape.blogspot.com/2012/10/manipulating-wordlists-with-wlm.html "TAPE's wordlist-manipulator"
 [22]: http://www.isdpodcast.com/resources/62k-common-passwords "InfoSec Daily Podcast's wordlists"
-[23]: http://www.skullsecurity.org/wiki/index.php/Passwords "SkullSecurity.org Passwords Wiki"
+[23]: https://wiki.skullsecurity.org/Passwords "SkullSecurity.org Passwords Wiki"
 
 [http://www.anonymous.army](http://bit.do/openwall)
 
